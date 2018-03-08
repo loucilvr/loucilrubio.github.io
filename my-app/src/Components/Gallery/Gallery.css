@@ -1,0 +1,15 @@
+.gallery{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    background-color: #d9d9d9;
+    display: block;
+}
+
+.imgGallery {
+    width: 30%;
+    float: left;
+    margin: 4px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}

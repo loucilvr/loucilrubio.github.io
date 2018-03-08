@@ -1,0 +1,31 @@
+.about {
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-color: #fff;
+}
+
+.aboutHeader{
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutDetails{
+    font-size: 15px;
+    color: #363636;
+    text-align: left;
+    width: 70%;
+    padding: 0 15%;
+}
+
+img.headshot {
+    width: 35%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.hi {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+}
