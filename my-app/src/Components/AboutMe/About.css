@@ -1,8 +1,8 @@
 .about {
-    width: 60%;
+    width: 50%;
     height: 100%;
     float: right;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 .aboutHeader{
@@ -21,7 +21,7 @@
 img.headshot {
     width: 35%;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .hi {
