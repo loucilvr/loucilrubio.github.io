@@ -20,7 +20,9 @@ const AboutMe = () => {
                    </p>
            		</div>
        		</div>
-			<Footer/>
+           <div className="mediaLinks">
+               <a href="">LINKEDIN</a> <span className="space"> | </span> <a href="">GITHUB</a>
+           </div>
        </div>
    );
 }

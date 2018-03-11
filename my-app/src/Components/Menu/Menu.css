@@ -33,12 +33,6 @@
 		font-weight: lighter;
 	}
 
-	.name {
-		background: linear-gradient(130deg, #ff7c00 0%, #e93750 30%, #b00970 60%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		font-weight: 700;
-	}
 }
 
 
@@ -54,27 +48,19 @@
 
 	.menu {
 		float: left;
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-left: 20px;
 		z-index: 200;
 	}
 
 	.menuLink {
 		display: block;
-		margin: 15px;
+		margin: 15px 15px;
 		text-decoration: none;
 		color: #fff;
-		font-size: 14px;
+		font-size: 13px;
 		letter-spacing: 1px;
 		font-weight: lighter;
-	}
-
-
-	.name {
-		background: linear-gradient(130deg, #ff7c00 0%, #e93750 30%, #b00970 60%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		font-weight: 700;
 	}
 
 }
