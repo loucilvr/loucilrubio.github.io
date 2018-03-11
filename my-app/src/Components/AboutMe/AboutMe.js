@@ -21,8 +21,11 @@ const AboutMe = () => {
            		</div>
        		</div>
            <div className="mediaLinks">
-               <a href="">LINKEDIN</a> <span className="space"> | </span> <a href="">GITHUB</a>
+               <a href="https://www.linkedin.com/in/mlcrubio">LINKEDIN</a>
+               <span className="space"> | </span>
+               <a href="https://github.com/loucilvr">GITHUB</a>
            </div>
+           <Footer/>
        </div>
    );
 }

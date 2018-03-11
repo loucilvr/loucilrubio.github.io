@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
 	return (
 		<div className="footer">
-			Built with React, by Loucil (2018)
+			Built with React (IN PROGRESS ~ 2018)
 		</div>
 	)
 }
