@@ -3,6 +3,7 @@
     height: 100%;
     float: right;
     /*background-color: #fff;*/
+	overflow-y: auto;
 }
 
 .aboutHeader{
