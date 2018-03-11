@@ -5,7 +5,7 @@ import './Menu.css'
 
 const Menu = () => {
     return (
-        <div className="gallery">
+        <div className="menuContainer">
             <div className="menu">
                 <Link to="/" className="menuLink">HOME</Link>
                 <Link to="/code" className="menuLink">CODE</Link>

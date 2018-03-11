@@ -19,26 +19,3 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
-
-.menu {
-	float: left;
-	margin-top: 80%;
-	margin-left: 30px
-}
-
-.menuLink{
-	display: block;
-    margin: 15px;
-    text-decoration: none;
-	color: #fff;
-	font-size: 12px;
-	letter-spacing: 1px;
-	font-weight: lighter;
-}
-
-.name{
-	background: linear-gradient(130deg, #ff7c00 0%, #e93750 30%, #b00970 60%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-weight: 700;
-}
