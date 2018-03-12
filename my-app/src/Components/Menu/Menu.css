@@ -2,11 +2,11 @@
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
 	.menuContainer {
 		width: 50%;
-		height: 100vh;
+		height: 100%;
 		float: left;
 		background-image: -webkit-linear-gradient(155deg, transparent 35%, #d63939 35%, #ff975e 95%);
 		position: absolute;
-		overflow: hidden;
+		overflow: hidden !important;
 	}
 
 	.imgGallery {

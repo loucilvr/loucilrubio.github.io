@@ -18,11 +18,13 @@ class App extends Component {
             <Switch>
                 <div className="wrapper">
                     <Menu/>
-                    <Route exact path="/" component={AboutMe} />
-                    <Route path="/code" component={Code} />
-                    <Route path="/illustrations" component={Illustrations} />
-                    <Route path="/design" component={Design} />
-                    <Route path="/misc" component={Misc} />
+                    <div className="content">
+                        <Route exact path="/" component={AboutMe} />
+                        <Route path="/code" component={Code} />
+                        <Route path="/illustrations" component={Illustrations} />
+                        <Route path="/design" component={Design} />
+                        <Route path="/misc" component={Misc} />
+                    </div>
                 </div>
             </Switch>
         </Router>

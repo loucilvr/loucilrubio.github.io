@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Design = ()=> (
-    <div className="content">
-        <div className="details">
-            <h3 className="name">Design Projects</h3>
-        </div>
+    <div className="details">
+        <h3 className="name">Design Projects</h3>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <span style={{color: '#8a8a8a', textAlign: 'center'}}>Site in Progress</span>
     </div>
 );
 
