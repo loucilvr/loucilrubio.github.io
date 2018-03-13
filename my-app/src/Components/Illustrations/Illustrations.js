@@ -7,7 +7,7 @@ const Illustrations = ()=> (
         <br/>
         <br/>
         <br/>
-        <span style={{color: '#8a8a8a', textAlign: 'center'}}>Site in Progress</span>
+        <span style={{color: '#8a8a8a', textAlign: 'center'}}>Coming Soon</span>
     </div>
 );
 

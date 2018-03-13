@@ -4,9 +4,9 @@ import './Footer.css'
 const Footer = () => {
 	return (
 		<div className="footer">
-			Built with React (IN PROGRESS ~ 2018)
+			This site is currently in the process of being converted into React...<br/>More content coming soon :)
 		</div>
-	)
+	);
 }
 
 export default Footer;
