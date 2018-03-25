@@ -7,9 +7,7 @@ const Code = ()=> (
         <h3 className="name">Coding Projects</h3>
         <div className="projectDesc">
             <h3>Flippy</h3>
-            <p>A web application written in React that flips through flash cards to help study for an exam.<br/>
-            Flippy accepts the flash cards as a json file, as of right now, and allows the user to flip through all the cards in order,
-                or randomly.<br/><br/>
+            <p>A React application for flipping through flash cards to help study for an exam.<br/>
             (Demo Site to follow)</p>
             <img width="47%" src={Flippy1} alt="Flippy App 1"/> &nbsp;
             <img width="47%" src={Flippy2} alt="Flippy App 1"/><br/>
