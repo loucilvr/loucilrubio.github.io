@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
 	return (
 		<div className="footer">
-			This site is currently in the process of being converted into React...<br/>More content coming soon :)
+			This site is currently in progress...<br/>More content coming soon :)
 		</div>
 	);
 }
