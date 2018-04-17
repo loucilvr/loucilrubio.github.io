@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Illustrations = ()=> (
-    <div className="details">
+    <div className="details content">
         <h3 className="name">Illustrations</h3>
         <br/>
         <br/>

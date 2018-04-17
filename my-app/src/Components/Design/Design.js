@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Design = ()=> (
-    <div className="details">
+    <div className="details content">
         <h3 className="name">Design Projects</h3>
         <br/>
         <br/>

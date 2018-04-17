@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Misc = ()=> (
-    <div className="details">
+    <div className="details content">
         <h3 className="name">Miscellaneous</h3>
         <br/>
         <br/>

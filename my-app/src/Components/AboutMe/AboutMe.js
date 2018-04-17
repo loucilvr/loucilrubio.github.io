@@ -1,11 +1,11 @@
 import React from  'react';
 import Footer from './../Footer/Footer';
-
 import './About.css'
 import Headshot from '../../assets/img/2016spring_headshot.png'
 
 const AboutMe = () => {
    return (
+       <div>
        <div className="about">
            <div className="aboutHeader">
                <img src={ Headshot } alt="hi" className="headshot"/>
@@ -26,6 +26,7 @@ const AboutMe = () => {
                <a href="https://github.com/loucilvr">GITHUB</a>
            </div>
            <Footer/>
+       </div>
        </div>
    );
 }
