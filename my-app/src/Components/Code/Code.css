@@ -1,0 +1,19 @@
+.launchApp {
+    margin: 30px 0;
+    border-radius: 34px;
+    width: 130px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #d63939;
+}
+
+button>a {
+    color: #ffffff;
+}
+
+.launchApp:hover {
+    border: 3px solid #d63939;
+    background-color: transparent;
+    color: #d63939;
+}
