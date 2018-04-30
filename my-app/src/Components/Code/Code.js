@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Menu from "../Menu/Menu";
 import './Code.css'
 
@@ -11,9 +10,9 @@ const Code = ()=> (
             <div className="projectDesc">
                 <h3>Flippy</h3>
                 <p>A simple React application for flipping through flash cards to help
-                    study for an exame.<br/>
+                    study for an exam.<br/>
                     <button className="launchApp">
-                        <Link to="/flippy">Launch Flippy</Link>
+                        <a href="https://flippy-app.herokuapp.com/">Launch Flippy</a>
                     </button>
                 <br/>
                 <br/>
