@@ -12,6 +12,10 @@ button>a {
     color: #ffffff;
 }
 
+button>a:hover {
+    color: #d63939;
+}
+
 .launchApp:hover {
     border: 3px solid #d63939;
     background-color: transparent;
