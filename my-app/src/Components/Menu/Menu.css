@@ -1,12 +1,13 @@
 @media (min-width:769px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
 	.menuContainer {
-		width: 50%;
+		width: 60%;
 		height: 100%;
 		float: left;
 		background-image: -webkit-linear-gradient(155deg, transparent 35%, #d63939 35%, #ff975e 95%);
 		position: absolute;
 		overflow: hidden !important;
+		z-index: 1000;
 	}
 
 	.imgGallery {
@@ -19,7 +20,7 @@
 
 	.menu {
 		float: left;
-		margin-top: 80%;
+		margin-top: 60%;
 		margin-left: 30px
 	}
 

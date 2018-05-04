@@ -7,9 +7,9 @@
   }
 
   .details {
-    margin-top: 5%;
-    height: 620px;
-    width: 50%;
+    padding: 50px 10px;
+    height: 100%;
+    width: 40%;
     float: right;
     overflow-y: scroll;
     text-align: left;

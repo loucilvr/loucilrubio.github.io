@@ -7,7 +7,7 @@
 }
 
 .aboutHeader{
-    padding: 60px 10px;
+    padding: 50px 10px;
     text-align: center;
 }
 
@@ -25,6 +25,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
+    padding-bottom: 30px;
 }
 
 .aboutDetails{
@@ -65,7 +66,7 @@ span.space{
         width: 100%;
         height: 100%;
         overflow-y: auto;
-        margin-top: 40%;
+        margin: 50% 0 10% 0%;
     }
 
     .aboutHeader{
@@ -76,7 +77,7 @@ span.space{
     .mediaLinks {
         padding: 10px;
         text-align: center;
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
     
