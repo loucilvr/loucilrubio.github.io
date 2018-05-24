@@ -7,12 +7,11 @@
 }
 
 .aboutHeader{
-    padding: 50px 10px;
+    padding: 40px 10px;
     text-align: center;
 }
 
 .mediaLinks {
-    padding: 20px;
     text-align: center;
     font-size: 12px;
     letter-spacing: 1px;
@@ -25,11 +24,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .aboutDetails{
-    font-size: 14px;
+    font-size: 16px;
     color: #363636;
     text-align: left;
     width: 70%;

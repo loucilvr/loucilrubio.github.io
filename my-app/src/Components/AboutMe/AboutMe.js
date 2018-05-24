@@ -17,7 +17,7 @@ const AboutMe = () => {
                            I'm an <b>application developer with a passion for UI & UX Design. </b>
                            How users interact with a product, or service, and what they experience are two of the things that
                            hold the utmost importance to me as a developer & designer.<br/>
-                           <center>~</center>
+                           <center><p>~</p></center>
                            <br/>
                            I graduated from Florida State University in 2016, and jumpstarted my career in Tech at JPMorgan Chase in Florida.
                            I built this portfolio to showcase my personal projects, share my current interests,
