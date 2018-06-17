@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.b48aa233.css",
-  "main.css.map": "static/css/main.b48aa233.css.map",
-  "main.js": "static/js/main.2445c96e.js",
-  "main.js.map": "static/js/main.2445c96e.js.map",
+  "main.css": "static/css/main.81dfba37.css",
+  "main.css.map": "static/css/main.81dfba37.css.map",
+  "main.js": "static/js/main.94edd447.js",
+  "main.js.map": "static/js/main.94edd447.js.map",
   "static/media/2016spring_headshot.png": "static/media/2016spring_headshot.a5a4310a.png",
   "static/media/flippy-iphonex-mockup-1.png": "static/media/flippy-iphonex-mockup-1.ff10a537.png",
-  "static/media/flippy-iphonex-mockup-2.png": "static/media/flippy-iphonex-mockup-2.a803a0b8.png"
+  "static/media/flippy-iphonex-mockup-2.png": "static/media/flippy-iphonex-mockup-2.a803a0b8.png",
+  "static/media/jira-redesign-highfid.png": "static/media/jira-redesign-highfid.1f678407.png",
+  "static/media/jira-redesign-low.png": "static/media/jira-redesign-low.f50bc7f0.png"
 }
