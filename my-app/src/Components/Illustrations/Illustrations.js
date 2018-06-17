@@ -3,7 +3,6 @@ import Menu from "../Menu/Menu";
 
 const Illustrations = ()=> (
     <div>
-            <Menu/>
             <div className="details content">
                 <h3 className="name">Illustrations</h3>
                 <br/>

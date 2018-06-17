@@ -3,7 +3,6 @@ import Menu from "../Menu/Menu";
 
 const Misc = ()=> (
     <div>
-            <Menu/>
             <div className="details content">
                 <h3 className="name">Miscellaneous</h3>
                 <br/>

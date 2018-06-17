@@ -7,7 +7,6 @@ import './../App.css';
 const AboutMe = () => {
    return (
        <div>
-           <Menu/>
            <div className="about">
                <div className="aboutHeader">
                    <img src={ Headshot } alt="hi" className="headshot"/>

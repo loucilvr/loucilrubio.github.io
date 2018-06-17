@@ -1,11 +1,11 @@
 @media (min-width:769px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
 	.menuContainer {
-		width: 60%;
+		width: 50%;
 		height: 100%;
 		float: left;
 		background-image: -webkit-linear-gradient(155deg, transparent 35%, #d63939 35%, #ff975e 95%);
-		position: absolute;
+		position: fixed;
 		overflow: hidden !important;
 		z-index: 1000;
 	}
@@ -43,7 +43,7 @@
 		width: 100%;
 		height: 40%;
 		background-image: -webkit-linear-gradient(100deg, transparent 35%, #d63939 35%, #ff975e 95%);
-		position: absolute;
+		position: fixed;
 		overflow: hidden;
 	}
 

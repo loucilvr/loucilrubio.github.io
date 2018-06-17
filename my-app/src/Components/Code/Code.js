@@ -6,7 +6,6 @@ import mockup2 from '../../assets/img/flippy-iphonex-mockup-2.png'
 
 const Code = ()=> (
     <div>
-        <Menu/>
         <div className="details content">
             <h3 className="name">Coding Projects</h3>
             <div className="projectDesc">
