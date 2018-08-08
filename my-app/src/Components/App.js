@@ -7,7 +7,6 @@ import Illustrations from './Illustrations/Illustrations';
 import Misc from './Misc/Misc';
 import Menu from './Menu/Menu';
 import './App.css';
-import './Gallery/Gallery.css';
 
 class App extends Component {
   render() {
