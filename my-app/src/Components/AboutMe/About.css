@@ -1,9 +1,10 @@
 .about {
     height: 100%;
-    width: 50%;
+    width: 60%;
     float: right;
 	overflow-y: auto;
     font-family: sans-serif;
+    margin-top: 5%;
 }
 
 .aboutHeader{
@@ -12,6 +13,7 @@
 }
 
 .mediaLinks {
+    margin-top: 50px;
     text-align: center;
     font-size: 12px;
     letter-spacing: 1px;
@@ -24,11 +26,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .aboutDetails{
-    font-size: 16px;
+    font-size: 15px;
     color: #363636;
     text-align: left;
     width: 70%;
@@ -39,6 +42,9 @@ img.headshot {
     width: 30%;
     border-radius: 50%;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -85,6 +91,15 @@ span.space{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 700;
+    }
+
+
+    .aboutDetails{
+        font-size: 14px;
+        color: #363636;
+        text-align: left;
+        width: 70%;
+        padding: 0 15%;
     }
 
 }
