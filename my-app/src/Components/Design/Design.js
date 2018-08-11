@@ -1,12 +1,11 @@
 import React from 'react';
-import Menu from "../Menu/Menu";
 import taskMgmtlowFidelity from '../../assets/img/jira-redesign-low.png';
 import taskMgmthighFidelity from '../../assets/img/jira-redesign-highfid.png';
 
 const Design = ()=> (
     <div className="details content">
         <h3 className="name">Design Projects</h3>
-        <div className="projectDesc">
+        <section className="projectDesc">
             <b>Collab</b>
             <p>A design challenge on JIRA - It started out as a personal project to redesign
                 a landing page of the issue tracking/project management tool, but resulted in a redesign
@@ -38,7 +37,7 @@ const Design = ()=> (
                 />
             </span>
             <br/>
-        </div>
+        </section>
     </div>
 );
 
