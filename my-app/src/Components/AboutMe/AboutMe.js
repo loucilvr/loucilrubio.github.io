@@ -15,7 +15,8 @@ const AboutMe = () => {
            <section className="aboutDetails">
                <p>
                    I'm a <b>software engineer with a love for UI & UX Design. </b>
-                   I graduated from Florida State University in 2016, and jumpstarted my career in Tech at JPMorgan Chase in Florida.
+                   I graduated from Florida State University in 2016 with a Bachelors in Information Technology,
+                   and jumpstarted my career in Tech at JPMorgan Chase in Florida.
                    I built this portfolio to showcase my personal projects, share my current interests,
                    as well as my journey as a woman in technology.
                </p>
