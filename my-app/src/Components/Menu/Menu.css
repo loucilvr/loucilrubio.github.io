@@ -4,7 +4,7 @@
 		width: 50%;
 		height: 100vh;
 		float: left;
-		background-image: -webkit-linear-gradient(155deg, transparent 45%, #d63939 35%, #ff975e 99%);
+		background-image: -webkit-linear-gradient(165deg, transparent 34.8%, #d63939 35%, #ff975e 99%);
 		position: fixed;
 		overflow: hidden !important;
 		z-index: 1000;

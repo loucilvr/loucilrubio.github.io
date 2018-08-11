@@ -3,9 +3,9 @@
   .details {
     padding: 50px 30px;
     height: 100%;
-    width: 55%;
+    width: 50%;
     float: right;
-    overflow-y: scroll;
+    overflow-y: auto;
     text-align: left;
     color: #464646;
   }
