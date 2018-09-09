@@ -2,17 +2,19 @@ import React from 'react';
 import taskMgmtlowFidelity from '../../assets/img/jira-redesign-low.png';
 import taskMgmthighFidelity from '../../assets/img/jira-redesign-highfid.png';
 
+
 const Design = ()=> (
     <div className="details content">
         <h3 className="name">Design Projects</h3>
         <section className="projectDesc">
             <b>Collab</b>
-            <p>A design challenge on JIRA - It started out as a personal project to redesign
-                a landing page of the issue tracking/project management tool, but resulted in a redesign
-                of the experience. This new design aims to remove the negative 'issues'
-                culture around the projects and focuses more on the collaboration of development teams.
+            <p>A design challenge on a project management tool like JIRA, but with an emphasis on fostering collaboration.
+                It started out as a personal project to redesign the UI for the issue tracking/project management tool,
+                but resulted in a redesign of the concept itself. The idea was to steer the tool away from
+                tracking issues/bugs and adding employees to "projects/features", and to focus
+                more on the concept of collaborating with others to solve a problem/to introduce a new product.
             </p>
-            <p>(More to come as this research/redesign continues)</p>
+            <p>This project is a work in progress and is currently in discovery stage. More will be posted soon.</p>
             <span className="showcaseApps">
                 <img src={taskMgmtlowFidelity}
                      alt="Low Fidelity Design Challenge"

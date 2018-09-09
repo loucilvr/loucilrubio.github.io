@@ -14,9 +14,9 @@ const AboutMe = () => {
             <h1 className="name">hi there, i'm Loucil</h1>
            <section className="aboutDetails">
                <p>
-                   I'm a <b>software engineer with a love for UI & UX Design. </b>
+                   I'm <b>a software engineer with a love for UI & UX Design. </b>
                    I graduated from Florida State University in 2016 with a Bachelors in Information Technology,
-                   and jumpstarted my career in Tech at JPMorgan Chase in Florida.
+                   and jumpstarted my career in Tech at JPMorgan Chase in Tampa, Florida.
                    I built this portfolio to showcase my personal projects, share my current interests,
                    as well as my journey as a woman in technology.
                </p>
