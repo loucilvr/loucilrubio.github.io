@@ -15,11 +15,11 @@ class App extends Component {
             <Switch>
                 <div>
                     <Menu/>
-                        <Route exact path="/" component={AboutMe} />
-                        <Route path="/code" component={Code} />
-                        <Route path="/illustrations" component={Illustrations} />
-                        <Route path="/design" component={Design} />
-                        <Route path="/misc" component={Misc} />
+                    <Route exact path="/" component={AboutMe} />
+                    <Route path="/code" component={Code} />
+                    <Route path="/illustrations" component={Illustrations} />
+                    <Route path="/design" component={Design} />
+                    <Route path="/misc" component={Misc} />
                 </div>
             </Switch>
         </Router>

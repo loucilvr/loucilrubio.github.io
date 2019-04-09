@@ -1,19 +1,21 @@
+/* TODO: Switch to JSS */
+
 .about {
     height: 100%;
     width: 60%;
     float: right;
 	overflow-y: auto;
     font-family: sans-serif;
-    margin-top: 5%;
+    margin-top: 20px;
 }
 
 .aboutHeader{
-    padding: 30px 10px;
+    padding: 20px 10px;
     text-align: center;
 }
 
 .mediaLinks {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     font-size: 13px;
     letter-spacing: 1px;
@@ -36,6 +38,7 @@
     text-align: left;
     width: 70%;
     padding: 0 15%;
+    line-height: 22px;
 }
 
 img.headshot {
@@ -47,11 +50,13 @@ img.headshot {
     display: block;
 }
 
-
+ 
 a {
     text-decoration: none;
-    /*color: #b00970;*/
-    color: #000;
+    color: #b00970;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 .hi {
