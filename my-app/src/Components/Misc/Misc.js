@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const linkExpert = 'https://medium.com/@sara_ann_marie/dont-feel-like-an-expert-share-anyway-661f2f8cd038';
 const designKitLink = 'http://www.designkit.org/methods';
+const dataTablesLink = 'https://uxdesign.cc/design-better-data-tables-4ecc99d23356';
 
 const style = {
     source: {
@@ -15,8 +16,18 @@ const Misc = ()=> (
                 <h3 className="name">Miscellaneous</h3>
                 <div style={{ padding: '50px 0px'}}>
                     <p style={{color: '#8a8a8a', fontWeight: 'bold'}}>
-                        Some articles worth re-sharing that are both inspiring and informative:
+                        Some articles worth sharing that are both inspiring and informative:
                     </p>
+
+                    <div style={{ padding: '8px 0px 8px 0px' }}>
+                        <Link
+                        to={linkExpert}
+                        style={{color: '#005891', textDecoration: 'underline'}}
+                    >
+                        Design Better Data Tables
+                    </Link>
+                        <p style={style.source}>&nbsp; [dataTablesLink]</p>
+                    </div>
                     <div style={{ padding: '8px 0px 8px 0px' }}>
                         <Link
                         to={linkExpert}

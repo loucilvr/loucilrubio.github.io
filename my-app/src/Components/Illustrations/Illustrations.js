@@ -15,7 +15,6 @@ const Illustrations = ()=> (
     <div className="details content">
         <h3 className="name">Illustrations</h3>
         <section style={{textAlign: 'center',  marginBottom: '50px'}}>
-        <p>Below are a few of my illustrations that were drawn using Procreate & iPad Pro.</p>
         </section>
         <div>
             <img

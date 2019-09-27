@@ -1,5 +1,10 @@
 /* TODO: Switch to JSS */
 
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
 @media (min-width:769px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
 	.menuContainer {
@@ -31,7 +36,7 @@
 		margin: 15px;
 		text-decoration: none;
 		color: #fff;
-		font-size: 15px;
+		font-size: 16px;
 		letter-spacing: 1px;
 		font-weight: lighter;
 	}
@@ -61,7 +66,7 @@
 		margin: 15px 15px;
 		text-decoration: none;
 		color: #fff;
-		font-size: 15px;
+		font-size: 16px;
 		letter-spacing: 1px;
 		font-weight: lighter;
 	}
