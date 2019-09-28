@@ -11,17 +11,14 @@ const AboutMe = () => (
        />
         <h1 className="name">hi there, i'm Loucil</h1>
        <section className="aboutDetails">
-           <p>
-               I'm <b>a software engineer with a love for UI & UX Design</b>.
+           <p> I'm <b>a software engineer with a love for UI & UX Design</b> based in Tampa, FL. </p>
+            <p>I'm currently building client-facing and internal-facing web applications for J.P. Morgan Chase,
+                as well as performing UX research and design - leveraging web technologies like React, Redux, HTML APIs & REST APIs,
+                 and design tools like Balsamiq, Figma and Sketch for creating wireframes
+                 & low/high fidelity mockups.
             </p>
             <p>
-               I graduated from Florida State University in 2016 with a Bachelors in IT,
-               and jumpstarted my career in tech as a Software Engineer at JPMorgan Chase in Tampa, Florida.
-               I did backend development my first year and a half after college,
-                and I'm currently focusing on front-end engineering as well as UX Research and Design.
-            </p>
-            <p>
-               I built this portfolio to share some of my current interests as well as to 
+               I built this portfolio to share some of my current interests and
                showcase stuff I've designed and built outside of work for fun :-)
            </p>
         </section>
