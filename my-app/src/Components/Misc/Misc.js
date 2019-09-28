@@ -1,55 +1,61 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { createUseStyles}  from 'react-jss';
 
-const linkExpert = 'https://medium.com/@sara_ann_marie/dont-feel-like-an-expert-share-anyway-661f2f8cd038';
-const designKitLink = 'http://www.designkit.org/methods';
-const dataTablesLink = 'https://uxdesign.cc/design-better-data-tables-4ecc99d23356';
+const articles = [{
+    title: 'Human-Centered Design',
+    link: 'http://www.designkit.org/methods'
+},  {
+    title: 'Design Better Data Tables',
+    link: 'https://uxdesign.cc/design-better-data-tables-4ecc99d23356'
+}, {
+    title: 'Don\'t feel like an expert? Share anyway.',
+    link: 'https://medium.com/@sara_ann_marie/dont-feel-like-an-expert-share-anyway-661f2f8cd038'
+}];
 
-const style = {
+const useStyles = createUseStyles({
+    articleContainer: {
+        padding: '8px 0px 8px 0px'
+    },
+    link: {
+        color: '#005891',
+         textDecoration: 'underline'
+    },
     source: {
-        display: 'inline'
+        display: 'inline',
+        marginLeft: '8px'
+    },
+    articlesSubheader: {
+        color: '#8a8a8a',
+        fontWeight: 'bold'
     }
-}
-const Misc = ()=> (
-    <div>
-            <div className="details content">
-                <h3 className="name">Miscellaneous</h3>
-                <div style={{ padding: '50px 0px'}}>
-                    <p style={{color: '#8a8a8a', fontWeight: 'bold'}}>
-                        Some articles worth sharing that are both inspiring and informative:
-                    </p>
+});
 
-                    <div style={{ padding: '8px 0px 8px 0px' }}>
-                        <Link
-                        to={linkExpert}
-                        style={{color: '#005891', textDecoration: 'underline'}}
-                    >
-                        Design Better Data Tables
-                    </Link>
-                        <p style={style.source}>&nbsp; [dataTablesLink]</p>
-                    </div>
-                    <div style={{ padding: '8px 0px 8px 0px' }}>
-                        <Link
-                        to={linkExpert}
-                        style={{color: '#005891', textDecoration: 'underline'}}
-                    >
-                        Don't feel like an expert? Share anyway.
-                    </Link>
-                        <p style={style.source}>&nbsp; [MEDIUM]</p>
-                    </div>
-                    <div style={{ padding: '8px 0px 8px 0px' }}>
-                        <Link
-                        to={designKitLink}
-                        style={{color: '#005891', textDecoration: 'underline'}}
-                    >
-                        Human-Centered Design
-                    </Link>
-                        <p style={style.source}>&nbsp; [Design Kit/IDEO]</p>
-                    </div>
-                </div>
+const ArticleCard = ({ link, title }) => {
+    const classes = useStyles();
+    return (
+        <div className={classes.articleContainer}>
+            <Link to={link} className={classes.link}>
+                {title}
+            </Link>
+            <p className={classes.source}>[{link}]</p>
+        </div>
+    );
+};
 
-            </div>
-    </div>
-);
+const Misc = () => {
+    const classes = useStyles();
+    const renderArticles = () => articles.map(a => <ArticleCard title={a.title} link={a.link} />);
+
+    return (
+        <div className="details content">
+            <h3 className="name">Miscellaneous</h3>
+                <p className={classes.articlesSubheader}>
+                    Some articles worth sharing:
+                </p>
+                {renderArticles()}
+        </div>
+    );
+};
 
 export default Misc;
