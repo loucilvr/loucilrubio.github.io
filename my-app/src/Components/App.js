@@ -13,6 +13,11 @@ const useStyles = createUseStyles({
   root: {
     display: 'flex',
     justifyContent: 'space-between'
+  },
+  '@media (min-width: 1024px)': {
+    mainContent: {
+        width: '50%'
+    }
   }
 });
 
@@ -23,12 +28,12 @@ const App = () => {
             <Switch>
                 <div className={classes.root}>
                     <Menu/>
-                    <main>
-                    <Route exact path="/" component={AboutMe} />
-                    <Route path="/code" component={Code} />
-                    <Route path="/illustrations" component={Illustrations} />
-                    <Route path="/design" component={Design} />
-                    <Route path="/misc" component={Misc} />
+                    <main className={classes.mainContent}>
+                        <Route exact path="/" component={AboutMe} />
+                        <Route path="/code" component={Code} />
+                        <Route path="/illustrations" component={Illustrations} />
+                        <Route path="/design" component={Design} />
+                        <Route path="/misc" component={Misc} />
                     </main>
                 </div>
             </Switch>

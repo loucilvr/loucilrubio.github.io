@@ -11,10 +11,9 @@ const AboutMe = () => (
        />
         <h1 className="name">hi there, I'm Loucil</h1>
        <section className="aboutDetails">
-           <p> I'm <b>a software engineer with a love for design</b> based in Tampa, FL. </p>
-            <p>
+           <p> I'm <b>a software engineer with a love for design</b> based in Tampa, FL.
                I built this portfolio to share some of my current interests and
-               showcase things I've created outside of work for fun :-)
+               showcase things I've created outside of work for fun.
            </p>
         </section>
        <section className="mediaLinks">
