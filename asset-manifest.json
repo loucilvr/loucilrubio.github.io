@@ -1,19 +1,28 @@
 {
-  "main.css": "/static/css/main.33c4f2e9.chunk.css",
-  "main.js": "/static/js/main.10d2e2be.chunk.js",
-  "main.js.map": "/static/js/main.10d2e2be.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.185647c3.chunk.js": "/static/js/2.185647c3.chunk.js",
-  "static/js/2.185647c3.chunk.js.map": "/static/js/2.185647c3.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.c808cf045b0d89778b220558f18b97ee.js": "/precache-manifest.c808cf045b0d89778b220558f18b97ee.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.33c4f2e9.chunk.css.map": "/static/css/main.33c4f2e9.chunk.css.map",
-  "static/media/2016spring_headshot.png": "/static/media/2016spring_headshot.a5a4310a.png",
-  "static/media/coffeeee.jpeg": "/static/media/coffeeee.8623c2ba.jpeg",
-  "static/media/eucalyptus.jpeg": "/static/media/eucalyptus.fa741dfc.jpeg",
-  "static/media/flippy-iphonex-mockup-1.png": "/static/media/flippy-iphonex-mockup-1.ff10a537.png",
-  "static/media/flippy-iphonex-mockup-2.png": "/static/media/flippy-iphonex-mockup-2.a803a0b8.png",
-  "static/media/his-hers-breakfast.jpg": "/static/media/his-hers-breakfast.745c3e5f.jpg"
+  "files": {
+    "main.css": "/static/css/main.1f643f73.chunk.css",
+    "main.js": "/static/js/main.1edad718.chunk.js",
+    "main.js.map": "/static/js/main.1edad718.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
+    "static/js/2.3cdd6ea1.chunk.js": "/static/js/2.3cdd6ea1.chunk.js",
+    "static/js/2.3cdd6ea1.chunk.js.map": "/static/js/2.3cdd6ea1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a99cf2a41f87e5c5c586633a4c60e01f.js": "/precache-manifest.a99cf2a41f87e5c5c586633a4c60e01f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1f643f73.chunk.css.map": "/static/css/main.1f643f73.chunk.css.map",
+    "static/js/2.3cdd6ea1.chunk.js.LICENSE": "/static/js/2.3cdd6ea1.chunk.js.LICENSE",
+    "static/media/2016spring_headshot.png": "/static/media/2016spring_headshot.a5a4310a.png",
+    "static/media/coffeeee.jpeg": "/static/media/coffeeee.8623c2ba.jpeg",
+    "static/media/eucalyptus.jpeg": "/static/media/eucalyptus.fa741dfc.jpeg",
+    "static/media/flippy-iphonex-mockup-1.png": "/static/media/flippy-iphonex-mockup-1.ff10a537.png",
+    "static/media/flippy-iphonex-mockup-2.png": "/static/media/flippy-iphonex-mockup-2.a803a0b8.png",
+    "static/media/his-hers-breakfast.jpg": "/static/media/his-hers-breakfast.745c3e5f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107bb8ca.js",
+    "static/js/2.3cdd6ea1.chunk.js",
+    "static/css/main.1f643f73.chunk.css",
+    "static/js/main.1edad718.chunk.js"
+  ]
 }
