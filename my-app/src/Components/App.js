@@ -17,7 +17,9 @@ const useStyles = createUseStyles({
   '@media (min-width: 1024px)': {
     mainContent: {
         width: '50%'
-    }
+    },
+    height: '100vh',
+    overflowY: 'auto'
   }
 });
 

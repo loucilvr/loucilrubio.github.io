@@ -11,7 +11,7 @@ a:hover {
 		width: 50%;
 		height: 100vh;
 		float: left;
-		background-image: -webkit-linear-gradient(165deg, transparent 34.8%, #d63939 35%, #ff975e 99%);
+		/* background-image: -webkit-linear-gradient(165deg, transparent 34.8%, #d63939 35%, #ff975e 99%); */
 		/* position: fixed; */
 		overflow: hidden !important;
 		z-index: 1000;
@@ -35,10 +35,10 @@ a:hover {
 		display: block;
 		margin: 15px;
 		text-decoration: none;
-		color: #fff;
-		font-size: 16px;
+		color: #464646;
+		font-size: 24px;
 		letter-spacing: 1px;
-		font-weight: lighter;
+		font-weight: 100;
 	}
 
 }

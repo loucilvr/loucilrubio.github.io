@@ -3,13 +3,12 @@
 @media (min-width: 769px) {
 
   .details {
-    padding: 50px 30px;
-    height: 100%;
-    width: 50%;
-    float: right;
+    padding-top: 50px;
     overflow-y: auto;
     text-align: left;
     color: #464646;
+    height: 100vh;
+    box-sizing: border-box;
   }
 
   .desc {
