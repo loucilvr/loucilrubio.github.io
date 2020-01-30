@@ -9,17 +9,12 @@ const AboutMe = () => (
             alt="Personal Headshot"
             className="headshot"
        />
-        <h1 className="name">hi there, i'm Loucil</h1>
+        <h1 className="name">hi there, I'm Loucil</h1>
        <section className="aboutDetails">
-           <p> I'm <b>a software engineer with a love for UI & UX Design</b> based in Tampa, FL. </p>
-            <p>I'm currently building client-facing and internal-facing web applications for J.P. Morgan Chase,
-                as well as performing UX research and design - leveraging web technologies like React, Redux, HTML APIs & REST APIs,
-                 and design tools like Balsamiq, Figma and Sketch for creating wireframes
-                 & low/high fidelity mockups.
-            </p>
+           <p> I'm <b>a software engineer with a love for design</b> based in Tampa, FL. </p>
             <p>
                I built this portfolio to share some of my current interests and
-               showcase stuff I've designed and built outside of work for fun :-)
+               showcase things I've created outside of work for fun :-)
            </p>
         </section>
        <section className="mediaLinks">

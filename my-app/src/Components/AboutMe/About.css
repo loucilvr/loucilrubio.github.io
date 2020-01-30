@@ -3,7 +3,6 @@
 .about {
     height: 100%;
     width: 60%;
-    float: right;
 	overflow-y: auto;
     font-family: sans-serif;
     margin-top: 20px;

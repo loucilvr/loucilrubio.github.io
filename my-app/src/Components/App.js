@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutMe from './AboutMe/AboutMe'
 import Code from './Code/Code';
@@ -7,13 +7,21 @@ import Illustrations from './Illustrations/Illustrations';
 import Misc from './Misc/Misc';
 import Menu from './Menu/Menu';
 import './App.css';
+import { createUseStyles } from 'react-jss';
 
-class App extends Component {
-  render() {
+const useStyles = createUseStyles({
+  root: {
+    display: 'flex',
+    justifyContent: 'space-between'
+  }
+});
+
+const App = () => {  
+    const classes = useStyles();
     return (
         <Router>
             <Switch>
-                <div>
+                <div className={classes.root}>
                     <Menu/>
                     <main>
                     <Route exact path="/" component={AboutMe} />
@@ -26,7 +34,6 @@ class App extends Component {
             </Switch>
         </Router>
     );
-  }
 }
 
 export default App;
