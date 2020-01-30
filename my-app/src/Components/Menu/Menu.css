@@ -5,6 +5,10 @@ a:hover {
 	font-weight: bold;
 }
 
+.selected {
+	font-weight: bold;
+}
+
 @media (min-width:769px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
 	.menuContainer {
