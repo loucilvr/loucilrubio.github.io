@@ -2,6 +2,12 @@ import React from 'react';
 import breakfastImg from '../../assets/img/illustrations/his-hers-breakfast.jpg'
 import coffeee from '../../assets/img/illustrations/coffeeee.jpeg';
 import eucalyptusPlant from '../../assets/img/illustrations/eucalyptus.jpeg';
+import commonStyles from '../../common/commonStyles';
+import { createUseStyles } from 'react-jss';
+
+const useStyles = createUseStyles({
+    ...commonStyles
+});
 
 const imgStyle = {
     width: '60%',
@@ -11,9 +17,11 @@ const imgStyle = {
     marginRight: 'auto',
 };
 
-const Illustrations = ()=> (
+const Illustrations = ()=> {
+    const classes = useStyles();
+    return (
     <div className="details content">
-        <h3 className="name">Illustrations</h3>
+        <h3 className={classes.heading}>Illustrations</h3>
         <section style={{textAlign: 'center',  marginBottom: '50px'}}>
         </section>
         <div>
@@ -44,6 +52,6 @@ const Illustrations = ()=> (
             />
         </div>
     </div>
-);
+)};
 
 export default Illustrations;

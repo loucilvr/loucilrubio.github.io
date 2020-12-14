@@ -9,6 +9,19 @@ import classNames from 'classnames';
 const useStyles = createUseStyles({
     selected: {
         fontWeight: 'bold'
+    },
+    menuContainer: {
+        height: '100%',
+		float: 'left',
+		overflow: 'hidden',
+        zIndex: 2,
+        '@media (max-width: 768px)': {
+            width: '100%',
+            height: '300px',
+            backgroundImage: '-webkit-linear-gradient(100deg, transparent 34.5%, #d63939 35%, #ff975e 95%)',
+            position: 'fixed',
+            overflow: 'hidden'
+        }
     }
 });
 
@@ -35,7 +48,7 @@ const Menu = ({ selectedContent, setView }) => {
     const isSelected = label => label === selectedContent && classes.selected;
 
     return (
-        <div className="menuContainer">
+        <div className={classes.menuContainer}>
             <nav className="menu">
                 { menuLinks.map(ml => 
                     <Link

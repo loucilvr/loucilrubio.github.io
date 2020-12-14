@@ -3,32 +3,10 @@
 .about {
 	overflow-y: auto;
     font-family: sans-serif;
-    margin-top: 8%;
-    width: 80%;
 }
 
 .aboutHeader{
-    padding: 20px 10px;
     text-align: center;
-}
-
-.mediaLinks {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
-
-.name {
-    background: linear-gradient(130deg, #ff7c00 0%, #e93750 30%, #b00970 60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 40px;
 }
 
 .aboutDetails{
@@ -42,7 +20,6 @@
 img.headshot {
     width: 30%;
     border-radius: 50%;
-    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     display: block;

@@ -2,10 +2,18 @@ import React from 'react';
 import './Code.css'
 import mockup1 from '../../assets/img/flippy-iphonex-mockup-1.png'
 import mockup2 from '../../assets/img/flippy-iphonex-mockup-2.png'
+import { createUseStyles } from 'react-jss';
+import commonStyles from '../../common/commonStyles';
 
-const Code = () => (
+const useStyles = createUseStyles({
+    ...commonStyles
+});
+
+const Code = () => {
+    const classes = useStyles();
+    return (
     <div className="details content">
-        <h3 className="name">Coding Projects</h3>
+        <h3 className={classes.heading}>Coding Projects</h3>
         <div className="projectDesc">
             <b>Flippy</b>
             <p>A mobile-friendly web app for flipping through a set of study guide flash cards.
@@ -25,6 +33,6 @@ const Code = () => (
             </a>
         </div>
     </div>
-);
+)};
 
 export default Code;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { createUseStyles}  from 'react-jss';
+import commonStyles from '../../common/commonStyles';
 
 const articles = [{
     title: 'Human-Centered Design',
@@ -28,7 +29,8 @@ const useStyles = createUseStyles({
     articlesSubheader: {
         color: '#8a8a8a',
         fontWeight: 'bold'
-    }
+    },
+    ...commonStyles
 });
 
 const ArticleCard = ({ link, title }) => {
@@ -49,7 +51,7 @@ const Misc = () => {
 
     return (
         <div className="details content">
-            <h3 className="name">Miscellaneous</h3>
+            <h3 className={classes.heading}>Miscellaneous</h3>
                 <p className={classes.articlesSubheader}>
                     Some articles worth sharing:
                 </p>
