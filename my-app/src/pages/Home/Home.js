@@ -58,14 +58,14 @@ const Home = () => {
                         Chase, located in Tampa, FL.
                         <br />
                         <br />I consider myself <b>45% developer</b>,
-                        <b> 45% designer</b> and <b>10% caffeine</b>. Meaning,
-                        on some days I'm working on a high-fidelity design on
+                        <b> 45% designer</b> and <b>10% caffeine</b>. On some
+                        days, I'm working on high-fidelity designs on
                         Sketch/Invision for our client-facing and internal
-                        applications, and on other days I'm building UI
-                        components in React, integrating with Java/Groovy Spring
-                        APIs, and shipping full features into Production... all
-                        while being overly caffeinated from making lattes during
-                        my breaks :-P
+                        applications, and on other days, you'll find me building
+                        UI components in React, integrating with Java/Groovy
+                        Spring APIs, and shipping full features into
+                        Production... all while being overly caffeinated from
+                        making lattes during my breaks :-P
                         <br />
                         <br />I built this portfolio to share some of my current
                         interests and showcase things I've created outside of
