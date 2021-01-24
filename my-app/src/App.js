@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
             width: '100%',
             display: 'flex',
             justifyContent: 'space-between',
-            padding: '200px 0px',
+            padding: '100px 0px',
         },
         '@media (max-width: 768px)': {
             width: '100%',

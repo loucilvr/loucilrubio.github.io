@@ -54,8 +54,8 @@ const Home = () => {
                 <section className={classes.aboutDetails}>
                     <p>
                         {' '}
-                        I'm a <strong>UX Engineer</strong> at J.P. Morgan Chase,
-                        located in Tampa, FL.
+                        I'm a <strong>Senior UX Engineer</strong> at J.P. Morgan
+                        Chase, located in Tampa, FL.
                         <br />
                         <br />I consider myself <b>45% developer</b>,
                         <b> 45% designer</b> and <b>10% caffeine</b>. Meaning,
