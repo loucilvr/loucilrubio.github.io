@@ -98,7 +98,7 @@ const Menu = ({ selectedContent, setView }) => {
             if (browserWidth <= 768) {
                 const currentScrollPos = window.pageYOffset;
                 const showMenu =
-                    currentScrollPos < 200 ||
+                    currentScrollPos < 100 ||
                     (prevScrollPos > currentScrollPos &&
                         currentScrollPos <= 500);
                 setShowMenu(showMenu);

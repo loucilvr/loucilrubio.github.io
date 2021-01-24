@@ -62,8 +62,7 @@ const Home = () => {
                         days, I'm working on high-fidelity designs on
                         Sketch/Invision for our client-facing and internal
                         applications, and on other days, you'll find me building
-                        UI components in React, integrating with Java/Groovy
-                        Spring APIs, and shipping full features into
+                        UI components in React, integrating with APIs, and shipping full features into
                         Production... all while being overly caffeinated from
                         making lattes during my breaks :-P
                         <br />
