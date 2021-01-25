@@ -51,12 +51,12 @@ const useStyles = createUseStyles({
     },
     hideMenu: {
         top: '-350px',
-        transition: 'all 1s ease-out'
+        transition: 'all 1s ease-out',
     },
     showMenu: {
         '@media (max-width: 768px)': {
             top: 0,
-            transition: 'all 1s ease-out'
+            transition: 'all 1s ease-out',
         },
     },
 });
@@ -100,11 +100,9 @@ const Menu = ({ selectedContent, setView }) => {
             if (browserWidth <= 768) {
                 const currentScrollPos = window.pageYOffset;
 
-
                 console.log('currentScrollPos', currentScrollPos);
 
-                const showMenu =
-                    currentScrollPos <= 200 ;
+                const showMenu = currentScrollPos <= 200;
                 setShowMenu(showMenu);
                 setPrevScrollPos(currentScrollPos);
             }

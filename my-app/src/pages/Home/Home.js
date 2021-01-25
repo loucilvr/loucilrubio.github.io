@@ -62,9 +62,10 @@ const Home = () => {
                         days, I'm working on high-fidelity designs on
                         Sketch/Invision for our client-facing and internal
                         applications, and on other days, you'll find me building
-                        UI components in React, integrating with APIs, and shipping full features into
-                        Production... all while being overly caffeinated from
-                        making lattes during my breaks :-P
+                        UI components in React, integrating with APIs, and
+                        shipping full features into Production... all while
+                        being overly caffeinated from making lattes during my
+                        breaks :-P
                         <br />
                         <br />I built this portfolio to share some of my current
                         interests and showcase things I've created outside of
