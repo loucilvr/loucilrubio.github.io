@@ -51,12 +51,12 @@ const useStyles = createUseStyles({
     },
     hideMenu: {
         top: '-350px',
-        transition: 'all 1s ease-out',
+        transition: 'top 330ms',
     },
     showMenu: {
         '@media (max-width: 768px)': {
             top: 0,
-            transition: 'all 1s ease-out',
+            transition: 'top 330ms',
         },
     },
 });
