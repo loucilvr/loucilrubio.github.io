@@ -50,7 +50,7 @@ const Home = () => {
                 className={classes.headshot}
             />
             <div>
-                <h1 className={classes.heading}>hi there, I'm Loucil</h1>
+                <h1 className={classes.heading}>Hi there, I'm Loucil</h1>
                 <section className={classes.aboutDetails}>
                     <p>
                         {' '}

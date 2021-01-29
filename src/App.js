@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Code from './components/Code/Code';
-import Design from './components/Design/Design';
-import Illustrations from './components/Illustrations/Illustrations';
-import Misc from './components/Misc/Misc';
+import Code from './pages/Code/Code';
+import Design from './pages/Design/Design';
+import Illustrations from './pages/Illustrations/Illustrations';
+import Misc from './pages/Misc/Misc';
 import Menu from './components/Menu/Menu';
-import Contact from './components/Contact/Contact';
+import Contact from './pages/Contact/Contact';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({

@@ -37,7 +37,7 @@ const useStyles = createUseStyles({
     },
     ...commonStyles,
     articles: {
-        padding: '24px',
+        padding: '24px 32px',
     },
 });
 
