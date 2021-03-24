@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
-import Design from "./pages/Design/Design";
 import Illustrations from "./pages/Illustrations/Illustrations";
 import Misc from "./pages/Misc/Misc";
 import Menu from "./components/Menu/Menu";

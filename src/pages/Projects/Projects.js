@@ -69,7 +69,7 @@ const Projects = () => {
         )}
       />
       <Project
-        title="myGut Food Journal"
+        title="Food Journal"
         description=" A native mobile app that aims to help people keep track of their daily
       food habits and help better understand their own personal relationship
       with food."
