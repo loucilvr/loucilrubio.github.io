@@ -1,6 +1,7 @@
 import React from "react";
 import mockup1 from "../../assets/img/flippy-iphonex-mockup-1.png";
 import mockup2 from "../../assets/img/flippy-iphonex-mockup-2.png";
+import FlippyWeb from "../../assets/img/flippy-web.png";
 import wireframePreview from "../../assets/img/wireframe_preview.png";
 import { createUseStyles } from "react-jss";
 import commonStyles from "../../common/commonStyles";
@@ -31,12 +32,20 @@ const useStyles = createUseStyles({
       color: "#9F9F9F",
     },
   },
+  flippyImages: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  projects: {
+    width: "100%",
+  },
 });
 
 const Projects = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div className={classes.projects}>
       <h2 className={classes.heading}>Projects</h2>
       <Project
         title="Flippy"
@@ -45,18 +54,25 @@ const Projects = () => {
           Heroku. This was an app I built to help myself and others study for
           the US Citizenship exam."
         renderImages={() => (
-          <>
+          <div className={classes.flippyImages}>
+            <div>
+              <img
+                src={mockup2}
+                alt="Flippy iPhone X mockup landing page"
+                width="150px"
+              />
+              <img
+                src={mockup1}
+                alt="Flippy iPhone X mockup flash card view"
+                width="150px"
+              />
+            </div>
             <img
-              src={mockup2}
-              alt="Flippy iPhone X mockup landing page"
-              width="150px"
-            />
-            <img
-              src={mockup1}
+              src={FlippyWeb}
               alt="Flippy iPhone X mockup flash card view"
-              width="150px"
+              width="400px"
             />
-          </>
+          </div>
         )}
         renderFooter={() => (
           <>
