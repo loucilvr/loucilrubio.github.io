@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e80a7d6bfda9ceeedd960bdfacb0887",
+    "revision": "10a4ec96c08a741078572f236bb12c8f",
     "url": "/index.html"
   },
   {
-    "revision": "75c9aaa2eb35107c7b25",
+    "revision": "79dc4f06764fc20ded84",
     "url": "/static/css/main.e9f2eacd.chunk.css"
   },
   {
-    "revision": "3de86251c6dadd576d96",
-    "url": "/static/js/2.abb65947.chunk.js"
+    "revision": "6c99617eaf3b8b91e9f7",
+    "url": "/static/js/2.d934b6c6.chunk.js"
   },
   {
     "revision": "1a3cc71403f332d098a2b9cdd7c4c36d",
-    "url": "/static/js/2.abb65947.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d934b6c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75c9aaa2eb35107c7b25",
-    "url": "/static/js/main.0b94c71c.chunk.js"
+    "revision": "79dc4f06764fc20ded84",
+    "url": "/static/js/main.0bed0f3b.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a803a0b8594ca93605b7d122007a100d",
     "url": "/static/media/flippy-iphonex-mockup-2.a803a0b8.png"
+  },
+  {
+    "revision": "7184ab79b98ab3276f340954bd59c5ea",
+    "url": "/static/media/flippy-web.7184ab79.png"
   },
   {
     "revision": "745c3e5f86782508b5488328ce880b3f",
