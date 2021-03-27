@@ -3,6 +3,8 @@ import breakfastImg from "../../assets/img/illustrations/his-hers-breakfast.jpg"
 import coffeee from "../../assets/img/illustrations/coffeeee.jpeg";
 import eucalyptusPlant from "../../assets/img/illustrations/eucalyptus.jpeg";
 import commonStyles from "../../common/commonStyles";
+import madeleineLatte from "../../assets/img/illustrations/madeleine_latte.png";
+import winterWonderlandCabin from "../../assets/img/illustrations/winter_2020.png";
 import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
@@ -26,6 +28,22 @@ const Illustrations = () => {
     <div>
       <h3 className={classes.heading}>Illustrations</h3>
       <div className={classes.illustrations}>
+        <img
+          src={winterWonderlandCabin}
+          alt="Winter Wonderland Cabin"
+          align="center"
+          style={{
+            ...imgStyle,
+          }}
+        />
+        <img
+          src={madeleineLatte}
+          alt="French Madeleine & Latte"
+          align="center"
+          style={{
+            ...imgStyle,
+          }}
+        />
         <img
           src={breakfastImg}
           alt="Breakfast His and Hers Illustration"
