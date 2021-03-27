@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e9f2eacd.chunk.css",
-    "main.js": "/static/js/main.acea77e6.chunk.js",
-    "main.js.map": "/static/js/main.acea77e6.chunk.js.map",
+    "main.js": "/static/js/main.e6b48307.chunk.js",
+    "main.js.map": "/static/js/main.e6b48307.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.6f98d87f.chunk.js": "/static/js/2.6f98d87f.chunk.js",
-    "static/js/2.6f98d87f.chunk.js.map": "/static/js/2.6f98d87f.chunk.js.map",
+    "static/js/2.a4c314f6.chunk.js": "/static/js/2.a4c314f6.chunk.js",
+    "static/js/2.a4c314f6.chunk.js.map": "/static/js/2.a4c314f6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.41f34cda26a0465c22a724692f7723ed.js": "/precache-manifest.41f34cda26a0465c22a724692f7723ed.js",
+    "precache-manifest.63c4f0dd9a03f2e43f3605c1ee83b9b7.js": "/precache-manifest.63c4f0dd9a03f2e43f3605c1ee83b9b7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e9f2eacd.chunk.css.map": "/static/css/main.e9f2eacd.chunk.css.map",
-    "static/js/2.6f98d87f.chunk.js.LICENSE.txt": "/static/js/2.6f98d87f.chunk.js.LICENSE.txt",
+    "static/js/2.a4c314f6.chunk.js.LICENSE.txt": "/static/js/2.a4c314f6.chunk.js.LICENSE.txt",
     "static/media/2016spring_headshot.png": "/static/media/2016spring_headshot.a5a4310a.png",
     "static/media/coffeeee.jpeg": "/static/media/coffeeee.8623c2ba.jpeg",
     "static/media/eucalyptus.jpeg": "/static/media/eucalyptus.fa741dfc.jpeg",
@@ -22,13 +22,15 @@
     "static/media/ipad.png": "/static/media/ipad.4bd94e91.png",
     "static/media/iphone678.png": "/static/media/iphone678.758eccff.png",
     "static/media/iphonex-xs.png": "/static/media/iphonex-xs.9a280705.png",
+    "static/media/madeleine_latte.png": "/static/media/madeleine_latte.4e28c988.png",
     "static/media/web.png": "/static/media/web.62d1cc3e.png",
+    "static/media/winter_2020.png": "/static/media/winter_2020.adb09c19.png",
     "static/media/wireframe_preview.png": "/static/media/wireframe_preview.ce44ee31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.6f98d87f.chunk.js",
+    "static/js/2.a4c314f6.chunk.js",
     "static/css/main.e9f2eacd.chunk.css",
-    "static/js/main.acea77e6.chunk.js"
+    "static/js/main.e6b48307.chunk.js"
   ]
 }

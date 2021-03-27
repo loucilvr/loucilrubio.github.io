@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d14db2368173681c1a8a6af01875f6ad",
+    "revision": "35fdfce7e2a7b99637d0fdfd2c5d0d80",
     "url": "/index.html"
   },
   {
-    "revision": "efa683f3321a48e33ab0",
+    "revision": "f608460dd8801cc77f28",
     "url": "/static/css/main.e9f2eacd.chunk.css"
   },
   {
-    "revision": "9dbc2f8e958d39a60769",
-    "url": "/static/js/2.6f98d87f.chunk.js"
+    "revision": "4fb35b5dd7f401aa25bb",
+    "url": "/static/js/2.a4c314f6.chunk.js"
   },
   {
     "revision": "1a3cc71403f332d098a2b9cdd7c4c36d",
-    "url": "/static/js/2.6f98d87f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a4c314f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "efa683f3321a48e33ab0",
-    "url": "/static/js/main.acea77e6.chunk.js"
+    "revision": "f608460dd8801cc77f28",
+    "url": "/static/js/main.e6b48307.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
@@ -64,8 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/iphonex-xs.9a280705.png"
   },
   {
+    "revision": "4e28c988c40a24f6ba67771eb72240b6",
+    "url": "/static/media/madeleine_latte.4e28c988.png"
+  },
+  {
     "revision": "62d1cc3e6d02626ad631c513ad929a9a",
     "url": "/static/media/web.62d1cc3e.png"
+  },
+  {
+    "revision": "adb09c1996c5934c96c33ea19a2ee70e",
+    "url": "/static/media/winter_2020.adb09c19.png"
   },
   {
     "revision": "ce44ee310a6daf679d3ddc5875801a31",
