@@ -92,7 +92,8 @@ const menuLinks = [
 
 const Menu = ({ selectedContent, setView }) => {
   const classes = useStyles();
-  const isSelected = (label) => label === selectedContent && classes.selected;
+  const isSelected = (label) =>
+    label === selectedContent ? classes.selected : "";
   const browserWidth = document.body.clientWidth;
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [showMenu, setShowMenu] = useState(true);
@@ -101,9 +102,6 @@ const Menu = ({ selectedContent, setView }) => {
     const handleScroll = () => {
       if (browserWidth <= 768) {
         const currentScrollPos = window.pageYOffset;
-
-        console.log("currentScrollPos", currentScrollPos);
-
         const showMenu = currentScrollPos <= 200;
         setShowMenu(showMenu);
         setPrevScrollPos(currentScrollPos);
@@ -124,6 +122,7 @@ const Menu = ({ selectedContent, setView }) => {
       {menuLinks.map((ml) => (
         <Link
           to={ml.path}
+          key={ml.label}
           onClick={(e) => setView(ml.label)}
           className={isSelected(ml.label)}
         >

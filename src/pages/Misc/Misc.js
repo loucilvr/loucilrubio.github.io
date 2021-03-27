@@ -38,6 +38,9 @@ const useStyles = createUseStyles({
   articles: {
     padding: "24px 32px",
   },
+  miscContainer: {
+    width: "100%",
+  },
 });
 
 const ArticleCard = ({ link, title }) => {
@@ -55,10 +58,12 @@ const ArticleCard = ({ link, title }) => {
 const Misc = () => {
   const classes = useStyles();
   const renderArticles = () =>
-    articles.map((a) => <ArticleCard title={a.title} link={a.link} />);
+    articles.map((a, i) => (
+      <ArticleCard key={`article_${i}`} title={a.title} link={a.link} />
+    ));
 
   return (
-    <div>
+    <div className={classes.miscContainer}>
       <h3 className={classes.heading}>Miscellaneous</h3>
       <div className={classes.articles}>
         <p className={classes.articlesSubheader}>

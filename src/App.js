@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Illustrations from "./pages/Illustrations/Illustrations";
@@ -47,20 +47,18 @@ const useStyles = createUseStyles({
 const App = () => {
   const classes = useStyles();
   return (
-    <Router>
-      <Switch>
-        <div className={classes.content}>
-          <Menu />
-          <main className={classes.mainContent}>
-            <Route exact path="/" component={Home} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/illustrations" component={Illustrations} />
-            <Route path="/misc" component={Misc} />
-            <Route path="/contact" component={Contact} />
-          </main>
-        </div>
-      </Switch>
-    </Router>
+    <Switch>
+      <div className={classes.content}>
+        <Menu />
+        <main className={classes.mainContent}>
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/illustrations" component={Illustrations} />
+          <Route path="/misc" component={Misc} />
+          <Route path="/contact" component={Contact} />
+        </main>
+      </div>
+    </Switch>
   );
 };
 
