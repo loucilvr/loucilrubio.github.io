@@ -3,9 +3,14 @@ import mockup1 from "../../assets/img/flippy-iphonex-mockup-1.png";
 import mockup2 from "../../assets/img/flippy-iphonex-mockup-2.png";
 import FlippyWeb from "../../assets/img/flippy-web.png";
 import wireframePreview from "../../assets/img/wireframe_preview.png";
+import portfolioIphone678 from "../../assets/img/iphone678.png";
+import portfolioIphoneXXS from "../../assets/img/iphonex-xs.png";
+import portfolioIpad from "../../assets/img/ipad.png";
+import portfolioWeb from "../../assets/img/web.png";
 import { createUseStyles } from "react-jss";
 import commonStyles from "../../common/commonStyles";
 import Project from "./Project";
+import ImageWrapper from "./ImageWrapper";
 
 const useStyles = createUseStyles({
   ...commonStyles,
@@ -28,6 +33,10 @@ const useStyles = createUseStyles({
   },
   invisionProj: {
     textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
     "& > p": {
       color: "#9F9F9F",
     },
@@ -39,6 +48,19 @@ const useStyles = createUseStyles({
   },
   projects: {
     width: "100%",
+  },
+  other: {
+    textAlign: "center",
+  },
+  images: {
+    display: "flex",
+    justifyContent: "center",
+    "@media (min-width: 769px)": {
+      flexDirection: "row",
+    },
+    "@media (max-width: 768px)": {
+      flexDirection: "column",
+    },
   },
 });
 
@@ -91,7 +113,11 @@ const Projects = () => {
       with food."
         renderImages={() => (
           <div className={classes.invisionProj}>
-            <img src={wireframePreview} alt="Wireframe Preview" width="400" />
+            <img
+              src={wireframePreview}
+              alt="Food Journal UX Design Preview"
+              width="380"
+            />
             <p>
               (Mobile App in Progress &nbsp;|&nbsp; Invision Prototype link
               available)
@@ -99,6 +125,49 @@ const Projects = () => {
           </div>
         )}
       />
+      <Project
+        title="Personal Site"
+        description="This personal site has been my baby for the duration of my college and professional career, and is something that has evolved over time content-wise and tech-wise.
+        This site you're looking at was built using React, Redux, HTML, CSS/JSS and is currently being deployed/served through GitHub Pages."
+        renderImages={() => (
+          <div className={classes.invisionProj}>
+            <ImageWrapper
+              imageSource={portfolioWeb}
+              title="Web"
+              altText="Web Screenshot"
+              width={380}
+            />
+            <div className={classes.images}>
+              <span>
+                <ImageWrapper
+                  imageSource={portfolioIphone678}
+                  title="iPhone 6, 7, 8"
+                  altText="iPhone 6, 7, 8 Screenshot"
+                  width={140}
+                  useCardShadow={true}
+                />
+              </span>
+              <span>
+                <ImageWrapper
+                  imageSource={portfolioIphoneXXS}
+                  title="iPhone X, XS"
+                  altText="iPhone X, XS Screenshot"
+                  width={140}
+                  useCardShadow={true}
+                />
+              </span>
+              <ImageWrapper
+                imageSource={portfolioIpad}
+                title="iPad"
+                altText="iPad Screenshot"
+                width={320}
+                useCardShadow={true}
+              />
+            </div>
+          </div>
+        )}
+      />
+      <p className={classes.other}>Other Projects available on Invision :-)</p>
     </div>
   );
 };
