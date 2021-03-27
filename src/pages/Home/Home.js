@@ -54,10 +54,10 @@ const Home = () => {
         <section className={classes.aboutDetails}>
           <p>
             {" "}
-            I'm a <strong> UX Engineer</strong> obsessed with solving users’
-            problems through design, user research and software development. I'm
-            currently designing, building and deploying features at J.P. Morgan
-            Chase, located in Tampa, FL.
+            I'm a <strong> UX Engineer</strong> obsessed with understanding and
+            solving users’ problems through design, user research and software
+            development. I'm currently designing, building and deploying
+            software at J.P. Morgan Chase, located in Tampa, FL.
             <br />
             <br />I consider myself 45% developer, 45% designer and 10%
             caffeine. On some days, I'm working on high-fidelity designs on
@@ -67,8 +67,8 @@ const Home = () => {
             all while being overly caffeinated from making lattes during my
             breaks.
             <br />
-            <br />I built this portfolio to share some of my current interests
-            and showcase things I've created outside of work for fun.
+            <br />I built this portfolio to share some of my interests and
+            showcase things I've created outside of work for fun.
           </p>
         </section>
         <section className={classes.mediaLinks}>
