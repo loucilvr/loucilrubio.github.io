@@ -1,4 +1,7 @@
-const styles = {
+import React from "react";
+import { createUseStyles } from "react-jss";
+
+const useStyles = createUseStyles({
   heading: {
     background: "linear-gradient(130deg, #ff7c00 0%, #e93750 30%, #b00970 60%)",
     "-webkit-background-clip": "text",
@@ -10,6 +13,11 @@ const styles = {
     margin: 0,
     padding: 0,
   },
+});
+
+const PageHeading = ({ title }) => {
+  const classes = useStyles();
+  return <h1 className={classes.heading}>{title}</h1>;
 };
 
-export default styles;
+export default PageHeading;

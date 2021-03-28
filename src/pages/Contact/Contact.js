@@ -1,9 +1,8 @@
 import React from "react";
 import { createUseStyles } from "react-jss";
-import commonStyles from "../../common/commonStyles";
+import PageHeading from "../../components/PageHeading";
 
 const useStyles = createUseStyles({
-  ...commonStyles,
   text: {
     padding: 0,
     margin: "8px 0",
@@ -23,7 +22,7 @@ const Contact = () => {
   const classes = useStyles();
   return (
     <div className={classes.linkContainer}>
-      <h3 className={classes.heading}>Contact Information</h3>
+      <PageHeading title="Contact Information" />
       <div className={classes.links}>
         <p className={classes.text}>
           LinkedIn:{" "}

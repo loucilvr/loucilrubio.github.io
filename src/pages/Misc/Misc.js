@@ -1,6 +1,6 @@
 import React from "react";
 import { createUseStyles } from "react-jss";
-import commonStyles from "../../common/commonStyles";
+import PageHeading from "../../components/PageHeading";
 
 const articles = [
   {
@@ -34,7 +34,6 @@ const useStyles = createUseStyles({
     color: "#8a8a8a",
     fontWeight: "bold",
   },
-  ...commonStyles,
   articles: {
     padding: "24px 32px",
   },
@@ -64,7 +63,7 @@ const Misc = () => {
 
   return (
     <div className={classes.miscContainer}>
-      <h3 className={classes.heading}>Miscellaneous</h3>
+      <PageHeading title="Miscellaneous" />
       <div className={classes.articles}>
         <p className={classes.articlesSubheader}>
           Some articles worth sharing:

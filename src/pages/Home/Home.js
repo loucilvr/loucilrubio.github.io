@@ -1,7 +1,7 @@
 import React from "react";
 import Headshot from "../../assets/img/2016spring_headshot.png";
 import { createUseStyles } from "react-jss";
-import commonStyles from "../../common/commonStyles";
+import PageHeading from "../../components/PageHeading";
 
 const useStyles = createUseStyles({
   about: {
@@ -36,8 +36,6 @@ const useStyles = createUseStyles({
       },
     },
   },
-  link: {},
-  ...commonStyles,
 });
 
 const Home = () => {
@@ -50,7 +48,7 @@ const Home = () => {
         className={classes.headshot}
       />
       <div>
-        <h1 className={classes.heading}>hi there, I'm Loucil :-)</h1>
+        <PageHeading title="hi there, I'm Loucil :-)" />
         <section className={classes.aboutDetails}>
           <p>
             {" "}

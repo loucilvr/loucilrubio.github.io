@@ -11,26 +11,11 @@ import { createUseStyles } from "react-jss";
 import commonStyles from "../../common/commonStyles";
 import Project from "./Project";
 import ImageWrapper from "./ImageWrapper";
+import Button from "../../components/Button";
+import PageHeading from "../../components/PageHeading";
 
 const useStyles = createUseStyles({
   ...commonStyles,
-  demoCta: {
-    backgroundColor: "#d63939",
-    border: "none",
-    color: "#ffffff",
-    fontWeight: "bold",
-    borderRadius: "34px",
-    height: "30px",
-    padding: "0px 16px",
-    fontSize: "14px",
-    textTransform: "uppercase",
-    "&:hover": {
-      color: "#d63939",
-      border: "3px solid #d63939",
-      backgroundColor: "transparent",
-      cursor: "pointer",
-    },
-  },
   invisionProj: {
     textAlign: "center",
     display: "flex",
@@ -65,13 +50,16 @@ const useStyles = createUseStyles({
       flexDirection: "column",
     },
   },
+  appLink: {
+    marginTop: "24px",
+  },
 });
 
 const Projects = () => {
   const classes = useStyles();
   return (
     <div className={classes.projects}>
-      <h2 className={classes.heading}>Projects</h2>
+      <PageHeading title="Projects" />
       <Project
         title="Flippy"
         description="A mobile-friendly web app for flipping through a set of study guide
@@ -100,13 +88,15 @@ const Projects = () => {
           </div>
         )}
         renderFooter={() => (
-          <>
-            <br />
-            <br />
-            <a href="https://flippy-app.herokuapp.com/">
-              <button className={classes.demoCta}>Launch Flippy</button>
-            </a>
-          </>
+          <div className={classes.appLink}>
+            <Button
+              handleClick={() =>
+                window &&
+                window.open("https://flippy-app.herokuapp.com/home", "_blank")
+              }
+              label="Launch Flippy"
+            />
+          </div>
         )}
       />
       <Project
