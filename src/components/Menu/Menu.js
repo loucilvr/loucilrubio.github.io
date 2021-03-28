@@ -20,7 +20,7 @@ const useStyles = createUseStyles({
       padding: "32px 24px",
       fontSize: "18px",
       width: "100%",
-      height: "260px",
+      height: "280px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
@@ -63,6 +63,19 @@ const useStyles = createUseStyles({
     "@media (max-width: 768px)": {
       top: 0,
       transition: "top 330ms",
+    },
+  },
+  portfolioLabel: {
+    margin: 0,
+    letterSpacing: "2px",
+    "@media (max-width: 768px)": {
+      color: "#646464",
+      padding: "0px 8px 18px 8px",
+      fontSize: "14px",
+    },
+    "@media (min-width: 769px)": {
+      padding: "8px 8px 64px 8px",
+      color: "#b7b7b7",
     },
   },
 });
@@ -119,6 +132,7 @@ const Menu = ({ selectedContent, setView }) => {
         showMenu ? classes.showMenu : classes.hideMenu
       )}
     >
+      <p className={classes.portfolioLabel}>LOUCIL RUBIO</p>
       {menuLinks.map((ml) => (
         <Link
           to={ml.path}
