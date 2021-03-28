@@ -1,9 +1,7 @@
 import React from "react";
 import { createUseStyles } from "react-jss";
-import commonStyles from "../../common/commonStyles";
 
 const useStyles = createUseStyles({
-  ...commonStyles,
   text: {
     fontSize: "16px",
     color: "#363636",

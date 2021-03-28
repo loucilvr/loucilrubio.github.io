@@ -8,14 +8,12 @@ import portfolioIphoneXXS from "../../assets/img/iphonex-xs.png";
 import portfolioIpad from "../../assets/img/ipad.png";
 import portfolioWeb from "../../assets/img/web.png";
 import { createUseStyles } from "react-jss";
-import commonStyles from "../../common/commonStyles";
 import Project from "./Project";
 import ImageWrapper from "./ImageWrapper";
 import Button from "../../components/Button";
 import PageHeading from "../../components/PageHeading";
 
 const useStyles = createUseStyles({
-  ...commonStyles,
   invisionProj: {
     textAlign: "center",
     display: "flex",
