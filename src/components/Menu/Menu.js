@@ -22,7 +22,7 @@ const useStyles = createUseStyles({
       width: "100%",
       height: "260px",
       backgroundImage:
-        "-webkit-linear-gradient(100deg, transparent 34.5%, #cc4558 35%, #9e216e 95%)",
+        "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
       overflow: "hidden",
       "& > a": {

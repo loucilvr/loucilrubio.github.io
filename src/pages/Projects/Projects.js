@@ -75,7 +75,7 @@ const Projects = () => {
       <Project
         title="Flippy"
         description="A mobile-friendly web app for flipping through a set of study guide
-          flash cards. Flippy was built with React and is currently deployed on
+          flash cards. Flippy was built with React and deployed on
           Heroku. This was an app I built to help myself and others study for
           the US Citizenship exam."
         renderImages={() => (
@@ -131,7 +131,7 @@ const Projects = () => {
       <Project
         title="Personal Site"
         description="This personal site has been my baby for the duration of my college and professional career, and is something that has evolved over time content-wise and tech-wise.
-        This site you're looking at was built using React, Redux, HTML, CSS/JSS and is currently being deployed/served through GitHub Pages."
+        This site you're looking at was built in React and is currently being deployed/served through GitHub Pages."
         renderImages={() => (
           <div className={classes.invisionProj}>
             <ImageWrapper
