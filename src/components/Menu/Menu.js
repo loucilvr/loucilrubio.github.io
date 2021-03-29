@@ -13,6 +13,7 @@ const useStyles = createUseStyles({
   menu: {
     height: "100%",
     overflow: "hidden",
+    boxSizing: 'border-box',
     zIndex: 2,
     "@media (max-width: 768px)": {
       display: "flex",
@@ -20,7 +21,7 @@ const useStyles = createUseStyles({
       padding: "32px 24px",
       fontSize: "18px",
       width: "100%",
-      height: "290px",
+      height: "360px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
@@ -71,7 +72,7 @@ const useStyles = createUseStyles({
     "@media (max-width: 768px)": {
       color: "#646464",
       padding: "0px 8px 18px 8px",
-      fontSize: "14px",
+      fontSize: "12px",
     },
     "@media (min-width: 769px)": {
       padding: "8px 8px 64px 8px",

@@ -53,7 +53,7 @@ const useStyles = createUseStyles({
   },
   desc: {
     margin: 0,
-    paddingTop: "16px",
+    padding: "16px 8px",
   },
 });
 
@@ -61,10 +61,7 @@ const Projects = () => {
   const classes = useStyles();
   return (
     <div className={classes.projects}>
-      <PageHeading title="Projects" />
-      <p className={classes.desc}>
-        Below are a few projects I've worked on outside of work
-      </p>
+      <PageHeading title="Side Projects" />
       <Project
         title="Flippy"
         description="A mobile-friendly web app for flipping through a set of study guide
