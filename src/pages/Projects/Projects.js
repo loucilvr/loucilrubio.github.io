@@ -51,6 +51,10 @@ const useStyles = createUseStyles({
   appLink: {
     marginTop: "24px",
   },
+  desc: {
+    margin: 0,
+    paddingTop: "16px",
+  },
 });
 
 const Projects = () => {
@@ -58,6 +62,9 @@ const Projects = () => {
   return (
     <div className={classes.projects}>
       <PageHeading title="Projects" />
+      <p className={classes.desc}>
+        Below are a few projects I've worked on outside of work
+      </p>
       <Project
         title="Flippy"
         description="A mobile-friendly web app for flipping through a set of study guide
@@ -99,8 +106,8 @@ const Projects = () => {
       />
       <Project
         title="Food Journal"
-        description=" A native mobile app that aims to help people keep track of their daily
-      food habits and help better understand their own personal relationship
+        description=" A mobile app that aims to help people keep track of their daily
+      food habits and help better understand/build their own personal relationship
       with food."
         renderImages={() => (
           <div className={classes.invisionProj}>

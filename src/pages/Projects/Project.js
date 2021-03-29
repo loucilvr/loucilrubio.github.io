@@ -27,9 +27,9 @@ const useStyles = createUseStyles({
   },
   horizRule: {
     backgroundColor: "#dddddd",
-    height: "2px",
+    height: "1px",
     marginBottom: "8px",
-    width: "100%",
+    width: "90%",
   },
 });
 const Project = ({ title, description, renderImages, renderFooter }) => {
