@@ -115,7 +115,7 @@ const Menu = ({ selectedContent, setView }) => {
     const handleScroll = () => {
       if (browserWidth <= 768) {
         const currentScrollPos = window.pageYOffset;
-        const showMenu = currentScrollPos <= 200;
+        const showMenu = currentScrollPos <= 180;
         setShowMenu(showMenu);
         setPrevScrollPos(currentScrollPos);
       }

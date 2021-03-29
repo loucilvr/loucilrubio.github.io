@@ -81,7 +81,7 @@ const Projects = () => {
             <img
               src={FlippyWeb}
               alt="Flippy iPhone X mockup flash card view"
-              width="400px"
+              width="320px"
             />
           </div>
         )}
@@ -107,7 +107,7 @@ const Projects = () => {
             <img
               src={wireframePreview}
               alt="Food Journal UX Design Preview"
-              width="380"
+              width="320"
             />
             <p>
               (Mobile App in Progress &nbsp;|&nbsp; Invision Prototype link
@@ -126,7 +126,7 @@ const Projects = () => {
               imageSource={portfolioWeb}
               title="Web"
               altText="Web Screenshot"
-              width={380}
+              width={300}
             />
             <div className={classes.images}>
               <span>
@@ -151,7 +151,7 @@ const Projects = () => {
                 imageSource={portfolioIpad}
                 title="iPad"
                 altText="iPad Screenshot"
-                width={320}
+                width={300}
                 useCardShadow={true}
               />
             </div>
