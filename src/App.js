@@ -7,6 +7,7 @@ import Misc from "./pages/Misc/Misc";
 import Menu from "./components/Menu/Menu";
 import Contact from "./pages/Contact/Contact";
 import { createUseStyles } from "react-jss";
+import Experience from "./pages/Experience/Experience";
 
 const useStyles = createUseStyles({
   content: {
@@ -52,6 +53,7 @@ const App = () => {
         <Menu />
         <main className={classes.mainContent}>
           <Route exact path="/" component={Home} />
+          <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
           <Route path="/illustrations" component={Illustrations} />
           <Route path="/misc" component={Misc} />

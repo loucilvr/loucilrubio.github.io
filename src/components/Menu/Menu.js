@@ -19,9 +19,9 @@ const useStyles = createUseStyles({
       display: "flex",
       flexDirection: "column",
       padding: "32px 24px",
-      fontSize: "18px",
+      fontSize: "16px",
       width: "100%",
-      height: "360px",
+      height: "420px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
@@ -69,14 +69,18 @@ const useStyles = createUseStyles({
   portfolioLabel: {
     margin: 0,
     letterSpacing: "2px",
+    '&:hover': {
+      textDecoration: 'none !important'
+    },
     "@media (max-width: 768px)": {
-      color: "#646464",
-      padding: "0px 8px 18px 8px",
-      fontSize: "12px",
+      color: "#646464 !important",
+      padding: "0px 8px 18px 0px",
+      fontSize: "14px",
     },
     "@media (min-width: 769px)": {
-      padding: "8px 8px 64px 8px",
-      color: "#b7b7b7",
+      padding: "8px 8px 64px 0px",
+      color: "#b7b7b7 !important",
+      fontSize: "18px !important",
     },
   },
 });
@@ -85,6 +89,10 @@ const menuLinks = [
   {
     label: "HOME",
     path: "/",
+  },
+  {
+    label: "EXPERIENCE",
+    path: "/experience",
   },
   {
     label: "PROJECTS",
@@ -133,9 +141,9 @@ const Menu = ({ selectedContent, setView }) => {
         showMenu ? classes.showMenu : classes.hideMenu
       )}
     >
-      <p className={classes.portfolioLabel}>LOUCIL RUBIO</p>
+      <a href="/" className={classes.portfolioLabel}>LOUCIL RUBIO</a>
       {menuLinks.map((ml) => (
-        <Link
+                  <Link
           to={ml.path}
           key={ml.label}
           onClick={(e) => setView(ml.label)}

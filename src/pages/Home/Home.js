@@ -63,7 +63,7 @@ const Home = () => {
             on some days, I'm gathering user requirements, creating
             high-fidelity designs on Sketch/Invision for our client-facing and
             internal applications, or demoing and gathering feedback from
-            Product and users. And on other days, I'm building UI components in
+            Product, tech and users. And on other days, I'm building UI components in
             React, integrating screens with API services, mentoring other
             engineers and shipping features into Production.
             <br />
