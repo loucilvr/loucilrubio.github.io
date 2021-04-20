@@ -24,6 +24,12 @@ const useStyles = createUseStyles({
   },
   experienceContent: {
     padding: "32px 16px",
+    "& > p": {
+      fontSize: "16px",
+      color: "#363636",
+      textAlign: "left",
+      lineHeight: "22px",
+    },
   },
 });
 
@@ -40,7 +46,8 @@ const Experience = () => {
           </h3>
         </div>
         <p className={classes.description}>
-          Lead the design of an internal Operations tool and client-facing Banking application
+          Lead the design of an internal Operations tool and client-facing
+          Banking application
           <br />
           Build UI components and fully integrated screens using internal Design
           System & Toolkit
@@ -51,8 +58,8 @@ const Experience = () => {
           Create low/high-fidelity mockups and gather feedback to validate
           solution
           <br />
-          Breakdown stories into minimum viable changes and guide other frontend
-          engineers with implementation
+          Breakdown stories into minimum viable changes and collaborate with
+          other frontend engineers and designers on design and implementation
         </p>
         <div className={classes.titleCompanyContainer}>
           <h3>Software Engineer Intern</h3>
