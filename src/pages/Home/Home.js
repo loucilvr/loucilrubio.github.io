@@ -34,6 +34,12 @@ const useStyles = createUseStyles({
     padding: "0 42px",
     lineHeight: "22px",
   },
+  divider: {
+    width: "1px",
+    height: "14px",
+    backgroundColor: "#afafaf",
+    margin: "0 24px",
+  },
   mediaLinks: {
     marginTop: "46px",
     display: "flex",
@@ -95,7 +101,7 @@ const Home = () => {
             className={classes.linkedinLogo}
           />{" "}
           <a href="https://www.linkedin.com/in/mlcrubio">LINKEDIN</a>
-          &nbsp;&nbsp; | &nbsp;
+          <div className={classes.divider} />
           <img
             src={Github}
             alt="Github company logo"
