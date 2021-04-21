@@ -1,5 +1,7 @@
 import React from "react";
 import Headshot from "../../assets/img/2016spring_headshot.png";
+import Linkedin from "../../assets/img/linkedinLogo.png";
+import Github from "../../assets/img/githubLogo.png";
 import { createUseStyles } from "react-jss";
 import PageHeading from "../../components/PageHeading";
 
@@ -9,6 +11,16 @@ const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+  },
+  linkedinLogo: {
+    display: "inline",
+    width: "17px",
+    marginRight: "6px",
+  },
+  githubLogo: {
+    display: "inline",
+    width: "18px",
+    marginRight: "6px",
   },
   headshot: {
     width: "30%",
@@ -24,7 +36,9 @@ const useStyles = createUseStyles({
   },
   mediaLinks: {
     marginTop: "46px",
-    textAlign: "center",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
     fontSize: "14px",
     letterSpacing: "1px",
     textDecoration: "none",
@@ -63,9 +77,9 @@ const Home = () => {
             on some days, I'm gathering user requirements, creating
             high-fidelity designs on Sketch/Invision for our client-facing and
             internal applications, or demoing and gathering feedback from
-            Product, tech and users. And on other days, I'm building UI components in
-            React, integrating screens with API services, mentoring other
-            engineers and shipping features into Production.
+            Product, tech and users. And on other days, I'm building UI
+            components in React, integrating screens with API services,
+            mentoring other engineers and shipping features into Production.
             <br />
             <br />
             Outside of work, you'll find me painting, drawing, baking, playing
@@ -75,8 +89,18 @@ const Home = () => {
           </p>
         </section>
         <section className={classes.mediaLinks}>
+          <img
+            src={Linkedin}
+            alt="LinkedIn company logo"
+            className={classes.linkedinLogo}
+          />{" "}
           <a href="https://www.linkedin.com/in/mlcrubio">LINKEDIN</a>
-          &nbsp;| &nbsp;
+          &nbsp;&nbsp; | &nbsp;
+          <img
+            src={Github}
+            alt="Github company logo"
+            className={classes.githubLogo}
+          />{" "}
           <a href="https://github.com/loucilvr">GITHUB</a>
         </section>
       </div>
