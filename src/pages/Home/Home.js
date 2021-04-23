@@ -79,7 +79,7 @@ const Home = () => {
             <br />
             <br />
             This role I'm in now allows me to do both of the things that I love
-            and that is front-end development and UI/UX design. So on some days,
+            and that is UI/UX design and front-end development. So on some days,
             I'm gathering user requirements, interviewing users, creating
             low/high-fidelity designs on Sketch/Invision, or demoing and
             gathering feedback from Product, tech and users. And on other days,
