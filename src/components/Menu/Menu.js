@@ -11,9 +11,9 @@ const useStyles = createUseStyles({
     color: "#FFFFFF",
   },
   menu: {
-    height: "100%",
+    height: "auto",
     overflow: "hidden",
-    boxSizing: 'border-box',
+    boxSizing: "border-box",
     zIndex: 2,
     "@media (max-width: 768px)": {
       display: "flex",
@@ -69,8 +69,8 @@ const useStyles = createUseStyles({
   portfolioLabel: {
     margin: 0,
     letterSpacing: "2px",
-    '&:hover': {
-      textDecoration: 'none !important'
+    "&:hover": {
+      textDecoration: "none !important",
     },
     "@media (max-width: 768px)": {
       color: "#646464 !important",
@@ -141,9 +141,11 @@ const Menu = ({ selectedContent, setView }) => {
         showMenu ? classes.showMenu : classes.hideMenu
       )}
     >
-      <a href="/" className={classes.portfolioLabel}>LOUCIL RUBIO</a>
+      <a href="/" className={classes.portfolioLabel}>
+        LOUCIL RUBIO
+      </a>
       {menuLinks.map((ml) => (
-                  <Link
+        <Link
           to={ml.path}
           key={ml.label}
           onClick={(e) => setView(ml.label)}

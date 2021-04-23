@@ -31,6 +31,7 @@ const useStyles = createUseStyles({
   },
   projects: {
     width: "100%",
+    height: "100%",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -54,6 +55,13 @@ const useStyles = createUseStyles({
   desc: {
     margin: 0,
     padding: "16px 8px",
+  },
+  link: {
+    textDecoration: "none",
+    color: "#b00970",
+    "&:hover": {
+      textDecoration: "underline",
+    },
   },
 });
 
@@ -122,44 +130,12 @@ const Projects = () => {
       />
       <Project
         title="Personal Site"
-        description="This personal site has been my baby for the duration of my college and professional career, and is something that has evolved over time content-wise and tech-wise.
-        This site you're looking at was built in React and is currently being deployed/served through GitHub Pages."
-        renderImages={() => (
-          <div className={classes.invisionProj}>
-            <ImageWrapper
-              imageSource={portfolioWeb}
-              title="Web"
-              altText="Web Screenshot"
-              width={300}
-            />
-            <div className={classes.images}>
-              <span>
-                <ImageWrapper
-                  imageSource={portfolioIphone678}
-                  title="iPhone 6, 7, 8"
-                  altText="iPhone 6, 7, 8 Screenshot"
-                  width={140}
-                  useCardShadow={true}
-                />
-              </span>
-              <span>
-                <ImageWrapper
-                  imageSource={portfolioIphoneXXS}
-                  title="iPhone X, XS"
-                  altText="iPhone X, XS Screenshot"
-                  width={140}
-                  useCardShadow={true}
-                />
-              </span>
-              <ImageWrapper
-                imageSource={portfolioIpad}
-                title="iPad"
-                altText="iPad Screenshot"
-                width={300}
-                useCardShadow={true}
-              />
-            </div>
-          </div>
+        description="I've redesigned and rebuilt this site throughout the duration of my college and professional career, and is something that acts my sandbox for frontend development.
+        This portoflio was built in React, HTML/CSS and is available on GitHub."
+        renderFooter={() => (
+          <a className={classes.link} href="https://github.com/loucilvr">
+            View my GitHub Profile
+          </a>
         )}
       />
       <p className={classes.other}>Other Projects available on Invision :-)</p>
