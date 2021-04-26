@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e9f2eacd.chunk.css",
-    "main.js": "/static/js/main.61b04c85.chunk.js",
-    "main.js.map": "/static/js/main.61b04c85.chunk.js.map",
+    "main.js": "/static/js/main.aaa9bbbe.chunk.js",
+    "main.js.map": "/static/js/main.aaa9bbbe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.8c85ea81.chunk.js": "/static/js/2.8c85ea81.chunk.js",
-    "static/js/2.8c85ea81.chunk.js.map": "/static/js/2.8c85ea81.chunk.js.map",
+    "static/js/2.8ecc27f1.chunk.js": "/static/js/2.8ecc27f1.chunk.js",
+    "static/js/2.8ecc27f1.chunk.js.map": "/static/js/2.8ecc27f1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6dcbaff8675cecae7f43b48c1e072bd3.js": "/precache-manifest.6dcbaff8675cecae7f43b48c1e072bd3.js",
+    "precache-manifest.a52395307710a1e28d04cc45b9f9c693.js": "/precache-manifest.a52395307710a1e28d04cc45b9f9c693.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e9f2eacd.chunk.css.map": "/static/css/main.e9f2eacd.chunk.css.map",
-    "static/js/2.8c85ea81.chunk.js.LICENSE.txt": "/static/js/2.8c85ea81.chunk.js.LICENSE.txt",
+    "static/js/2.8ecc27f1.chunk.js.LICENSE.txt": "/static/js/2.8ecc27f1.chunk.js.LICENSE.txt",
     "static/media/2016spring_headshot.png": "/static/media/2016spring_headshot.a5a4310a.png",
     "static/media/coffeeee.jpeg": "/static/media/coffeeee.8623c2ba.jpeg",
     "static/media/desert.png": "/static/media/desert.62388843.png",
@@ -20,18 +20,14 @@
     "static/media/flippy-iphonex-mockup-2.png": "/static/media/flippy-iphonex-mockup-2.a803a0b8.png",
     "static/media/flippy-web.png": "/static/media/flippy-web.7184ab79.png",
     "static/media/his-hers-breakfast.jpg": "/static/media/his-hers-breakfast.745c3e5f.jpg",
-    "static/media/ipad.png": "/static/media/ipad.4bd94e91.png",
-    "static/media/iphone678.png": "/static/media/iphone678.758eccff.png",
-    "static/media/iphonex-xs.png": "/static/media/iphonex-xs.9a280705.png",
     "static/media/madeleine_latte.png": "/static/media/madeleine_latte.4e28c988.png",
-    "static/media/web.png": "/static/media/web.62d1cc3e.png",
     "static/media/winter_2020.png": "/static/media/winter_2020.adb09c19.png",
     "static/media/wireframe_preview.png": "/static/media/wireframe_preview.ce44ee31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.8c85ea81.chunk.js",
+    "static/js/2.8ecc27f1.chunk.js",
     "static/css/main.e9f2eacd.chunk.css",
-    "static/js/main.61b04c85.chunk.js"
+    "static/js/main.aaa9bbbe.chunk.js"
   ]
 }
