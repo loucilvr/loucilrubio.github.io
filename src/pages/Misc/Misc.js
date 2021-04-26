@@ -1,6 +1,6 @@
 import React from "react";
 import { createUseStyles } from "react-jss";
-import PageHeading from "../../components/PageHeading";
+import PageHeading from "../../components/Typography/PageHeading";
 
 const articles = [
   {

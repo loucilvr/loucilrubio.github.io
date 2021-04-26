@@ -2,7 +2,7 @@ import React from "react";
 import breakfastImg from "../../assets/img/illustrations/his-hers-breakfast.jpg";
 import coffeee from "../../assets/img/illustrations/coffeeee.jpeg";
 import eucalyptusPlant from "../../assets/img/illustrations/eucalyptus.jpeg";
-import PageHeading from "../../components/PageHeading";
+import PageHeading from "../../components/Typography/PageHeading";
 import madeleineLatte from "../../assets/img/illustrations/madeleine_latte.png";
 import winterWonderlandCabin from "../../assets/img/illustrations/winter_2020.png";
 import desert from "../../assets/img/illustrations/desert.png";

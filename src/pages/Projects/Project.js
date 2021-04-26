@@ -1,12 +1,8 @@
 import React from "react";
 import { createUseStyles } from "react-jss";
+import BodyText from "../../components/Typography/BodyText";
 
 const useStyles = createUseStyles({
-  text: {
-    fontSize: "16px",
-    color: "#363636",
-    lineHeight: "22px",
-  },
   projectDescription: {
     display: "flex",
     flexDirection: "column",
@@ -38,7 +34,7 @@ const Project = ({ title, description, renderImages, renderFooter }) => {
     <>
       <div className={classes.projectDescription}>
         <h2>{title}</h2>
-        <p className={classes.text}>{description}</p>
+        <BodyText>{description}</BodyText>
         <span className={classes.demoImages}>
           {renderImages && renderImages()}
         </span>

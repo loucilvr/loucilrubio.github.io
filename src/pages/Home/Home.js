@@ -3,7 +3,8 @@ import Headshot from "../../assets/img/2016spring_headshot.png";
 import Linkedin from "../../assets/img/linkedinLogo.png";
 import Github from "../../assets/img/githubLogo.png";
 import { createUseStyles } from "react-jss";
-import PageHeading from "../../components/PageHeading";
+import PageHeading from "../../components/Typography/PageHeading";
+import BodyText from "../../components/Typography/BodyText";
 
 const useStyles = createUseStyles({
   about: {
@@ -28,11 +29,8 @@ const useStyles = createUseStyles({
     marginBottom: "32px",
   },
   aboutDetails: {
-    fontSize: "16px",
-    color: "#363636",
     textAlign: "left",
     padding: "0 42px",
-    lineHeight: "22px",
   },
   divider: {
     width: "1px",
@@ -64,14 +62,13 @@ const Home = () => {
     <div className={classes.about}>
       <img
         src={Headshot}
-        alt="Personal Headshot"
+        alt="My personal headshot"
         className={classes.headshot}
       />
       <div>
         <PageHeading title="hi there, I'm Loucil :-)" />
         <section className={classes.aboutDetails}>
-          <p>
-            {" "}
+          <BodyText>
             I'm a <strong> UX Engineer</strong> obsessed with understanding and
             solving users’ problems through user research, design and software
             development. I'm currently designing, building and deploying
@@ -92,7 +89,7 @@ const Home = () => {
             with my dog or practicing latte art. I built this portfolio to share
             some of my interests and showcase things I've created outside of
             work for fun :-)
-          </p>
+          </BodyText>
         </section>
         <section className={classes.mediaLinks}>
           <img
@@ -100,14 +97,24 @@ const Home = () => {
             alt="LinkedIn company logo"
             className={classes.linkedinLogo}
           />{" "}
-          <a href="https://www.linkedin.com/in/mlcrubio">LINKEDIN</a>
+          <a
+            href="https://www.linkedin.com/in/mlcrubio"
+            aria-label="View my LinkedIn Profile"
+          >
+            LINKEDIN
+          </a>
           <div className={classes.divider} />
           <img
             src={Github}
             alt="Github company logo"
             className={classes.githubLogo}
           />{" "}
-          <a href="https://github.com/loucilvr">GITHUB</a>
+          <a
+            href="https://github.com/loucilvr"
+            aria-label="View my GitHub Projects"
+          >
+            GITHUB
+          </a>
         </section>
       </div>
     </div>

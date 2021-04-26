@@ -3,15 +3,10 @@ import mockup1 from "../../assets/img/flippy-iphonex-mockup-1.png";
 import mockup2 from "../../assets/img/flippy-iphonex-mockup-2.png";
 import FlippyWeb from "../../assets/img/flippy-web.png";
 import wireframePreview from "../../assets/img/wireframe_preview.png";
-import portfolioIphone678 from "../../assets/img/iphone678.png";
-import portfolioIphoneXXS from "../../assets/img/iphonex-xs.png";
-import portfolioIpad from "../../assets/img/ipad.png";
-import portfolioWeb from "../../assets/img/web.png";
 import { createUseStyles } from "react-jss";
 import Project from "./Project";
-import ImageWrapper from "./ImageWrapper";
 import Button from "../../components/Button";
-import PageHeading from "../../components/PageHeading";
+import PageHeading from "../../components/Typography/PageHeading";
 
 const useStyles = createUseStyles({
   invisionProj: {
