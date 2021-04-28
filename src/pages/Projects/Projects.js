@@ -67,10 +67,12 @@ const Projects = () => {
       <PageHeading title="Side Projects" />
       <Project
         title="Flippy"
-        description="A mobile-friendly web app for flipping through a set of study guide
-          flash cards. Flippy was built with React and deployed on
-          Heroku. This was an app I built to help myself and others study for
-          the US Citizenship exam."
+        description={`A mobile-friendly web app for flipping through a set of flash cards. 
+        The first MLP "minimum lovable product" of this allowed myself and others 
+        to study for the US Citizenship Exam through a few simple features.
+         Flippy allows you to see the question and answer on a card, provides a way to go through a deck of cards and see how many cards you've gone through, 
+         as well as a way to randomly pick a flash card in order to really test your knowledge.
+         I designed and built this app with React and it is currently deployed on Heroku.`}
         renderImages={() => (
           <div className={classes.flippyImages}>
             <div>

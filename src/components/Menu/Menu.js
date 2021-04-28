@@ -103,10 +103,6 @@ const menuLinks = [
     path: "/illustrations",
   },
   {
-    label: "MISC",
-    path: "/misc",
-  },
-  {
     label: "CONTACT",
     path: "/contact",
   },

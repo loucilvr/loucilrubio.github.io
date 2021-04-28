@@ -45,8 +45,9 @@ const Experience = () => {
             </h3>
           </div>
           <BodyText>
-            Lead the design of a new internal Operations tool and client-facing
-            Banking web application
+            Designed & built multiple applications in the firm and currently
+            leading the design of a new internal Operations tool and
+            client-facing Healthcare Payments application
             <br />
             Build UI components and fully integrated screens using internal
             Design System & Toolkit
@@ -54,8 +55,8 @@ const Experience = () => {
             Facilitate user interviews to better understand user goals and
             current pain points
             <br />
-            Create low/high-fidelity mockups and gather feedback to validate
-            solution
+            Create low/high-fidelity mockups and gather feedback from Product,
+            tech and users to validate solution
             <br />
             Breakdown stories into minimum viable changes and collaborate with
             other frontend engineers and designers on design and implementation
