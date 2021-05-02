@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "720bcee9147cdd287f59f9b799ce1f4e",
+    "revision": "7383736bd315ceb7c3d11821ab7a1ca6",
     "url": "/index.html"
   },
   {
-    "revision": "456798b76627fe5aff91",
+    "revision": "9bf9dad31d271671cd16",
     "url": "/static/css/main.e9f2eacd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.8ecc27f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "456798b76627fe5aff91",
-    "url": "/static/js/main.9d8994a7.chunk.js"
+    "revision": "9bf9dad31d271671cd16",
+    "url": "/static/js/main.02b2e6da.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flippy-web.7184ab79.png"
   },
   {
+    "revision": "4cb8e2e7999632ee7dc85e5633574d9c",
+    "url": "/static/media/gutInstincts.4cb8e2e7.png"
+  },
+  {
     "revision": "745c3e5f86782508b5488328ce880b3f",
     "url": "/static/media/his-hers-breakfast.745c3e5f.jpg"
   },
@@ -62,9 +66,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "adb09c1996c5934c96c33ea19a2ee70e",
     "url": "/static/media/winter_2020.adb09c19.png"
-  },
-  {
-    "revision": "ce44ee310a6daf679d3ddc5875801a31",
-    "url": "/static/media/wireframe_preview.ce44ee31.png"
   }
 ]);
