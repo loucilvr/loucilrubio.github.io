@@ -2,7 +2,7 @@ import React from "react";
 import mockup1 from "../../assets/img/flippy-iphonex-mockup-1.png";
 import mockup2 from "../../assets/img/flippy-iphonex-mockup-2.png";
 import FlippyWeb from "../../assets/img/flippy-web.png";
-import wireframePreview from "../../assets/img/wireframe_preview.png";
+import giPreview from "../../assets/img/gutInstincts.png";
 import { createUseStyles } from "react-jss";
 import Project from "./Project";
 import Button from "../../components/Button";
@@ -108,20 +108,17 @@ const Projects = () => {
       />
       <Project
         title="Food Journal"
-        description=" A mobile app that aims to help people keep track of their daily
-      food habits and help better understand/build their own personal relationship
+        description=" A mobile app that aims to help people capture daily meals and symptoms to
+         better understand their own personal relationship
       with food."
         renderImages={() => (
           <div className={classes.invisionProj}>
             <img
-              src={wireframePreview}
-              alt="Food Journal UX Design Preview"
-              width="320"
+              src={giPreview}
+              alt="Food Journal mobile app design preview"
+              width="400"
             />
-            <p>
-              (Mobile App in Progress &nbsp;|&nbsp; Invision Prototype link
-              available)
-            </p>
+            <p>(In Progress &nbsp;|&nbsp; Invision Prototype link available)</p>
           </div>
         )}
       />
@@ -135,7 +132,6 @@ const Projects = () => {
           </a>
         )}
       />
-      <p className={classes.other}>Other Projects available on Invision :-)</p>
     </div>
   );
 };
