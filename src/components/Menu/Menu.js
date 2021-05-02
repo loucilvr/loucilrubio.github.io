@@ -21,7 +21,7 @@ const useStyles = createUseStyles({
       padding: "32px 24px",
       fontSize: "16px",
       width: "100%",
-      height: "420px",
+      height: "400px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
