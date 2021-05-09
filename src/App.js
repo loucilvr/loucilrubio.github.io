@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
       width: "100%",
       display: "flex",
       justifyContent: "space-between",
-      padding: "100px 0px",
+      padding: "260px 0px",
     },
     "@media (max-width: 768px)": {
       width: "100%",
@@ -31,7 +31,7 @@ const useStyles = createUseStyles({
       alignItems: "center",
       width: "900px",
       height: "100%",
-      padding: "120px 24px 24px 320px",
+      padding: "0px 24px 24px 280px",
     },
     "@media (max-width: 768px)": {
       display: "flex",

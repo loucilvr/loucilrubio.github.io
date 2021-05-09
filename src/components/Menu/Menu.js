@@ -42,11 +42,9 @@ const useStyles = createUseStyles({
     "@media (min-width: 769px)": {
       display: "flex",
       flexDirection: "column",
-      padding: "24px",
-      marginTop: "140px",
+      padding: "0px 24px",
       position: "fixed",
       "& > a:not(:first-child)": {
-        // margin: "2px 0px",
         "&:hover": {
           backgroundColor: "#f3f3f3",
         },
@@ -78,14 +76,12 @@ const useStyles = createUseStyles({
       textDecoration: "none !important",
     },
     "@media (max-width: 768px)": {
-      color: "#646464 !important",
+      color: "#bdbdbd",
       padding: "0px 8px 18px 0px",
       fontSize: "14px",
     },
     "@media (min-width: 769px)": {
       marginBottom: "64px",
-      color: "#363636 !important",
-      fontSize: "18px !important",
     },
   },
 });
