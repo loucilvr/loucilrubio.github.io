@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0edaab7ba9237491124553ed08002aa5",
+    "revision": "926ea91b99e5bb646438e76eb3b5b0dc",
     "url": "/index.html"
   },
   {
-    "revision": "eed843dcac67bcc4dbd2",
+    "revision": "56ff7c4cd7d8ce8e0273",
     "url": "/static/css/main.e9f2eacd.chunk.css"
   },
   {
-    "revision": "46072a58c6f51c73e949",
-    "url": "/static/js/2.8ecc27f1.chunk.js"
+    "revision": "92c6d5240f38363df64c",
+    "url": "/static/js/2.fd5a3eea.chunk.js"
   },
   {
     "revision": "1a3cc71403f332d098a2b9cdd7c4c36d",
-    "url": "/static/js/2.8ecc27f1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fd5a3eea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eed843dcac67bcc4dbd2",
-    "url": "/static/js/main.78697795.chunk.js"
+    "revision": "56ff7c4cd7d8ce8e0273",
+    "url": "/static/js/main.d60f69c9.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/2016spring_headshot.a5a4310a.png"
   },
   {
-    "revision": "8623c2ba925ca0e7c106ef80ceb5eff6",
-    "url": "/static/media/coffeeee.8623c2ba.jpeg"
+    "revision": "5e72c83336092fc6c182d5815aab572d",
+    "url": "/static/media/coffeeee.5e72c833.jpeg"
   },
   {
     "revision": "623888431318722f2cda41efb2802eb2",
@@ -56,15 +56,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gutInstincts.4cb8e2e7.png"
   },
   {
+    "revision": "aad939f2cd725e3f907e238f4ce7bdd6",
+    "url": "/static/media/heart_latte.aad939f2.jpg"
+  },
+  {
     "revision": "745c3e5f86782508b5488328ce880b3f",
     "url": "/static/media/his-hers-breakfast.745c3e5f.jpg"
   },
   {
-    "revision": "4e28c988c40a24f6ba67771eb72240b6",
-    "url": "/static/media/madeleine_latte.4e28c988.png"
+    "revision": "1122b3da04cc609ead8a9ba1f4b5a41a",
+    "url": "/static/media/latte_breakfast.1122b3da.jpg"
   },
   {
-    "revision": "adb09c1996c5934c96c33ea19a2ee70e",
-    "url": "/static/media/winter_2020.adb09c19.png"
+    "revision": "a1578088e65f1ecf3008d5702567fe52",
+    "url": "/static/media/latte_pastries.a1578088.JPG"
+  },
+  {
+    "revision": "aa023ab42dd9e7a16089a94c9a66bbf8",
+    "url": "/static/media/madeleine_latte.aa023ab4.png"
+  },
+  {
+    "revision": "54d289721888a80b273f909c47960afa",
+    "url": "/static/media/slow_latte.54d28972.JPG"
+  },
+  {
+    "revision": "1cea47139d6cc52d1a0649c881f32529",
+    "url": "/static/media/winter_2020.1cea4713.png"
   }
 ]);

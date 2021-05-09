@@ -1,33 +1,37 @@
 {
   "files": {
     "main.css": "/static/css/main.e9f2eacd.chunk.css",
-    "main.js": "/static/js/main.78697795.chunk.js",
-    "main.js.map": "/static/js/main.78697795.chunk.js.map",
+    "main.js": "/static/js/main.d60f69c9.chunk.js",
+    "main.js.map": "/static/js/main.d60f69c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.8ecc27f1.chunk.js": "/static/js/2.8ecc27f1.chunk.js",
-    "static/js/2.8ecc27f1.chunk.js.map": "/static/js/2.8ecc27f1.chunk.js.map",
+    "static/js/2.fd5a3eea.chunk.js": "/static/js/2.fd5a3eea.chunk.js",
+    "static/js/2.fd5a3eea.chunk.js.map": "/static/js/2.fd5a3eea.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f09ee5bf6dd13fcc22e47d830a96fe51.js": "/precache-manifest.f09ee5bf6dd13fcc22e47d830a96fe51.js",
+    "precache-manifest.481f0c57178e4887f2a2536a2b835b22.js": "/precache-manifest.481f0c57178e4887f2a2536a2b835b22.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e9f2eacd.chunk.css.map": "/static/css/main.e9f2eacd.chunk.css.map",
-    "static/js/2.8ecc27f1.chunk.js.LICENSE.txt": "/static/js/2.8ecc27f1.chunk.js.LICENSE.txt",
+    "static/js/2.fd5a3eea.chunk.js.LICENSE.txt": "/static/js/2.fd5a3eea.chunk.js.LICENSE.txt",
     "static/media/2016spring_headshot.png": "/static/media/2016spring_headshot.a5a4310a.png",
-    "static/media/coffeeee.jpeg": "/static/media/coffeeee.8623c2ba.jpeg",
+    "static/media/coffeeee.jpeg": "/static/media/coffeeee.5e72c833.jpeg",
     "static/media/desert.png": "/static/media/desert.62388843.png",
     "static/media/eucalyptus.jpeg": "/static/media/eucalyptus.fa741dfc.jpeg",
     "static/media/flippy-iphonex-mockup-1.png": "/static/media/flippy-iphonex-mockup-1.ff10a537.png",
     "static/media/flippy-iphonex-mockup-2.png": "/static/media/flippy-iphonex-mockup-2.a803a0b8.png",
     "static/media/flippy-web.png": "/static/media/flippy-web.7184ab79.png",
     "static/media/gutInstincts.png": "/static/media/gutInstincts.4cb8e2e7.png",
+    "static/media/heart_latte.jpg": "/static/media/heart_latte.aad939f2.jpg",
     "static/media/his-hers-breakfast.jpg": "/static/media/his-hers-breakfast.745c3e5f.jpg",
-    "static/media/madeleine_latte.png": "/static/media/madeleine_latte.4e28c988.png",
-    "static/media/winter_2020.png": "/static/media/winter_2020.adb09c19.png"
+    "static/media/latte_breakfast.jpg": "/static/media/latte_breakfast.1122b3da.jpg",
+    "static/media/latte_pastries.JPG": "/static/media/latte_pastries.a1578088.JPG",
+    "static/media/madeleine_latte.png": "/static/media/madeleine_latte.aa023ab4.png",
+    "static/media/slow_latte.JPG": "/static/media/slow_latte.54d28972.JPG",
+    "static/media/winter_2020.png": "/static/media/winter_2020.1cea4713.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.8ecc27f1.chunk.js",
+    "static/js/2.fd5a3eea.chunk.js",
     "static/css/main.e9f2eacd.chunk.css",
-    "static/js/main.78697795.chunk.js"
+    "static/js/main.d60f69c9.chunk.js"
   ]
 }
