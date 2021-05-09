@@ -69,26 +69,26 @@ const Home = () => {
         <PageHeading title="hi there, I'm Loucil :-)" />
         <section className={classes.aboutDetails}>
           <BodyText>
-            I'm a <strong> UX Engineer</strong> obsessed with understanding and
-            solving users’ problems through user research, design and software
-            development. I'm currently designing, building and deploying
-            software at J.P. Morgan Chase, located in Tampa, FL.
+            I'm a <strong> UX Engineer</strong> with a love for user research,
+            design and software development. I'm currently designing, building
+            and deploying web applications at J.P. Morgan Chase, located in
+            Tampa, FL.
             <br />
             <br />
-            This role I'm in now allows me to do both of the things that I love
-            and that is UI/UX design and front-end development. So on some days,
-            I'm gathering user requirements, interviewing users, creating
-            low/high-fidelity designs on Sketch/Invision, or demoing and
-            gathering feedback from Product, tech and users. And on other days,
+            As a UX Engineer, I'm able to combine my passions for UI/UX design
+            and front-end development. This means on some days, I'm interviewing
+            users to understand pain points, visualizing flows, creating
+            low/high-fidelity designs on Sketch/Invision and gathering feedback
+            from Product, designers, engineers and our users. And on other days,
             I'm building UI components in React, integrating screens with API
-            services and collaborating with other engineers to implement, deploy
-            and test our solutions.
+            services and mentoring/collaborating with other engineers to
+            implement, test, debug and deploy our solutions.
             <br />
             <br />
             Outside of work, you'll find me painting, drawing, baking, playing
-            with my dog or practicing latte art. I built this portfolio to share
-            some of my interests and showcase things I've created outside of
-            work for fun :-)
+            with my dog or practicing latte art! According to Myers Briggs, I'm
+            an ISFP (shocker). I built this portfolio to share some of my
+            interests and showcase things I've created outside of work for fun.
           </BodyText>
         </section>
         <section className={classes.mediaLinks}>

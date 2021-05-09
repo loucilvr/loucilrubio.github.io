@@ -10,6 +10,9 @@ const useStyles = createUseStyles({
   linkContainer: {
     display: "flex",
     flexDirection: "column",
+    "@media (min-width: 769px)": {
+      width: "600px",
+    },
   },
   links: {
     display: "flex",

@@ -8,7 +8,9 @@ import classnames from "classnames";
 const useStyles = createUseStyles({
   selected: {
     fontWeight: "bold !important",
-    color: "#FFFFFF",
+    // "@media (min-width: 769px)": {
+    //   backgroundColor: "#eee",
+    // },
   },
   menu: {
     height: "auto",
@@ -43,16 +45,20 @@ const useStyles = createUseStyles({
       padding: "24px",
       marginTop: "140px",
       position: "fixed",
+      "& > a:not(:first-child)": {
+        // margin: "2px 0px",
+        "&:hover": {
+          backgroundColor: "#f3f3f3",
+        },
+      },
       "& > a": {
-        fontSize: "24px",
+        padding: "6px",
+        borderRadius: "4px",
+        fontSize: "18px",
         color: "#464646",
-        letterSpacing: "1px",
         fontWeight: "100",
         textDecoration: "none",
-        margin: "6px",
-        "&:hover": {
-          textDecoration: "underline",
-        },
+        letterSpacing: "1px",
       },
     },
   },
@@ -67,7 +73,6 @@ const useStyles = createUseStyles({
     },
   },
   portfolioLabel: {
-    margin: 0,
     letterSpacing: "2px",
     "&:hover": {
       textDecoration: "none !important",
@@ -78,8 +83,8 @@ const useStyles = createUseStyles({
       fontSize: "14px",
     },
     "@media (min-width: 769px)": {
-      padding: "8px 8px 64px 0px",
-      color: "#b7b7b7 !important",
+      marginBottom: "64px",
+      color: "#363636 !important",
       fontSize: "18px !important",
     },
   },
@@ -99,8 +104,8 @@ const menuLinks = [
     path: "/projects",
   },
   {
-    label: "ILLUSTRATIONS",
-    path: "/illustrations",
+    label: "ART",
+    path: "/art",
   },
   {
     label: "CONTACT",

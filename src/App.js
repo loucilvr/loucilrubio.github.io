@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
-import Illustrations from "./pages/Illustrations/Illustrations";
+import Illustrations from "./pages/Art/Art";
 import Misc from "./pages/Misc/Misc";
 import Menu from "./components/Menu/Menu";
 import Contact from "./pages/Contact/Contact";
@@ -55,7 +55,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
-          <Route path="/illustrations" component={Illustrations} />
+          <Route path="/art" component={Illustrations} />
           <Route path="/misc" component={Misc} />
           <Route path="/contact" component={Contact} />
         </main>
