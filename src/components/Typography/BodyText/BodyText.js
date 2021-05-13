@@ -6,6 +6,7 @@ const useStyles = createUseStyles({
     fontSize: "16px",
     color: "#363636",
     lineHeight: "22px",
+    margin: 0,
   },
 });
 

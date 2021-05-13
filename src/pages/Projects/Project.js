@@ -14,7 +14,7 @@ const useStyles = createUseStyles({
       padding: "64px 24px",
     },
     "& h2": {
-      padding: 0,
+      paddingBottom: '16px',
       margin: 0,
     },
   },

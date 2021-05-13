@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
   tabButton: {
     background: "#FFFFFF",
     border: "none",
-    fontWeight: 600,
+    color: "#464646",
     padding: "8px",
     "&:hover": {
       borderBottom: "2px solid #000000",

@@ -76,19 +76,21 @@ const Home = () => {
             <br />
             <br />
             As a UX Engineer, I'm able to combine my passions for UI/UX design
-            and front-end development. This means on some days, I'm interviewing
-            users to understand pain points, visualizing flows, creating
-            low/high-fidelity designs on Sketch/Invision and gathering feedback
-            from Product, designers, engineers and our users. And on other days,
-            I'm building UI components in React, integrating screens with API
-            services and mentoring/collaborating with other engineers to
-            implement, test, debug and deploy our solutions.
+            and front-end development. Being in this hybrid role means that on
+            some days, I'm interviewing users to understand pain points,
+            visualizing flows, creating low/high-fidelity designs on
+            Sketch/Invision and gathering feedback from Product, designers,
+            engineers and our users. And on other days, I'm building UI
+            components in React, integrating screens with API services and
+            mentoring/collaborating with other engineers to implement, test,
+            debug and deploy our solutions.
             <br />
             <br />
-            Outside of work, you'll find me painting, drawing, baking, playing
-            with my dog or practicing latte art! According to Myers Briggs, I'm
-            an ISFP (shocker). I built this portfolio to share some of my
-            interests and showcase things I've created outside of work for fun.
+            Outside of work, I'm usually baking, drawing/painting, playing with
+            my dog, designing/building a prototype or practicing latte art!
+            According to Myers Briggs, I'm an ISFP (shocker). I built this
+            portfolio to share some of my interests and showcase things I've
+            created outside of work for fun.
           </BodyText>
         </section>
         <section className={classes.mediaLinks}>

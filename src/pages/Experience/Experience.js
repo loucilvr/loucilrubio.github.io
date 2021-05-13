@@ -27,7 +27,12 @@ const useStyles = createUseStyles({
     padding: "32px 16px",
   },
   experience: {
-    paddingBottom: "42px",
+    paddingBottom: "64px",
+  },
+  timeline: {
+    padding: "8px 0",
+    margin: 0,
+    color: "#989898",
   },
 });
 
@@ -39,27 +44,29 @@ const Experience = () => {
       <div className={classes.experienceContent}>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h3>UI/UX Designer / Software Engineer</h3>
+            <h3>UX Engineer</h3>
             <h3 className={classes.companyInfo}>
-              &nbsp; | J.P. Morgan Chase, Tampa FL (2016-Present)
+              &nbsp; | J.P. Morgan Chase, Tampa FL
             </h3>
           </div>
+          <br />
+          <p className={classes.timeline}>2019 - Present</p>
           <BodyText>
-            Designed & built multiple applications in the firm and currently
-            leading the design of a new internal Operations tool and
-            client-facing Healthcare Payments application
-            <br />
-            Build UI components and fully integrated screens using internal
-            Design System & Toolkit
-            <br />
-            Facilitate user interviews to better understand user goals and
-            current pain points
-            <br />
-            Create low/high-fidelity mockups and gather feedback from Product,
-            tech and users to validate solution
-            <br />
-            Breakdown stories into minimum viable changes and collaborate with
-            other frontend engineers and designers on design and implementation
+            Currently designing and building (and recently launched) a new
+            client-facing Healthcare Payments experience, as well as a new
+            internal Operations tool to support our Client UI
+          </BodyText>
+          <br />
+          <p className={classes.timeline}>2018 - 2019</p>
+          <BodyText>
+            Designed and developed a new internal Operations tool that allows
+            Ops to monitor and action incoming volume of service data
+          </BodyText>
+          <br />
+          <p className={classes.timeline}>2016 - 2018</p>
+          <BodyText>
+            Developed features for an internal Pricing web application used by
+            Sales to manage deals with small and large corporations
           </BodyText>
         </div>
         <div className={classes.experience}>
@@ -69,6 +76,7 @@ const Experience = () => {
               &nbsp; | Nielsen, Tampa FL (Summer 2015)
             </h3>
           </div>
+          <br />
           <BodyText>
             Gained experience in Agile Software Development with an
             international team working on a web app for processing TV Set Top
@@ -83,6 +91,7 @@ const Experience = () => {
               &nbsp; | FSU Libraries, Tallahassee, FL (2014-2016)
             </h3>
           </div>
+          <br />
           <BodyText>
             Designed and built data visualizations; Visualized with Tableau,
             Photoshop, Drupal and coded in SAS to collect, process and analyze

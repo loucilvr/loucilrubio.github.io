@@ -6,6 +6,12 @@ const useStyles = createUseStyles({
   text: {
     padding: 0,
     margin: "8px 0",
+    "& > a": {
+      color: "#464646",
+      "&:hover": {
+        fontWeight: "bold",
+      },
+    },
   },
   linkContainer: {
     display: "flex",
@@ -29,12 +35,15 @@ const Contact = () => {
       <div className={classes.links}>
         <p className={classes.text}>
           LinkedIn:{" "}
-          <a href="https://www.linkedin.com/in/mlcrubio">
+          <a href="https://www.linkedin.com/in/mlcrubio" target="_blank" rel="noopener noreferrer">
             www.linkedin.com/in/mlcrubio
           </a>
         </p>
         <p className={classes.text}>
-          GitHub: <a href="www.github.com/loucilvr">www.github.com/loucilvr</a>
+          GitHub:{" "}
+          <a href="https://www.github.com/loucilvr" target="_blank" rel="noopener noreferrer">
+            www.github.com/loucilvr
+          </a>
         </p>
       </div>
     </div>
