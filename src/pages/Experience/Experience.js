@@ -50,20 +50,27 @@ const Experience = () => {
             </h3>
           </div>
           <br />
-          <p className={classes.timeline}>2019 - Present</p>
+          <p className={classes.timeline}>
+            2019 - Present: Healthcare Payments
+          </p>
           <BodyText>
-            Currently designing and building (and recently launched) a new
-            client-facing Healthcare Payments experience, as well as a new
-            internal Operations tool to support our Client UI
+            Designed and built (and recently launched) a new client-facing
+            Healthcare Payments application alongside a new internal Operations
+            tool to modernize and streamline the Healthcare remittance and
+            payment posting experience
+            <br />
+            <br />
+            Responsibilities: UI Development, UX/UI Design, User Interviews &
+            Research, API Development, Business Analysis
           </BodyText>
           <br />
-          <p className={classes.timeline}>2018 - 2019</p>
+          <p className={classes.timeline}>2018 - 2019: Billing Ops</p>
           <BodyText>
-            Designed and developed a new internal Operations tool that allows
+            Co-designed and developed a new internal Operations tool that allows
             Ops to monitor and action incoming volume of service data
           </BodyText>
           <br />
-          <p className={classes.timeline}>2016 - 2018</p>
+          <p className={classes.timeline}>2016 - 2018: Pricing Tech</p>
           <BodyText>
             Developed features for an internal Pricing web application used by
             Sales to manage deals with small and large corporations

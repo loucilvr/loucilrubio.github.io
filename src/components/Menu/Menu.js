@@ -8,9 +8,6 @@ import classnames from "classnames";
 const useStyles = createUseStyles({
   selected: {
     fontWeight: "bold !important",
-    // "@media (min-width: 769px)": {
-    //   backgroundColor: "#eee",
-    // },
   },
   menu: {
     height: "auto",
@@ -28,9 +25,19 @@ const useStyles = createUseStyles({
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
       overflow: "hidden",
+    },
+    "@media (min-width: 769px)": {
+      display: "flex",
+      flexDirection: "column",
+      padding: "0px 24px",
+      position: "fixed",
+    },
+  },
+  link: {
+    "@media (max-width: 768px)": {
+      padding: "8px 0",
       "& > a": {
         color: "#F4F4F4",
-        margin: "8px",
         letterSpacing: "1px",
         textDecoration: "none",
         fontWeight: "100",
@@ -40,18 +47,13 @@ const useStyles = createUseStyles({
       },
     },
     "@media (min-width: 769px)": {
-      display: "flex",
-      flexDirection: "column",
-      padding: "0px 24px",
-      position: "fixed",
-      "& > a:not(:first-child)": {
-        "&:hover": {
-          backgroundColor: "#f3f3f3",
-        },
+      padding: "6px 0px 3px 0px",
+      "&:hover": {
+        backgroundColor: "#f3f3f3",
+        borderRadius: "4px",
       },
       "& > a": {
         padding: "6px",
-        borderRadius: "4px",
         fontSize: "18px",
         color: "#464646",
         fontWeight: "100",
@@ -59,6 +61,10 @@ const useStyles = createUseStyles({
         letterSpacing: "1px",
       },
     },
+  },
+  navList: {
+    listStyle: "none",
+    padding: "16px 0",
   },
   hideMenu: {
     top: "-350px",
@@ -71,6 +77,12 @@ const useStyles = createUseStyles({
     },
   },
   portfolioLabel: {
+    padding: "6px",
+    borderRadius: "4px",
+    fontSize: "18px",
+    color: "#464646",
+    fontWeight: "100",
+    textDecoration: "none",
     letterSpacing: "2px",
     "&:hover": {
       textDecoration: "none !important",
@@ -141,16 +153,20 @@ const Menu = ({ selectedContent, setView }) => {
       <a href="/" className={classes.portfolioLabel}>
         LOUCIL RUBIO
       </a>
-      {menuLinks.map((ml) => (
-        <Link
-          to={ml.path}
-          key={ml.label}
-          onClick={(e) => setView(ml.label)}
-          className={isSelected(ml.label)}
-        >
-          {ml.label}
-        </Link>
-      ))}
+      <ul className={classes.navList}>
+        {menuLinks.map((ml) => (
+          <li className={classes.link}>
+            <Link
+              to={ml.path}
+              key={ml.label}
+              onClick={(e) => setView(ml.label)}
+              className={isSelected(ml.label)}
+            >
+              <span>{ml.label}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };
