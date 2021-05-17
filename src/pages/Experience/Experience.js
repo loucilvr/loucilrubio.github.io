@@ -5,7 +5,7 @@ import BodyText from "../../components/Typography/BodyText";
 
 const useStyles = createUseStyles({
   titleCompanyContainer: {
-    "& h3": {
+    "& h2": {
       margin: 0,
       padding: "8px 0",
       display: "inline",
@@ -24,7 +24,7 @@ const useStyles = createUseStyles({
     color: "#6b6b6b",
   },
   experienceContent: {
-    padding: "32px 16px",
+    padding: "32px",
   },
   experience: {
     paddingBottom: "64px",
@@ -39,20 +39,18 @@ const useStyles = createUseStyles({
 const Experience = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div className={classes.experienceContainer}>
       <PageHeading title="Experience" />
       <div className={classes.experienceContent}>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h3>UX Engineer</h3>
-            <h3 className={classes.companyInfo}>
-              &nbsp; | J.P. Morgan Chase, Tampa FL
-            </h3>
+            <h2>UX Engineer</h2>
+            <h2 className={classes.companyInfo}>
+              &nbsp; | J.P. Morgan Chase, Tampa FL (2016-Present)
+            </h2>
           </div>
           <br />
-          <p className={classes.timeline}>
-            2019 - Present: Healthcare Payments
-          </p>
+          <p className={classes.timeline}>2019-Present: Healthcare Payments</p>
           <BodyText>
             Designed and built (and recently launched) a new client-facing
             Healthcare Payments application alongside a new internal Operations
@@ -64,13 +62,13 @@ const Experience = () => {
             Research, API Development, Business Analysis
           </BodyText>
           <br />
-          <p className={classes.timeline}>2018 - 2019: Billing Ops</p>
+          <p className={classes.timeline}>2018-2019: Billing Ops</p>
           <BodyText>
             Co-designed and developed a new internal Operations tool that allows
             Ops to monitor and action incoming volume of billing data
           </BodyText>
           <br />
-          <p className={classes.timeline}>2016 - 2018: Pricing Tech</p>
+          <p className={classes.timeline}>2016-2018: Pricing Tech</p>
           <BodyText>
             Developed features for an internal Pricing web application used by
             Sales to manage deals with small and large corporations
@@ -78,10 +76,10 @@ const Experience = () => {
         </div>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h3>Software Engineer Intern</h3>
-            <h3 className={classes.companyInfo}>
+            <h2>Software Engineer Intern</h2>
+            <h2 className={classes.companyInfo}>
               &nbsp; | Nielsen, Tampa FL (Summer 2015)
-            </h3>
+            </h2>
           </div>
           <br />
           <BodyText>
@@ -93,16 +91,18 @@ const Experience = () => {
         </div>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h3>Data Analyst</h3>
-            <h3 className={classes.companyInfo}>
+            <h2>Data Analyst</h2>
+            <h2 className={classes.companyInfo}>
               &nbsp; | FSU Libraries, Tallahassee, FL (2014-2016)
-            </h3>
+            </h2>
           </div>
           <br />
           <BodyText>
-            Designed and built data visualizations; Visualized with Tableau,
-            Photoshop, Drupal and coded in SAS to collect, process and analyze
-            university data from Library Turnstile Security software
+            Developed a SAS Program to collect, transform and analyze library
+            usage data to better understand library traffic and services’
+            performance; Crafted Data Visualizations/Dashboards on Tableau and
+            published findings Drupal pages to tell a story on where students
+            gravitate to on campus based on semester/time
           </BodyText>
         </div>
       </div>
