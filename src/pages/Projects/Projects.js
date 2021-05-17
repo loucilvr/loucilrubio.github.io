@@ -7,7 +7,7 @@ import { createUseStyles } from "react-jss";
 import Project from "./Project";
 import Button from "../../components/Button";
 import PageHeading from "../../components/Typography/PageHeading";
-
+import gutinstincts from "../../assets/img/gutinstincts_designs.png";
 const useStyles = createUseStyles({
   invisionProj: {
     textAlign: "center",
@@ -118,7 +118,12 @@ const Projects = () => {
               alt="Food Journal mobile app design preview"
               width="400"
             />
-            <p>(In Progress &nbsp;|&nbsp; Invision Prototype link available)</p>
+            <img
+              src={gutinstincts}
+              alt="Food Journal mobile app design preview"
+              width="400"
+            />
+            <p>(In Progress &nbsp;|&nbsp; Prototype link available)</p>
           </div>
         )}
       />
