@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e9f2eacd.chunk.css",
-    "main.js": "/static/js/main.457dbbe7.chunk.js",
-    "main.js.map": "/static/js/main.457dbbe7.chunk.js.map",
+    "main.js": "/static/js/main.8ada4ac6.chunk.js",
+    "main.js.map": "/static/js/main.8ada4ac6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.4331501c.chunk.js": "/static/js/2.4331501c.chunk.js",
-    "static/js/2.4331501c.chunk.js.map": "/static/js/2.4331501c.chunk.js.map",
+    "static/js/2.de72146c.chunk.js": "/static/js/2.de72146c.chunk.js",
+    "static/js/2.de72146c.chunk.js.map": "/static/js/2.de72146c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.121708b730ba9ee4ba3a047c97ca314c.js": "/precache-manifest.121708b730ba9ee4ba3a047c97ca314c.js",
+    "precache-manifest.f98186c1e16a926a0cafd933d1f48711.js": "/precache-manifest.f98186c1e16a926a0cafd933d1f48711.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e9f2eacd.chunk.css.map": "/static/css/main.e9f2eacd.chunk.css.map",
-    "static/js/2.4331501c.chunk.js.LICENSE.txt": "/static/js/2.4331501c.chunk.js.LICENSE.txt",
+    "static/js/2.de72146c.chunk.js.LICENSE.txt": "/static/js/2.de72146c.chunk.js.LICENSE.txt",
     "static/media/2016spring_headshot.png": "/static/media/2016spring_headshot.a5a4310a.png",
     "static/media/coffeeee.jpeg": "/static/media/coffeeee.5e72c833.jpeg",
     "static/media/desert.png": "/static/media/desert.62388843.png",
@@ -20,6 +20,7 @@
     "static/media/flippy-iphonex-mockup-2.png": "/static/media/flippy-iphonex-mockup-2.a803a0b8.png",
     "static/media/flippy-web.png": "/static/media/flippy-web.7184ab79.png",
     "static/media/gutInstincts.png": "/static/media/gutInstincts.4cb8e2e7.png",
+    "static/media/gutinstincts_designs.png": "/static/media/gutinstincts_designs.90cb3593.png",
     "static/media/heart_latte.jpg": "/static/media/heart_latte.aad939f2.jpg",
     "static/media/his-hers-breakfast.jpg": "/static/media/his-hers-breakfast.745c3e5f.jpg",
     "static/media/latte_breakfast.jpg": "/static/media/latte_breakfast.1122b3da.jpg",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.4331501c.chunk.js",
+    "static/js/2.de72146c.chunk.js",
     "static/css/main.e9f2eacd.chunk.css",
-    "static/js/main.457dbbe7.chunk.js"
+    "static/js/main.8ada4ac6.chunk.js"
   ]
 }
