@@ -67,7 +67,7 @@ const Experience = () => {
           <p className={classes.timeline}>2018 - 2019: Billing Ops</p>
           <BodyText>
             Co-designed and developed a new internal Operations tool that allows
-            Ops to monitor and action incoming volume of service data
+            Ops to monitor and action incoming volume of billing data
           </BodyText>
           <br />
           <p className={classes.timeline}>2016 - 2018: Pricing Tech</p>
