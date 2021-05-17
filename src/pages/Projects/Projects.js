@@ -72,7 +72,7 @@ const Projects = () => {
         to study for the US Citizenship Exam through a few simple features.
          Flippy allows you to see the question and answer on a card, provides a way to go through a deck of cards and see how many cards you've gone through, 
          as well as a way to randomly pick a flash card in order to really test your knowledge.
-         I designed and built this app with React and it is currently deployed on Heroku.`}
+         I designed and built this app with React and it is currently deployed on Heroku. (Last updated in 2018)`}
         renderImages={() => (
           <div className={classes.flippyImages}>
             <div>
@@ -108,9 +108,9 @@ const Projects = () => {
       />
       <Project
         title="Food Journal"
-        description=" A mobile app that aims to help people capture daily meals and symptoms to
-         better understand their own personal relationship
-      with food."
+        description=" A mobile app that helps people capture daily meals and symptoms to
+         better understand their personal relationship with food. Whether you're just a big foodie
+          or enjoy cooking and baking like myself, or if you want to understand patterns in your reactions to certain foods, this app is for you."
         renderImages={() => (
           <div className={classes.invisionProj}>
             <img
@@ -129,8 +129,7 @@ const Projects = () => {
       />
       <Project
         title="Personal Site"
-        description="I've redesigned and rebuilt this site throughout the duration of my college and professional career, and is something that acts my sandbox for frontend development.
-        This portoflio was built in React, HTML/CSS and is available on GitHub."
+        description="This site was made with love by yours truly, using React/CRA, Redux, JS/HTML/CSS. Currently hosted via GH Pages."
         renderFooter={() => (
           <a className={classes.link} href="https://github.com/loucilvr">
             View my GitHub Profile
