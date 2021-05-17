@@ -155,10 +155,9 @@ const Menu = ({ selectedContent, setView }) => {
       </a>
       <ul className={classes.navList}>
         {menuLinks.map((ml) => (
-          <li className={classes.link}>
+          <li key={ml.label} className={classes.link}>
             <Link
               to={ml.path}
-              key={ml.label}
               onClick={(e) => setView(ml.label)}
               className={isSelected(ml.label)}
             >
