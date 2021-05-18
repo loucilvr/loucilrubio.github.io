@@ -7,10 +7,12 @@ import madeleineLatte from "../../assets/img/illustrations/madeleine_latte.png";
 import winterWonderlandCabin from "../../assets/img/illustrations/winter_2020.png";
 import desert from "../../assets/img/illustrations/desert.png";
 import { createUseStyles } from "react-jss";
-import heart_latte from "../../assets/img/heart_latte.jpg";
-import latte_breakfast from "../../assets/img/latte_breakfast.jpg";
-import slow_latte from "../../assets/img/slow_latte.JPG";
-import latte_pastries from "../../assets/img/latte_pastries.JPG";
+import heart_latte from "../../assets/img/lattes/heart_latte.jpg";
+import latte_breakfast from "../../assets/img/lattes/latte_breakfast.jpg";
+import slow_latte from "../../assets/img/lattes/slow_latte.JPG";
+import latte_pastries from "../../assets/img/lattes/latte_pastries.JPG";
+import cortado_tulip from "../../assets/img/lattes/cortado_tulip.JPG";
+import pinterest_illustration from "../../assets/img/illustrations/pinterest_inspo_illustration.png";
 import Tabs from "../../components/Tabs";
 import BodyText from "../../components/Typography/BodyText";
 
@@ -18,11 +20,11 @@ const useStyles = createUseStyles({
   illustrations: {
     padding: "32px 0px",
     display: "flex",
-    flexWrap: "wrap",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
     "@media (min-width: 769px)": {
-      width: "800px",
-      display: "flex",
-      justifyContent: "center",
+      width: "700px",
     },
   },
   artContainer: {
@@ -33,21 +35,31 @@ const useStyles = createUseStyles({
   },
   image: {
     flexGrow: 1,
-    width: "260px",
-    maxHeight: "580px",
+    width: "80%",
+    height: "100%",
     margin: "8px",
     border: "1px solid #eee",
   },
 });
 
 const ART_TYPE = {
+  ALL: "All",
   DIGITAL: "Digital",
   WATERCOLOR: "Watercolor",
   LATTE: "Lattes",
-  ALL: "All",
 };
 
 const IllustrationImages = [
+  {
+    src: cortado_tulip,
+    alt: "Cortado latte with tulip design",
+    type: ART_TYPE.LATTE,
+  },
+  {
+    src: pinterest_illustration,
+    alt: "Illustration of a woman inspired by a Pinterest post",
+    type: ART_TYPE.DIGITAL,
+  },
   { src: desert, alt: "Desert Illustration", type: ART_TYPE.DIGITAL },
   {
     src: winterWonderlandCabin,
@@ -86,7 +98,7 @@ const IllustrationImages = [
 
 const Illustrations = () => {
   const classes = useStyles();
-  const [selectedTab, setSelectedTab] = useState(ART_TYPE.DIGITAL);
+  const [selectedTab, setSelectedTab] = useState(ART_TYPE.ALL);
   const [images, setImages] = useState(IllustrationImages);
 
   useEffect(() => {
