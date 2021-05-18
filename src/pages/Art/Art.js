@@ -31,13 +31,14 @@ const useStyles = createUseStyles({
     justifyContent: "center",
     alignItems: "center",
   },
+  image: {
+    flexGrow: 1,
+    width: "260px",
+    maxHeight: "580px",
+    margin: "8px",
+    border: "1px solid #eee",
+  },
 });
-
-const imgStyle = {
-  flexGrow: 1,
-  width: "260px",
-  margin: "8px",
-};
 
 const ART_TYPE = {
   DIGITAL: "Digital",
@@ -114,10 +115,7 @@ const Illustrations = () => {
               key={`image_${index}`}
               src={image.src}
               alt={image.alt}
-              style={{
-                border: "1px solid #eee",
-                ...imgStyle,
-              }}
+              className={classes.image}
               loading="lazy"
             />
           ))}
