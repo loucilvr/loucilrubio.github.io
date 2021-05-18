@@ -69,7 +69,7 @@ const useStyles = createUseStyles({
     padding: "16px 0",
   },
   hideMenu: {
-    top: "-350px",
+    top: "-360px",
     transition: "top 330ms",
   },
   showMenu: {

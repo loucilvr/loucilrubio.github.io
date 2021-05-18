@@ -58,8 +58,8 @@ const Experience = () => {
             payment posting experience
             <br />
             <br />
-            Responsibilities: UI Development, UX/UI Design, User Interviews &
-            Research, API Development, Business Analysis
+            Responsibilities: UI Development, UX/UI Design Lead, User Interviews
+            & Research, API Development, Business Analysis
           </BodyText>
           <br />
           <p className={classes.timeline}>2018-2019: Billing Ops</p>
