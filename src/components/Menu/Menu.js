@@ -20,7 +20,7 @@ const useStyles = createUseStyles({
       padding: "32px 24px",
       fontSize: "16px",
       width: "100%",
-      height: "400px",
+      height: "424px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
@@ -34,6 +34,8 @@ const useStyles = createUseStyles({
     },
   },
   link: {
+    display: "flex",
+    flexDirection: "column",
     "@media (max-width: 768px)": {
       padding: "8px 0",
       "& > a": {
@@ -47,7 +49,7 @@ const useStyles = createUseStyles({
       },
     },
     "@media (min-width: 769px)": {
-      padding: "6px 0px 3px 0px",
+      paddingTop: "3px",
       "&:hover": {
         backgroundColor: "#f3f3f3",
         borderRadius: "4px",
@@ -133,7 +135,7 @@ const Menu = ({ selectedContent, setView }) => {
     const handleScroll = () => {
       if (browserWidth <= 768) {
         const currentScrollPos = window.pageYOffset;
-        const showMenu = currentScrollPos <= 180;
+        const showMenu = currentScrollPos <= 80;
         setShowMenu(showMenu);
         setPrevScrollPos(currentScrollPos);
       }
