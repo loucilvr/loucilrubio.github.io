@@ -116,12 +116,12 @@ const Projects = () => {
             <img
               src={giPreview}
               alt="Food Journal mobile app design preview"
-              width="400"
+              width="360"
             />
             <img
               src={gutinstincts}
               alt="Food Journal mobile app design preview"
-              width="400"
+              width="360"
             />
             <p>(In Progress &nbsp;|&nbsp; Prototype link available)</p>
           </div>
