@@ -58,6 +58,10 @@ const useStyles = createUseStyles({
       textDecoration: "underline",
     },
   },
+  projectImage: {
+    width: "100%",
+    maxWidth: "420px"
+  }
 });
 
 const Projects = () => {
@@ -90,7 +94,7 @@ const Projects = () => {
             <img
               src={FlippyWeb}
               alt="Flippy iPhone X mockup flash card view"
-              width="320px"
+              className={classes.projectImage}
             />
           </div>
         )}
@@ -116,12 +120,12 @@ const Projects = () => {
             <img
               src={giPreview}
               alt="Food Journal mobile app design preview"
-              width="360"
+              className={classes.projectImage}
             />
             <img
               src={gutinstincts}
               alt="Food Journal mobile app design preview"
-              width="360"
+              className={classes.projectImage}
             />
             <p>(In Progress &nbsp;|&nbsp; Prototype link available)</p>
           </div>
