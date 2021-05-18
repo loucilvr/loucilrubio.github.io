@@ -24,7 +24,12 @@ const useStyles = createUseStyles({
     marginRight: "6px",
   },
   headshot: {
-    width: "30%",
+    "@media (min-width: 769px)": {
+      width: "30%",
+    },
+    "@media (max-width: 768px)": {
+      width: "50%"
+    },
     borderRadius: "50%",
     marginBottom: "32px",
   },
