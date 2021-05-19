@@ -17,7 +17,7 @@ const useStyles = createUseStyles({
       padding: "32px 24px",
       fontSize: "16px",
       width: "100%",
-      height: "340px",
+      height: "360px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
@@ -30,19 +30,20 @@ const useStyles = createUseStyles({
       paddingTop: "200px",
     },
   },
-  link: {
+  linkList: {
     display: "flex",
     flexDirection: "column",
+  },
+  link: {
+    letterSpacing: "1px",
+    textDecoration: "none",
     "@media (max-width: 768px)": {
       padding: "8px 0",
-      "& > a": {
-        color: "#F4F4F4",
-        letterSpacing: "1px",
-        textDecoration: "none",
-        fontWeight: "100",
-        "&:hover": {
-          textDecoration: "underline",
-        },
+      color: "#F4F4F4",
+      textDecoration: "none",
+      fontWeight: "100",
+      "&:hover": {
+        textDecoration: "underline",
       },
     },
     "@media (min-width: 769px)": {
@@ -51,22 +52,18 @@ const useStyles = createUseStyles({
         backgroundColor: "#f3f3f3",
         borderRadius: "4px",
       },
-      "& > a": {
-        padding: "6px",
-        fontSize: "18px",
-        color: "#464646",
-        fontWeight: "100",
-        textDecoration: "none",
-        letterSpacing: "1px",
-      },
+      padding: "6px",
+      fontSize: "18px",
+      color: "#464646",
+      fontWeight: "100",
     },
   },
   navList: {
     listStyle: "none",
-    padding: "16px 0",
+    padding: "46px 0",
   },
   hideMenu: {
-    top: "-360px",
+    top: "-380px",
     transition: "top 330ms",
   },
   showMenu: {
@@ -156,11 +153,11 @@ const Menu = ({ selectedContent, setView }) => {
         </a>
         <ul className={classes.navList}>
           {menuLinks.map((ml) => (
-            <li key={ml.label} className={classes.link}>
+            <li key={ml.label} className={classes.linkList}>
               <Link
                 to={ml.path}
                 onClick={(e) => setView(ml.label)}
-                className={isSelected(ml.label)}
+                className={classnames(classes.link, isSelected(ml.label))}
               >
                 <span>{ml.label}</span>
               </Link>

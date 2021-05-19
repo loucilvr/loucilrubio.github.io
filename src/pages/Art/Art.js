@@ -30,7 +30,7 @@ const useStyles = createUseStyles({
   image: {
     width: "70%",
     margin: "8px",
-    border: "1px solid #eee",
+    border: "1px solid #EEEEEE",
   },
 });
 

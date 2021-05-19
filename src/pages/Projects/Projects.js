@@ -8,9 +8,9 @@ import Project from "./Project";
 import Button from "../../components/Button";
 import PageHeading from "../../components/Typography/PageHeading";
 import gutinstincts from "../../assets/img/gutinstincts_designs.png";
+
 const useStyles = createUseStyles({
   invisionProj: {
-    textAlign: "center",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
