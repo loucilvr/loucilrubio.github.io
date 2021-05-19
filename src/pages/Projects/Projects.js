@@ -44,9 +44,6 @@ const useStyles = createUseStyles({
       flexDirection: "column",
     },
   },
-  appLink: {
-    marginTop: "24px",
-  },
   desc: {
     margin: 0,
     padding: "16px 8px",
@@ -60,8 +57,8 @@ const useStyles = createUseStyles({
   },
   projectImage: {
     width: "100%",
-    maxWidth: "420px"
-  }
+    maxWidth: "420px",
+  },
 });
 
 const Projects = () => {
@@ -99,15 +96,14 @@ const Projects = () => {
           </div>
         )}
         renderFooter={() => (
-          <div className={classes.appLink}>
-            <Button
-              handleClick={() =>
-                window &&
-                window.open("https://flippy-app.herokuapp.com/home", "_blank")
-              }
-              label="Launch Flippy"
-            />
-          </div>
+          <Button
+            handleClick={() =>
+              window &&
+              window.open("https://flippy-app.herokuapp.com/home", "_blank")
+            }
+          >
+            Launch Flippy
+          </Button>
         )}
       />
       <Project
@@ -135,9 +131,13 @@ const Projects = () => {
         title="Personal Site"
         description="This site was made with love by yours truly, using React/CRA, Redux, JS/HTML/CSS. Currently hosted via GH Pages."
         renderFooter={() => (
-          <a className={classes.link} href="https://github.com/loucilvr">
-            View my GitHub Profile
-          </a>
+          <Button
+            handleClick={() =>
+              window && window.open("https://github.com/loucilvr", "_blank")
+            }
+          >
+            View GitHub Profile
+          </Button>
         )}
       />
     </div>

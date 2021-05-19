@@ -21,11 +21,11 @@ const useStyles = createUseStyles({
   },
 });
 
-const Button = ({ label, handleClick }) => {
+const Button = ({ children, handleClick }) => {
   const classes = useStyles();
   return (
     <button className={classes.root} onClick={handleClick}>
-      {label}
+      {children}
     </button>
   );
 };
