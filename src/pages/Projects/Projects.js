@@ -26,10 +26,7 @@ const useStyles = createUseStyles({
   },
   projects: {
     width: "100%",
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
+    height: "100%"
   },
   other: {
     textAlign: "center",
