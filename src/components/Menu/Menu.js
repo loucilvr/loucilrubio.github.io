@@ -10,9 +10,6 @@ const useStyles = createUseStyles({
     fontWeight: "bold !important",
   },
   menu: {
-    height: "auto",
-    overflow: "hidden",
-    boxSizing: "border-box",
     zIndex: 2,
     "@media (max-width: 768px)": {
       display: "flex",
@@ -20,17 +17,17 @@ const useStyles = createUseStyles({
       padding: "32px 24px",
       fontSize: "16px",
       width: "100%",
-      height: "424px",
+      height: "340px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
       overflow: "hidden",
     },
     "@media (min-width: 769px)": {
+      maxWidth: "200px",
       display: "flex",
       flexDirection: "column",
-      padding: "0px 24px",
-      position: "fixed",
+      paddingTop: "200px",
     },
   },
   link: {
@@ -79,6 +76,7 @@ const useStyles = createUseStyles({
     },
   },
   portfolioLabel: {
+    whiteSpace: "nowrap",
     padding: "6px",
     borderRadius: "4px",
     fontSize: "18px",
@@ -152,22 +150,24 @@ const Menu = ({ selectedContent, setView }) => {
         showMenu ? classes.showMenu : classes.hideMenu
       )}
     >
-      <a href="/" className={classes.portfolioLabel}>
-        LOUCIL RUBIO
-      </a>
-      <ul className={classes.navList}>
-        {menuLinks.map((ml) => (
-          <li key={ml.label} className={classes.link}>
-            <Link
-              to={ml.path}
-              onClick={(e) => setView(ml.label)}
-              className={isSelected(ml.label)}
-            >
-              <span>{ml.label}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <span className={classes.linkContainer}>
+        <a href="/" className={classes.portfolioLabel}>
+          LOUCIL RUBIO
+        </a>
+        <ul className={classes.navList}>
+          {menuLinks.map((ml) => (
+            <li key={ml.label} className={classes.link}>
+              <Link
+                to={ml.path}
+                onClick={(e) => setView(ml.label)}
+                className={isSelected(ml.label)}
+              >
+                <span>{ml.label}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </span>
     </nav>
   );
 };

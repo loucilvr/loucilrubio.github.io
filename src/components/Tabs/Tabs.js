@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     border: "none",
     color: "#464646",
     padding: "8px",
-    fontSize: '14px',
+    fontSize: "14px",
     "&:hover": {
       borderBottom: "2px solid #000000",
       cursor: "pointer",
@@ -20,6 +20,8 @@ const useStyles = createUseStyles({
   },
   tabs: {
     margin: "24px",
+    display: "flex",
+    justifyContent: "center",
   },
 });
 

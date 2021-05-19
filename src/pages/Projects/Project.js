@@ -7,6 +7,7 @@ const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    borderBottom: "1px solid #DDDDDD",
     "@media (min-width: 769px)": {
       padding: "64px 24px",
     },
@@ -14,18 +15,12 @@ const useStyles = createUseStyles({
       padding: "64px 24px",
     },
     "& h2": {
-      paddingBottom: '16px',
+      paddingBottom: "16px",
       margin: 0,
     },
   },
   demoImages: {
     padding: "24px 0px",
-  },
-  horizRule: {
-    backgroundColor: "#dddddd",
-    height: "1px",
-    marginBottom: "8px",
-    width: "90%",
   },
 });
 const Project = ({ title, description, renderImages, renderFooter }) => {
@@ -40,7 +35,6 @@ const Project = ({ title, description, renderImages, renderFooter }) => {
         </span>
         {renderFooter && renderFooter()}
       </div>
-      <div className={classes.horizRule} />
     </>
   );
 };

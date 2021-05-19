@@ -12,11 +12,10 @@ import Experience from "./pages/Experience/Experience";
 const useStyles = createUseStyles({
   content: {
     "@media (min-width: 769px)": {
-      maxWidth: "1080px",
       width: "100%",
+      height: "100%",
       display: "flex",
       justifyContent: "space-between",
-      padding: "260px 0px",
     },
     "@media (max-width: 768px)": {
       width: "100%",
@@ -25,13 +24,20 @@ const useStyles = createUseStyles({
       flexDirection: "column",
     },
   },
+  navContainer: {
+    "@media (min-width: 769px)": {
+      width: "30%",
+      display: "flex",
+      flexDirection: "row-reverse",
+    },
+  },
   mainContent: {
     "@media (min-width: 769px)": {
       display: "flex",
-      alignItems: "center",
-      width: "900px",
-      height: "100%",
-      padding: "0px 24px 24px 280px",
+      width: "70%",
+      paddingTop: "200px",
+      paddingLeft: "120px",
+      overflow: "auto",
     },
     "@media (max-width: 768px)": {
       display: "flex",
@@ -43,6 +49,14 @@ const useStyles = createUseStyles({
       paddingBottom: "64px",
     },
   },
+  children: {
+    "@media (min-width: 769px)": {
+      width: "800px",
+    },
+    height: "100%",
+    display: "flex",
+    justifyContent: "center",
+  },
 });
 
 const App = () => {
@@ -50,14 +64,18 @@ const App = () => {
   return (
     <Switch>
       <div className={classes.content}>
-        <Menu />
+        <div className={classes.navContainer}>
+          <Menu />
+        </div>
         <main className={classes.mainContent}>
-          <Route exact path="/" component={Home} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/art" component={Illustrations} />
-          <Route path="/misc" component={Misc} />
-          <Route path="/contact" component={Contact} />
+          <div className={classes.children}>
+            <Route exact path="/" component={Home} />
+            <Route path="/experience" component={Experience} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/art" component={Illustrations} />
+            <Route path="/misc" component={Misc} />
+            <Route path="/contact" component={Contact} />
+          </div>
         </main>
       </div>
     </Switch>

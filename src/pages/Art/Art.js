@@ -22,21 +22,13 @@ const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: "center",
-    "@media (min-width: 769px)": {
-      width: "700px",
-    },
   },
   artContainer: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
+    width: "100%",
+    height: "100%",
   },
   image: {
-    flexGrow: 1,
-    width: "80%",
-    height: "100%",
+    width: "70%",
     margin: "8px",
     border: "1px solid #eee",
   },
@@ -111,7 +103,6 @@ const Illustrations = () => {
     }
   }, [selectedTab]);
 
-  console.log("selectedTab", selectedTab);
   return (
     <div className={classes.artContainer}>
       <PageHeading title="Art" />

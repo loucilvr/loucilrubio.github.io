@@ -16,13 +16,9 @@ const useStyles = createUseStyles({
   linkContainer: {
     display: "flex",
     flexDirection: "column",
-    "@media (min-width: 769px)": {
-      width: "600px",
-    },
+    width: "100%",
   },
   links: {
-    display: "flex",
-    flexDirection: "column",
     paddingTop: "32px",
   },
 });
@@ -35,13 +31,21 @@ const Contact = () => {
       <div className={classes.links}>
         <p className={classes.text}>
           LinkedIn:{" "}
-          <a href="https://www.linkedin.com/in/mlcrubio" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/mlcrubio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             www.linkedin.com/in/mlcrubio
           </a>
         </p>
         <p className={classes.text}>
           GitHub:{" "}
-          <a href="https://www.github.com/loucilvr" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.github.com/loucilvr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             www.github.com/loucilvr
           </a>
         </p>

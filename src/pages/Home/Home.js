@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
       width: "30%",
     },
     "@media (max-width: 768px)": {
-      width: "50%"
+      width: "40%"
     },
     borderRadius: "50%",
     marginBottom: "32px",
