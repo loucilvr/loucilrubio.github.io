@@ -44,7 +44,6 @@ const useStyles = createUseStyles({
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
-      height: "100%",
       paddingTop: "340px",
       paddingBottom: "64px",
     },

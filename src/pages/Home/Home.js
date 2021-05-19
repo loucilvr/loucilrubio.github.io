@@ -44,7 +44,7 @@ const useStyles = createUseStyles({
     margin: "0 24px",
   },
   mediaLinks: {
-    marginTop: "46px",
+    margin: "46px 0",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
