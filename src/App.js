@@ -63,7 +63,7 @@ const App = () => {
   const classes = useStyles();
   return (
     <Switch>
-      <div className={classes.content}>
+      <div data-testid="app-routes" className={classes.content}>
         <div className={classes.navContainer}>
           <Menu />
         </div>

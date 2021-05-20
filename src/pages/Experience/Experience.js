@@ -39,7 +39,7 @@ const useStyles = createUseStyles({
 const Experience = () => {
   const classes = useStyles();
   return (
-    <div className={classes.experienceContainer}>
+    <div data-testid="experience" className={classes.experienceContainer}>
       <PageHeading title="Experience" />
       <div className={classes.experienceContent}>
         <div className={classes.experience}>

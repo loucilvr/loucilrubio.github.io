@@ -104,7 +104,7 @@ const Illustrations = () => {
   }, [selectedTab]);
 
   return (
-    <div className={classes.artContainer}>
+    <div data-testid="art" className={classes.artContainer}>
       <PageHeading title="Art" />
       <Tabs
         selectedTab={selectedTab}

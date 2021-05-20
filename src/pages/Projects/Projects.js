@@ -26,7 +26,7 @@ const useStyles = createUseStyles({
   },
   projects: {
     width: "100%",
-    height: "100%"
+    height: "100%",
   },
   other: {
     textAlign: "center",
@@ -61,7 +61,7 @@ const useStyles = createUseStyles({
 const Projects = () => {
   const classes = useStyles();
   return (
-    <div className={classes.projects}>
+    <div data-testid="side-projects" className={classes.projects}>
       <PageHeading title="Side Projects" />
       <Project
         title="Flippy"
@@ -93,14 +93,26 @@ const Projects = () => {
           </div>
         )}
         renderFooter={() => (
-          <Button
-            handleClick={() =>
-              window &&
-              window.open("https://flippy-app.herokuapp.com/home", "_blank")
-            }
-          >
-            Launch Flippy
-          </Button>
+          <div>
+            <Button
+              variant="primary"
+              handleClick={() =>
+                window &&
+                window.open("https://flippy-app.herokuapp.com/home", "_blank")
+              }
+            >
+              Launch Flippy
+            </Button>
+            <Button
+              variant="secondary"
+              handleClick={() =>
+                window &&
+                window.open("https://github.com/loucilvr/Flippy", "_blank")
+              }
+            >
+              View Source Code
+            </Button>
+          </div>
         )}
       />
       <Project
@@ -128,13 +140,28 @@ const Projects = () => {
         title="Personal Site"
         description="This site was made with love by yours truly, using React/CRA, Redux, JS/HTML/CSS. Currently hosted via GH Pages."
         renderFooter={() => (
-          <Button
-            handleClick={() =>
-              window && window.open("https://github.com/loucilvr", "_blank")
-            }
-          >
-            View GitHub Profile
-          </Button>
+          <div>
+            <Button
+              variant="primary"
+              handleClick={() =>
+                window && window.open("https://github.com/loucilvr", "_blank")
+              }
+            >
+              View GitHub Profile
+            </Button>
+            <Button
+              variant="secondary"
+              handleClick={() =>
+                window &&
+                window.open(
+                  "https://github.com/loucilvr/loucilrubio.github.io",
+                  "_blank"
+                )
+              }
+            >
+              View Source Code
+            </Button>
+          </div>
         )}
       />
     </div>

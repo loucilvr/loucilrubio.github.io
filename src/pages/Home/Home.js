@@ -64,7 +64,7 @@ const useStyles = createUseStyles({
 const Home = () => {
   const classes = useStyles();
   return (
-    <div className={classes.about}>
+    <div data-testid="home" className={classes.about}>
       <img
         src={Headshot}
         alt="My personal headshot"
