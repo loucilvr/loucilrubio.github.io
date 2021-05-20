@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
   root: {
     fontWeight: "bold",
     borderRadius: "24px",
-    padding: "0 16px",
+    padding: "0 12px",
     height: "38px",
     fontSize: "14px",
     cursor: "pointer",
