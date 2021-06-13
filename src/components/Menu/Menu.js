@@ -47,7 +47,6 @@ const useStyles = createUseStyles({
       },
     },
     "@media (min-width: 769px)": {
-      paddingTop: "3px",
       "&:hover": {
         backgroundColor: "#f3f3f3",
         borderRadius: "4px",
@@ -159,7 +158,7 @@ const Menu = ({ selectedContent, setView }) => {
                 onClick={(e) => setView(ml.label)}
                 className={classnames(classes.link, isSelected(ml.label))}
               >
-                <span>{ml.label}</span>
+                {ml.label}
               </Link>
             </li>
           ))}
