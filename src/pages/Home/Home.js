@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
       width: "30%",
     },
     "@media (max-width: 768px)": {
-      width: "40%"
+      width: "40%",
     },
     borderRadius: "50%",
     marginBottom: "32px",
@@ -75,27 +75,15 @@ const Home = () => {
         <section className={classes.aboutDetails}>
           <BodyText>
             I'm a <strong> UX Engineer</strong> with a love for user research,
-            design and software development. I'm currently designing, building
-            and deploying web applications at J.P. Morgan Chase, located in
-            Tampa, FL.
-            <br />
-            <br />
-            As a UX Engineer, I'm able to combine my passions for UI/UX design
-            and front-end development. Being in this hybrid role means that on
-            some days, I'm interviewing users to understand pain points,
-            visualizing flows, creating low/high-fidelity designs on
-            Sketch/Invision and gathering feedback from Product, designers,
-            engineers and our users. And on other days, I'm building UI
-            components in React, integrating screens with API services and
-            mentoring/collaborating with other engineers to implement, test,
-            debug and deploy our solutions.
+            UI/UX design and software development. I'm currently designing and
+            building web applications at J.P. Morgan Chase, located in Tampa,
+            FL.
             <br />
             <br />
             Outside of work, I'm usually baking, drawing/painting, playing with
-            my dog, designing/building a prototype or practicing latte art!
-            According to Myers Briggs, I'm an ISFP (shocker). I built this
-            portfolio to share some of my interests and showcase things I've
-            created outside of work for fun.
+            my dog or practicing latte art. I built this portfolio to share some
+            of my interests and showcase things I've created outside of work for
+            fun.
           </BodyText>
         </section>
         <section className={classes.mediaLinks}>

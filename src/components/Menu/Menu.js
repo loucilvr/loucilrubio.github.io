@@ -112,6 +112,10 @@ const menuLinks = [
     path: "/art",
   },
   {
+    label: "RESOURCES",
+    path: "/resources",
+  },
+  {
     label: "CONTACT",
     path: "/contact",
   },

@@ -16,6 +16,25 @@ const articles = [
     link:
       "https://medium.com/@sara_ann_marie/dont-feel-like-an-expert-share-anyway-661f2f8cd038",
   },
+  { title: "Laws of UX", link: "https://lawsofux.com/" },
+  { title: "UX Myths", link: "https://uxmyths.com/" },
+  { title: "Blush - Design/Illustrations", link: "https://blush.design/" },
+  {
+    title: "OpenDoodles - Open-Source Illustrations",
+    link: "https://www.opendoodles.com/",
+  },
+  {
+    title: "Eloquent JS - Free E-Book",
+    link: "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+  },
+  {
+    title: "Airbnb JS Style Guide",
+    link: "https://github.com/airbnb/javascript",
+  },
+  {
+    title: "Mobbin - Mobile Design Patterns Library",
+    link: "https://mobbin.design/",
+  },
 ];
 
 const useStyles = createUseStyles({
@@ -23,15 +42,18 @@ const useStyles = createUseStyles({
     padding: "8px 0px 8px 0px",
   },
   link: {
-    color: "#005891",
+    color: "#000000",
     textDecoration: "underline",
+    "&:hover": {
+      fontWeight: "bold",
+    },
   },
   source: {
-    display: "inline",
-    marginLeft: "8px",
+    color: "#AAAAAA",
+    paddingTop: "4px",
+    margin: 0,
   },
   articlesSubheader: {
-    color: "#8a8a8a",
     fontWeight: "bold",
   },
   articles: {
@@ -46,7 +68,7 @@ const ArticleCard = ({ link, title }) => {
   const classes = useStyles();
   return (
     <div className={classes.articleContainer}>
-      <a href={link} className={classes.link}>
+      <a href={link} target="blank" className={classes.link}>
         {title}
       </a>
       <p className={classes.source}>[{link}]</p>
@@ -63,10 +85,10 @@ const Misc = () => {
 
   return (
     <div className={classes.miscContainer}>
-      <PageHeading title="Miscellaneous" />
+      <PageHeading title="Resources" />
       <div className={classes.articles}>
         <p className={classes.articlesSubheader}>
-          Some articles worth sharing:
+          Some online resources worth sharing:
         </p>
         {renderArticles()}
       </div>
