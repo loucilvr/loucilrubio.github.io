@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { getSelectedContent, setView } from "./Menu.ducks";
 import { createUseStyles } from "react-jss";
@@ -8,6 +8,9 @@ import classnames from "classnames";
 const useStyles = createUseStyles({
   selected: {
     fontWeight: "bold !important",
+    "@media (min-width: 769px)": {
+      color: "#464646 !important",
+    },
   },
   menu: {
     zIndex: 2,
@@ -34,7 +37,11 @@ const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
   },
-  link: {
+  menuButton: {
+    cursor: "pointer",
+    border: "none",
+    backgroundColor: "transparent",
+    textAlign: "left",
     letterSpacing: "1px",
     textDecoration: "none",
     "@media (max-width: 768px)": {
@@ -52,14 +59,14 @@ const useStyles = createUseStyles({
         borderRadius: "4px",
       },
       padding: "6px",
-      fontSize: "18px",
-      color: "#464646",
+      fontSize: "16px",
+      color: "#828282",
       fontWeight: "100",
     },
   },
   navList: {
     listStyle: "none",
-    padding: "46px 0",
+    padding: "38px 0",
   },
   hideMenu: {
     top: "-386px",
@@ -121,10 +128,18 @@ const menuLinks = [
   },
 ];
 
-const Menu = ({ selectedContent, setView }) => {
+const Menu = ({ setView, history }) => {
   const classes = useStyles();
-  const isSelected = (label) =>
-    label === selectedContent ? classes.selected : "";
+  console.log("history.pathname", history.location.pathname);
+
+  const isSelected = (label) => {
+    if (label === "HOME" && history.location.pathname === "/") {
+      return classes.selected;
+    }
+    return history.location.pathname.includes(label.toLowerCase())
+      ? classes.selected
+      : "";
+  };
   const browserWidth = document.body.clientWidth;
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [showMenu, setShowMenu] = useState(true);
@@ -157,13 +172,16 @@ const Menu = ({ selectedContent, setView }) => {
         <ul className={classes.navList}>
           {menuLinks.map((ml) => (
             <li key={ml.label} className={classes.linkList}>
-              <Link
+              <button
                 to={ml.path}
-                onClick={(e) => setView(ml.label)}
-                className={classnames(classes.link, isSelected(ml.label))}
+                onClick={(e) => {
+                  history.push(ml.path);
+                  setView(ml.label);
+                }}
+                className={classnames(classes.menuButton, isSelected(ml.label))}
               >
                 {ml.label}
-              </Link>
+              </button>
             </li>
           ))}
         </ul>
@@ -180,4 +198,4 @@ const mapDispatchToProps = {
   setView,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Menu);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Menu));

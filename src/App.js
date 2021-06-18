@@ -62,23 +62,23 @@ const useStyles = createUseStyles({
 const App = () => {
   const classes = useStyles();
   return (
-    <Switch>
-      <div data-testid="app-routes" className={classes.content}>
-        <div className={classes.navContainer}>
-          <Menu />
-        </div>
-        <main className={classes.mainContent}>
-          <div className={classes.children}>
+    <div data-testid="app-routes" className={classes.content}>
+      <div className={classes.navContainer}>
+        <Menu />
+      </div>
+      <main className={classes.mainContent}>
+        <div className={classes.children}>
+          <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/experience" component={Experience} />
             <Route path="/projects" component={Projects} />
             <Route path="/art" component={Illustrations} />
             <Route path="/resources" component={Misc} />
             <Route path="/contact" component={Contact} />
-          </div>
-        </main>
-      </div>
-    </Switch>
+          </Switch>
+        </div>
+      </main>
+    </div>
   );
 };
 
