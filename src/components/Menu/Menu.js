@@ -48,7 +48,7 @@ const useStyles = createUseStyles({
       padding: "8px 0",
       color: "#F4F4F4",
       textDecoration: "none",
-      fontWeight: "100",
+      fontWeight: "200",
       "&:hover": {
         textDecoration: "underline",
       },
@@ -61,7 +61,7 @@ const useStyles = createUseStyles({
       padding: "6px",
       fontSize: "16px",
       color: "#828282",
-      fontWeight: "100",
+      fontWeight: "200",
     },
   },
   navList: {
