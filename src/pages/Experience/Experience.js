@@ -24,15 +24,22 @@ const useStyles = createUseStyles({
     color: "#6b6b6b",
   },
   experienceContent: {
-    padding: "32px",
+    padding: "46px 32px",
   },
   experience: {
-    paddingBottom: "64px",
+    marginBottom: "48px",
+    borderBottom: "1px solid #DDDDDD",
+    paddingBottom: "48px",
   },
   timeline: {
     padding: "8px 0",
     margin: 0,
     color: "#989898",
+  },
+  experienceContainer: {
+    "@media (min-width: 769px)": {
+      width: "660px",
+    },
   },
 });
 
@@ -44,22 +51,26 @@ const Experience = () => {
       <div className={classes.experienceContent}>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h2>UX Engineer</h2>
             <h2 className={classes.companyInfo}>
-              &nbsp; | J.P. Morgan Chase, Tampa FL (2016-Present)
+              <strong>UI Software Engineer</strong> | NinjaRMM (June
+              2021-Present)
+            </h2>
+          </div>
+        </div>
+        <div className={classes.experience}>
+          <div className={classes.titleCompanyContainer}>
+            <h2 className={classes.companyInfo}>
+              <strong>UX Software Engineer</strong> | J.P. Morgan Chase, Tampa
+              FL (2016-2021)
             </h2>
           </div>
           <br />
-          <p className={classes.timeline}>2019-Present: Healthcare Payments</p>
+          <p className={classes.timeline}>2019-2021: Healthcare Payments</p>
           <BodyText>
-            Designed and built (and recently launched) a new client-facing
-            Healthcare Payments application alongside a new internal Operations
-            tool to modernize and streamline the Healthcare remittance and
-            payment posting experience
-            <br />
-            <br />
-            Responsibilities: UI Development, UX/UI Design Lead, User Interviews
-            & Research, API Development, Business Analysis
+            Designed and built a new client-facing Healthcare Payments
+            application alongside a new internal Operations tool to modernize
+            and streamline the Healthcare remittance and payment posting
+            experience
           </BodyText>
           <br />
           <p className={classes.timeline}>2018-2019: Billing Ops</p>
@@ -73,12 +84,18 @@ const Experience = () => {
             Developed features for an internal Pricing web application used by
             Sales to manage deals with small and large corporations
           </BodyText>
+          <br />
+          <br />
+          <BodyText>
+            Responsibilities: UI Development, UX/UI Design, User Interviews &
+            Research, API Development, Business Analysis
+          </BodyText>
         </div>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h2>Software Engineer Intern</h2>
             <h2 className={classes.companyInfo}>
-              &nbsp; | Nielsen, Tampa FL (Summer 2015)
+              <strong>Software Engineer Intern</strong> | Nielsen, Tampa FL
+              (Summer 2015)
             </h2>
           </div>
           <br />
@@ -91,9 +108,9 @@ const Experience = () => {
         </div>
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
-            <h2>Data Analyst</h2>
             <h2 className={classes.companyInfo}>
-              &nbsp; | FSU Libraries, Tallahassee, FL (2014-2016)
+              <strong>Data Analyst</strong> | FSU Libraries, Tallahassee, FL
+              (2014-2016)
             </h2>
           </div>
           <br />

@@ -75,12 +75,13 @@ const Home = () => {
         <section className={classes.aboutDetails}>
           <BodyText>
             I'm a <strong> UX Engineer</strong> with a love for user research,
-            UI/UX design and software development. I'm currently designing and
-            building web applications at J.P. Morgan Chase, located in Tampa,
-            FL.
+            UI/UX design and software development. I'm currently building
+            software at NinjaRMM and learning about the huge role that IT
+            management software plays for small and large companies in today's
+            rapidly changing work environment.
             <br />
             <br />
-            Outside of work, I'm usually baking, drawing/painting, playing with
+            Outside of work, I'm usually baking, drawing, painting, playing with
             my dog or practicing latte art. I built this portfolio to share some
             of my interests and showcase things I've created outside of work for
             fun.
