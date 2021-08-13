@@ -117,9 +117,10 @@ const Projects = () => {
       />
       <Project
         title="Food Journal"
-        description=" A mobile app that helps people capture daily meals and symptoms to
-         better understand their personal relationship with food. Whether you're just a big foodie
-          or enjoy cooking and baking like myself, or if you want to understand patterns in your reactions to certain foods, this app is for you."
+        description="A mobile app to capture daily meals and symptoms to help people
+          better understand their personal relationship with food. Whether you're just a big foodie
+          or enjoy cooking and baking like myself and want to privately capture each meal, or if you
+          want to understand patterns in your reactions to certain foods, this app is for you."
         renderImages={() => (
           <div className={classes.invisionProj}>
             <img

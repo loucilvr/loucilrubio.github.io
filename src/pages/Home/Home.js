@@ -13,6 +13,11 @@ const useStyles = createUseStyles({
     flexDirection: "column",
     alignItems: "center",
   },
+  aboutCopyContainer: {
+    "@media (min-width: 769px)": {
+      width: "624px",
+    },
+  },
   linkedinLogo: {
     display: "inline",
     width: "17px",
@@ -25,7 +30,7 @@ const useStyles = createUseStyles({
   },
   headshot: {
     "@media (min-width: 769px)": {
-      width: "30%",
+      width: "20%",
     },
     "@media (max-width: 768px)": {
       width: "40%",
@@ -70,15 +75,15 @@ const Home = () => {
         alt="My personal headshot"
         className={classes.headshot}
       />
-      <div>
+      <div className={classes.aboutCopyContainer}>
         <PageHeading title="hi there, I'm Loucil :-)" />
         <section className={classes.aboutDetails}>
           <BodyText>
-            I'm a <strong> UX Engineer</strong> with a love for user research,
-            UI/UX design and software development. I'm currently building
-            software at NinjaRMM and learning about the huge role that IT
-            management software plays for small and large companies in today's
-            rapidly changing work environment.
+            I'm a <strong> UX Engineer</strong> with a love for UI/UX design,
+            user research and software development. I recently joined NinjaRMM
+            where I'm helping to build the interface for a suite of products
+            that play an important role in remotely managing devices for small
+            and large companies in today's rapidly changing work environment.
             <br />
             <br />
             Outside of work, I'm usually baking, drawing, painting, playing with

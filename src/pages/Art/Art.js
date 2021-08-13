@@ -20,17 +20,25 @@ const useStyles = createUseStyles({
   illustrations: {
     padding: "32px 0px",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row",
+    flexFlow: "wrap",
     alignItems: "center",
+    justifyContent: "center",
   },
   artContainer: {
     width: "100%",
     height: "100%",
   },
   image: {
-    width: "70%",
     margin: "8px",
     border: "1px solid #EEEEEE",
+    borderRadius: "12px",
+    "@media (min-width: 769px)": {
+      width: "30%",
+    },
+    "@media (max-width: 768px)": {
+      width: "40%",
+    },
   },
 });
 

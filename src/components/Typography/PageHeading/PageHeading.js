@@ -12,6 +12,9 @@ const useStyles = createUseStyles({
     fontSize: "32px",
     margin: 0,
     padding: 0,
+    "@media (min-width: 769px)": {
+      fontSize: "50px",
+    },
   },
 });
 

@@ -65,7 +65,9 @@ const Experience = () => {
             </h2>
           </div>
           <br />
-          <p className={classes.timeline}>2019-2021: Healthcare Payments</p>
+          <p className={classes.timeline}>
+            2019-2021: Healthcare Payments | Senior Associate
+          </p>
           <BodyText>
             Designed and built a new client-facing Healthcare Payments
             application alongside a new internal Operations tool to modernize
@@ -73,7 +75,7 @@ const Experience = () => {
             experience
           </BodyText>
           <br />
-          <p className={classes.timeline}>2018-2019: Billing Ops</p>
+          <p className={classes.timeline}>2018-2019: Billing Ops | Associate</p>
           <BodyText>
             Co-designed and developed a new internal Operations tool that allows
             Ops to monitor and action incoming volume of billing data
@@ -87,8 +89,9 @@ const Experience = () => {
           <br />
           <br />
           <BodyText>
-            Responsibilities: UI Development, UX/UI Design, User Interviews &
-            Research, API Development, Business Analysis
+            Responsibilities: UX/UI Design Lead, User Interviews & Research,
+            Prototypes, Journey Maps, UI Development, API Development, Project
+            Planning, Business Analysis
           </BodyText>
         </div>
         <div className={classes.experience}>
