@@ -35,10 +35,11 @@ const useStyles = createUseStyles({
     padding: "8px 0",
     margin: 0,
     color: "#989898",
+    fontSize: "18px",
   },
   experienceContainer: {
     "@media (min-width: 769px)": {
-      width: "660px",
+      maxWidth: "800px",
     },
   },
 });
@@ -52,7 +53,7 @@ const Experience = () => {
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
             <h2 className={classes.companyInfo}>
-              <strong>UI Software Engineer</strong> | NinjaRMM (June
+              <strong>UI/UX Software Engineer</strong> | NinjaRMM (June
               2021-Present)
             </h2>
           </div>
@@ -60,8 +61,8 @@ const Experience = () => {
         <div className={classes.experience}>
           <div className={classes.titleCompanyContainer}>
             <h2 className={classes.companyInfo}>
-              <strong>UX Software Engineer</strong> | J.P. Morgan Chase, Tampa
-              FL (2016-2021)
+              <strong>UI/UX Software Engineer</strong> | J.P. Morgan Chase,
+              Tampa FL (2016-2021)
             </h2>
           </div>
           <br />
@@ -90,23 +91,9 @@ const Experience = () => {
           <br />
           <BodyText>
             Responsibilities: UX/UI Design Lead, User Interviews & Research,
-            Prototypes, Journey Maps, UI Development, API Development, Project
-            Planning, Business Analysis
-          </BodyText>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.titleCompanyContainer}>
-            <h2 className={classes.companyInfo}>
-              <strong>Software Engineer Intern</strong> | Nielsen, Tampa FL
-              (Summer 2015)
-            </h2>
-          </div>
-          <br />
-          <BodyText>
-            Gained experience in Agile Software Development with an
-            international team working on a web app for processing TV Set Top
-            Box data; Helped kickstart a new Scala Spark project to improve
-            query performance of existing application
+            Lo/Hi Fidelity Mockups (Sketch/Invision, Figma), Prototypes, Journey
+            Maps, Frontend Development, API Development, Project Planning,
+            Business Analysis
           </BodyText>
         </div>
         <div className={classes.experience}>
@@ -123,6 +110,21 @@ const Experience = () => {
             performance; Crafted Data Visualizations/Dashboards on Tableau and
             published findings Drupal pages to tell a story on where students
             gravitate to on campus based on semester/time
+          </BodyText>
+        </div>
+        <div className={classes.experience}>
+          <div className={classes.titleCompanyContainer}>
+            <h2 className={classes.companyInfo}>
+              <strong>Software Engineer Intern</strong> | Nielsen, Tampa FL
+              (Summer 2015)
+            </h2>
+          </div>
+          <br />
+          <BodyText>
+            Gained experience in Agile Software Development with an
+            international team working on a web app for processing TV Set Top
+            Box data; Helped kickstart a new Scala Spark project to improve
+            query performance of existing application
           </BodyText>
         </div>
       </div>

@@ -3,9 +3,8 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   bodyText: {
-    fontSize: "16px",
-    color: "#363636",
-    lineHeight: "22px",
+    fontSize: "20px",
+    color: "#737373",
     margin: 0,
   },
 });

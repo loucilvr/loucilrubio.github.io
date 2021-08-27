@@ -17,10 +17,10 @@ const useStyles = createUseStyles({
     "@media (max-width: 768px)": {
       display: "flex",
       flexDirection: "column",
-      padding: "32px 24px",
+      padding: "24px",
       fontSize: "16px",
       width: "100%",
-      height: "380px",
+      height: "350px",
       backgroundImage:
         "-webkit-linear-gradient(100deg, transparent 34.5%, #242526 35%, #242526 95%)",
       position: "fixed",
@@ -29,8 +29,9 @@ const useStyles = createUseStyles({
     "@media (min-width: 769px)": {
       maxWidth: "200px",
       display: "flex",
+      alignItems: "center",
       flexDirection: "column",
-      paddingTop: "200px",
+      paddingTop: "240px",
     },
   },
   linkList: {
@@ -66,7 +67,8 @@ const useStyles = createUseStyles({
   },
   navList: {
     listStyle: "none",
-    padding: "38px 0",
+    padding: 0,
+    width: "160px",
   },
   hideMenu: {
     top: "-386px",
@@ -130,8 +132,6 @@ const menuLinks = [
 
 const Menu = ({ setView, history }) => {
   const classes = useStyles();
-  console.log("history.pathname", history.location.pathname);
-
   const isSelected = (label) => {
     if (label === "HOME" && history.location.pathname === "/") {
       return classes.selected;
@@ -166,9 +166,6 @@ const Menu = ({ setView, history }) => {
       )}
     >
       <span className={classes.linkContainer}>
-        <a href="/" className={classes.portfolioLabel}>
-          LOUCIL RUBIO
-        </a>
         <ul className={classes.navList}>
           {menuLinks.map((ml) => (
             <li key={ml.label} className={classes.linkList}>

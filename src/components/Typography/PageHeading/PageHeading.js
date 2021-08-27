@@ -18,9 +18,9 @@ const useStyles = createUseStyles({
   },
 });
 
-const PageHeading = ({ title }) => {
+const PageHeading = ({ title, ...rest }) => {
   const classes = useStyles();
-  return <h1 className={classes.heading}>{title}</h1>;
+  return <h1 className={classes.heading} {...rest}>{title}</h1>;
 };
 
 export default PageHeading;

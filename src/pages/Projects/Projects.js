@@ -25,7 +25,7 @@ const useStyles = createUseStyles({
     alignItems: "center",
   },
   projects: {
-    width: "100%",
+    maxWidth: "800px",
     height: "100%",
   },
   other: {
@@ -133,7 +133,6 @@ const Projects = () => {
               alt="Food Journal mobile app design preview"
               className={classes.projectImage}
             />
-            <p>(In Progress &nbsp;|&nbsp; Prototype link available)</p>
           </div>
         )}
       />

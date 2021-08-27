@@ -1,21 +1,22 @@
 import React from "react";
-import Headshot from "../../assets/img/2016spring_headshot.png";
+import Headshot from "../../assets/img/2021-img.png";
 import Linkedin from "../../assets/img/linkedinLogo.png";
 import Github from "../../assets/img/githubLogo.png";
 import { createUseStyles } from "react-jss";
 import PageHeading from "../../components/Typography/PageHeading";
-import BodyText from "../../components/Typography/BodyText";
 
 const useStyles = createUseStyles({
   about: {
-    fontFamily: "sans-serif",
+    fontWeight: 600,
     display: "flex",
-    flexDirection: "column",
     alignItems: "center",
+    "@media (max-width: 768px)": {
+      flexDirection: "column",
+    },
   },
   aboutCopyContainer: {
     "@media (min-width: 769px)": {
-      width: "624px",
+      width: "800px",
     },
   },
   linkedinLogo: {
@@ -30,17 +31,16 @@ const useStyles = createUseStyles({
   },
   headshot: {
     "@media (min-width: 769px)": {
-      width: "20%",
-    },
-    "@media (max-width: 768px)": {
       width: "40%",
     },
-    borderRadius: "50%",
+    "@media (max-width: 768px)": {
+      width: "60%",
+    },
     marginBottom: "32px",
   },
   aboutDetails: {
-    textAlign: "left",
-    padding: "0 42px",
+    fontSize: "22px",
+    color: "#737373",
   },
   divider: {
     width: "1px",
@@ -70,28 +70,27 @@ const Home = () => {
   const classes = useStyles();
   return (
     <div data-testid="home" className={classes.about}>
-      <img
-        src={Headshot}
-        alt="My personal headshot"
-        className={classes.headshot}
-      />
       <div className={classes.aboutCopyContainer}>
-        <PageHeading title="hi there, I'm Loucil :-)" />
-        <section className={classes.aboutDetails}>
-          <BodyText>
-            I'm a <strong> UX Engineer</strong> with a love for UI/UX design,
-            user research and software development. I recently joined NinjaRMM
-            where I'm helping to build the interface for a suite of products
-            that play an important role in remotely managing devices for small
-            and large companies in today's rapidly changing work environment.
-            <br />
-            <br />
-            Outside of work, I'm usually baking, drawing, painting, playing with
-            my dog or practicing latte art. I built this portfolio to share some
-            of my interests and showcase things I've created outside of work for
-            fun.
-          </BodyText>
-        </section>
+        <PageHeading
+          title="hi there, I'm Loucil :-)"
+          style={{ textAlign: "left" }}
+        />
+        <p className={classes.aboutDetails}>
+          A <strong> UX Engineer</strong> combining her passions for design and
+          software development and bridging the gap between product design and
+          engineering.
+          <br />
+          <br />
+          I recently joined NinjaRMM where I'm helping to build products that
+          help small and large businesses securely and remotely manage their
+          devices in one place - allowing them to stay ahead of the game in
+          today's rapidly changing work environment.
+          <br />
+          <br />
+          Previously, I worked at J.P. Morgan Chase, where I helped redesign and
+          build multiple applications for Pricing, Billing Operations and
+          Healthcare Finance services.
+        </p>
         <section className={classes.mediaLinks}>
           <img
             src={Linkedin}
@@ -118,6 +117,11 @@ const Home = () => {
           </a>
         </section>
       </div>
+      <img
+        src={Headshot}
+        alt="My personal headshot"
+        className={classes.headshot}
+      />
     </div>
   );
 };

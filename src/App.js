@@ -26,7 +26,7 @@ const useStyles = createUseStyles({
   },
   navContainer: {
     "@media (min-width: 769px)": {
-      width: "30%",
+      width: "25%",
       display: "flex",
       flexDirection: "row-reverse",
     },
@@ -35,27 +35,27 @@ const useStyles = createUseStyles({
     "@media (min-width: 769px)": {
       display: "flex",
       width: "70%",
-      paddingTop: "200px",
-      paddingLeft: "120px",
+      paddingLeft: "80px",
       overflow: "auto",
     },
     "@media (max-width: 768px)": {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      width: "100%",
       height: "100%",
-      paddingTop: "340px",
-      paddingBottom: "64px",
+      padding: "360px 24px 0px 24px",
     },
   },
   children: {
     "@media (min-width: 769px)": {
-      width: "800px",
+      paddingTop: "240px",
+      width: "1000px",
     },
-    height: "100%",
-    display: "flex",
-    justifyContent: "center",
+    "@media (max-width: 768px)": {
+      height: "100%",
+      display: "flex",
+      justifyContent: "center",
+    },
   },
 });
 
