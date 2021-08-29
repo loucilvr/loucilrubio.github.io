@@ -88,7 +88,7 @@ const Home = () => {
           style={{ textAlign: "left" }}
         />
         <p className={classes.aboutDetails}>
-          A <strong> UX Engineer</strong> combining my passions for design and
+          A <strong> UX Engineer</strong> combining my love for design and
           development.
           <br />
           <br />

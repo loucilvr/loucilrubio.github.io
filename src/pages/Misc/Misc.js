@@ -64,6 +64,9 @@ const useStyles = createUseStyles({
   miscContainer: {
     width: "100%",
     paddingTop: "80px",
+    "@media (min-width: 769px)": {
+      width: "80%",
+    },
   },
 });
 
