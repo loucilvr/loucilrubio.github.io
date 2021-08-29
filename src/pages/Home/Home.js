@@ -11,11 +11,11 @@ const useStyles = createUseStyles({
     display: "flex",
     alignItems: "center",
     height: "100%",
+    boxSizing: "border-box",
     "@media (max-width: 768px)": {
       alignItems: "center",
       flexDirection: "column",
       padding: "48px 24px 24px 24px",
-      boxSizing: "border-box",
     },
     "@media (min-width: 769px)": {
       padding: "24px",
@@ -50,7 +50,7 @@ const useStyles = createUseStyles({
       fontSize: "22px",
     },
     "@media (max-width: 768px)": {
-      fontSize: "18px",
+      fontSize: "20px",
     },
     color: "#737373",
   },
