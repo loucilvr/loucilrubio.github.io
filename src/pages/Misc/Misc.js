@@ -63,6 +63,7 @@ const useStyles = createUseStyles({
   },
   miscContainer: {
     width: "100%",
+    paddingTop: "80px",
   },
 });
 

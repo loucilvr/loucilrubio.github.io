@@ -10,8 +10,16 @@ const useStyles = createUseStyles({
     fontWeight: 600,
     display: "flex",
     alignItems: "center",
+    height: "100%",
     "@media (max-width: 768px)": {
+      alignItems: "center",
       flexDirection: "column",
+      padding: "48px 24px 24px 24px",
+      boxSizing: "border-box",
+    },
+    "@media (min-width: 769px)": {
+      padding: "24px",
+      width: "100%",
     },
   },
   aboutCopyContainer: {
@@ -34,12 +42,16 @@ const useStyles = createUseStyles({
       width: "40%",
     },
     "@media (max-width: 768px)": {
-      width: "60%",
+      width: "50%",
     },
-    marginBottom: "32px",
   },
   aboutDetails: {
-    fontSize: "22px",
+    "@media (min-width: 769px)": {
+      fontSize: "22px",
+    },
+    "@media (max-width: 768px)": {
+      fontSize: "18px",
+    },
     color: "#737373",
   },
   divider: {
@@ -76,9 +88,8 @@ const Home = () => {
           style={{ textAlign: "left" }}
         />
         <p className={classes.aboutDetails}>
-          A <strong> UX Engineer</strong> combining her passions for design and
-          software development and bridging the gap between product design and
-          engineering.
+          A <strong> UX Engineer</strong> combining my passions for design and
+          development.
           <br />
           <br />
           I recently joined NinjaRMM where I'm helping to build products that

@@ -28,6 +28,7 @@ const useStyles = createUseStyles({
   artContainer: {
     width: "100%",
     height: "100%",
+    paddingTop: "80px",
   },
   image: {
     margin: "8px",

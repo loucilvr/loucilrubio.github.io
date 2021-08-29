@@ -25,8 +25,10 @@ const useStyles = createUseStyles({
     alignItems: "center",
   },
   projects: {
-    maxWidth: "800px",
-    height: "100%",
+    paddingTop: "80px",
+    "@media (min-width: 769px)": {
+      width: "80%",
+    },
   },
   other: {
     textAlign: "center",

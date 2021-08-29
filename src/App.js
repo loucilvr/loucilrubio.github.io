@@ -9,52 +9,29 @@ import Contact from "./pages/Contact/Contact";
 import { createUseStyles } from "react-jss";
 import Experience from "./pages/Experience/Experience";
 
+/*
+
+ "@media (min-width: 769px)": {}
+ "@media (max-width: 768px)": {}
+*/
 const useStyles = createUseStyles({
   content: {
+    width: "100%",
+    height: "100%",
+    display: "flex",
+    justifyContent: "center",
+  },
+  main: {
+    height: "calc(100% - 50px)",
+    paddingTop: "50px",
+    display: "flex",
+    justifyContent: "center",
     "@media (min-width: 769px)": {
       width: "100%",
-      height: "100%",
-      display: "flex",
-      justifyContent: "space-between",
+      maxWidth: "1000px",
     },
     "@media (max-width: 768px)": {
       width: "100%",
-      height: "100%",
-      display: "flex",
-      flexDirection: "column",
-    },
-  },
-  navContainer: {
-    "@media (min-width: 769px)": {
-      width: "25%",
-      display: "flex",
-      flexDirection: "row-reverse",
-    },
-  },
-  mainContent: {
-    "@media (min-width: 769px)": {
-      display: "flex",
-      width: "70%",
-      paddingLeft: "80px",
-      overflow: "auto",
-    },
-    "@media (max-width: 768px)": {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "100%",
-      padding: "360px 24px 0px 24px",
-    },
-  },
-  children: {
-    "@media (min-width: 769px)": {
-      paddingTop: "240px",
-      width: "1000px",
-    },
-    "@media (max-width: 768px)": {
-      height: "100%",
-      display: "flex",
-      justifyContent: "center",
     },
   },
 });
@@ -63,20 +40,16 @@ const App = () => {
   const classes = useStyles();
   return (
     <div data-testid="app-routes" className={classes.content}>
-      <div className={classes.navContainer}>
-        <Menu />
-      </div>
-      <main className={classes.mainContent}>
-        <div className={classes.children}>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/art" component={Illustrations} />
-            <Route path="/resources" component={Misc} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
-        </div>
+      <Menu />
+      <main className={classes.main}>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/work" component={Experience} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/art" component={Illustrations} />
+          <Route path="/resources" component={Misc} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
       </main>
     </div>
   );

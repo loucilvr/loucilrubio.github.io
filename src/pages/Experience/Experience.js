@@ -38,8 +38,9 @@ const useStyles = createUseStyles({
     fontSize: "18px",
   },
   experienceContainer: {
+    paddingTop: "80px",
     "@media (min-width: 769px)": {
-      maxWidth: "800px",
+      width: "70%",
     },
   },
 });
