@@ -67,12 +67,8 @@ const Projects = () => {
       <PageHeading title="Side Projects" />
       <Project
         title="Flippy"
-        description={`A mobile-friendly web app for flipping through a set of flash cards. 
-        The first MLP "minimum lovable product" of this allowed myself and others 
-        to study for the US Citizenship Exam through a few simple features.
-         Flippy allows you to see the question and answer on a card, provides a way to go through a deck of cards and see how many cards you've gone through, 
-         as well as a way to randomly pick a flash card in order to really test your knowledge.
-         I designed and built this app with React and it is currently deployed on Heroku.`}
+        description={`A web app for flipping through a set of flash cards. Originally built to help study for the US Citizenship Exam.
+        Designed and built in React and deployed on Heroku.`}
         renderImages={() => (
           <div className={classes.flippyImages}>
             <div>
@@ -120,9 +116,7 @@ const Projects = () => {
       <Project
         title="Food Journal"
         description="A mobile app to capture daily meals and symptoms to help people
-          better understand their personal relationship with food. Whether you're just a big foodie
-          or enjoy cooking and baking like myself and want to privately capture each meal, or if you
-          want to understand patterns in your reactions to certain foods, this app is for you."
+          better understand their personal relationship with food."
         renderImages={() => (
           <div className={classes.invisionProj}>
             <img
@@ -140,7 +134,7 @@ const Projects = () => {
       />
       <Project
         title="Personal Site"
-        description="This site was made with love by yours truly, using React/CRA, Redux, JS/HTML/CSS. Currently hosted via GH Pages."
+        description="Built in React/CRA, Redux, JS/HTML/CSS. Currently hosted via GH Pages."
         renderFooter={() => (
           <div>
             <Button

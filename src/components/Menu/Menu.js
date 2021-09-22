@@ -37,7 +37,7 @@ const useStyles = createUseStyles({
     "@media (max-width: 768px)": {
       padding: "6px 14px",
       textDecoration: "none",
-      fontSize: "15px",
+      fontSize: "14px",
       "&:hover": {
         textDecoration: "underline",
       },

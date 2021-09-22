@@ -55,8 +55,7 @@ const useStyles = createUseStyles({
     fontSize: "18px",
   },
   articlesSubheader: {
-    fontWeight: "bold",
-    fontSize: "18px",
+    fontSize: "20px",
   },
   articles: {
     padding: "24px 32px",
