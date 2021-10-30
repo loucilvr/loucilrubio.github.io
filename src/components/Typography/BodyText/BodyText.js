@@ -3,7 +3,7 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   bodyText: {
-    fontSize: "20px",
+    fontSize: "18px",
     color: "#737373",
     margin: 0,
   },

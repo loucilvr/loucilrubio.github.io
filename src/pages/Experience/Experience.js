@@ -68,25 +68,44 @@ const Experience = () => {
           </div>
           <br />
           <p className={classes.timeline}>
-            2019-2021: Healthcare Payments | Senior Associate
+            Senior Associate UI/UX Software Engineer (2019-2021)
           </p>
           <BodyText>
-            Designed and built a new client-facing Healthcare Payments
-            application alongside a new internal Operations tool to modernize
-            and streamline the Healthcare remittance and payment posting
+            Led the design for two new Healthcare payments web applications to
+            modernize and streamline the remittance and payment posting
             experience
+            <br />
+            <br />
+            Redesigned and developed new features that previously caused many
+            pain points for existing users
+            <br />
+            <br />
+            Interviewed both internal and external users to identify current
+            workflow pain points and to understand user needs and opportunities
+            <br />
+            <br />
+            Developed features for our frontend as well as our backend services
+            to support the UI
+            <br />
+            <br />
+            Mentored junior engineers in frontend design, development and
+            product collaboration
+          </BodyText>
+
+          <br />
+          <p className={classes.timeline}>
+            Associate UI Software Engineer (2018-2019)
+          </p>
+          <BodyText>
+            Co-designed and developed a new modernized and streamlined Billing
+            Operations tool to support our Operations Team's daily monitoring
+            and resolution tasks
           </BodyText>
           <br />
-          <p className={classes.timeline}>2018-2019: Billing Ops | Associate</p>
+          <p className={classes.timeline}>Software Engineer (2016-2018)</p>
           <BodyText>
-            Co-designed and developed a new internal Operations tool that allows
-            Ops to monitor and action incoming volume of billing data
-          </BodyText>
-          <br />
-          <p className={classes.timeline}>2016-2018: Pricing Tech</p>
-          <BodyText>
-            Developed features for an internal Pricing web application used by
-            Sales to manage deals with small and large corporations
+            Developed frontend/backend features for an internal Pricing web
+            application to support internal users
           </BodyText>
           <br />
           <br />
