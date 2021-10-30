@@ -34,7 +34,6 @@ const useStyles = createUseStyles({
   timeline: {
     padding: "8px 0",
     margin: 0,
-    color: "#989898",
     fontSize: "18px",
   },
   experienceContainer: {
