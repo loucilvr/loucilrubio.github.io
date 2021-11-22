@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
     justifyContent: "center",
     "@media (min-width: 769px)": {
       width: "100%",
-      maxWidth: "1000px",
+      maxWidth: "1100px",
     },
     "@media (max-width: 768px)": {
       width: "100%",

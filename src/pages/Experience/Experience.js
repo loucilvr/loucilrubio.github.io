@@ -56,6 +56,12 @@ const Experience = () => {
               <strong>UI/UX Software Engineer</strong> | NinjaRMM (June
               2021-Present)
             </h2>
+            <br />
+            <br />
+            <BodyText>
+              Currently designing and building out Ninja's new Design System, as
+              well as developing features for our existing set of products
+            </BodyText>
           </div>
         </div>
         <div className={classes.experience}>
@@ -73,10 +79,6 @@ const Experience = () => {
             Led the design for two new Healthcare payments web applications to
             modernize and streamline the remittance and payment posting
             experience
-            <br />
-            <br />
-            Redesigned and developed new features that previously caused many
-            pain points for existing users
             <br />
             <br />
             Interviewed both internal and external users to identify current

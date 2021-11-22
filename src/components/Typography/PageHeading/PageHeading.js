@@ -9,18 +9,22 @@ const useStyles = createUseStyles({
     fontWeight: 700,
     paddingBottom: "10px",
     textAlign: "center",
-    fontSize: "32px",
+    fontSize: "40px",
     margin: 0,
     padding: 0,
     "@media (min-width: 769px)": {
-      fontSize: "50px",
+      fontSize: "48px",
     },
   },
 });
 
 const PageHeading = ({ title, ...rest }) => {
   const classes = useStyles();
-  return <h1 className={classes.heading} {...rest}>{title}</h1>;
+  return (
+    <h1 className={classes.heading} {...rest}>
+      {title}
+    </h1>
+  );
 };
 
 export default PageHeading;
