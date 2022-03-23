@@ -32,7 +32,7 @@ const useStyles = createUseStyles({
 	},
 	companyLogo: {
 		display: "inline",
-		width: "24px",
+		width: "28px",
 		marginRight: "6px",
 		"&:hover": {
 			marginTop: "-8px",
@@ -48,6 +48,7 @@ const useStyles = createUseStyles({
 		},
 	},
 	aboutDetails: {
+    margin: 0,
 		"@media (min-width: 769px)": {
 			fontSize: "18px",
 		},
@@ -67,9 +68,12 @@ const useStyles = createUseStyles({
 		justifyContent: "center",
 		alignItems: "center",
 		height: "60px",
+		"@media (max-width: 768px)": {
+			paddingBottom: "48px",
+		},
 	},
 	mediaLinks: {
-		width: "120px",
+		width: "140px",
 		margin: "46px 0",
 		display: "flex",
 		alignItems: "center",
