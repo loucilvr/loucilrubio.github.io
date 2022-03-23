@@ -9,11 +9,6 @@ import Contact from "./pages/Contact/Contact";
 import { createUseStyles } from "react-jss";
 import Experience from "./pages/Experience/Experience";
 
-/*
-
- "@media (min-width: 769px)": {}
- "@media (max-width: 768px)": {}
-*/
 const useStyles = createUseStyles({
   content: {
     width: "100%",

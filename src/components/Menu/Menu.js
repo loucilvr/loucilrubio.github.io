@@ -35,7 +35,7 @@ const useStyles = createUseStyles({
     fontWeight: "600",
     color: "#838383",
     "@media (max-width: 768px)": {
-      padding: "6px 14px",
+      padding: "6px 12px",
       textDecoration: "none",
       fontSize: "14px",
       "&:hover": {
@@ -47,7 +47,7 @@ const useStyles = createUseStyles({
         backgroundColor: "#f3f3f3",
         borderRadius: "4px",
       },
-      padding: "6px 20px",
+      padding: "6px 16px",
       fontSize: "16px",
       color: "#828282",
     },
