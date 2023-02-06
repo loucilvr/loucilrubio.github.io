@@ -9,11 +9,11 @@ const useStyles = createUseStyles({
     fontWeight: 700,
     paddingBottom: "10px",
     textAlign: "center",
-    fontSize: "40px",
+    fontSize: "36px",
     margin: 0,
     padding: 0,
     "@media (min-width: 769px)": {
-      fontSize: "48px",
+      fontSize: "42px",
     },
   },
 });

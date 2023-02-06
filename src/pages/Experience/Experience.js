@@ -4,153 +4,166 @@ import { createUseStyles } from "react-jss";
 import BodyText from "../../components/Typography/BodyText";
 
 const useStyles = createUseStyles({
-  titleCompanyContainer: {
-    "& h2": {
-      margin: 0,
-      padding: "8px 0",
-      display: "inline",
-      fontSize: "18px",
-    },
-  },
-  companyInfo: {
-    fontWeight: "normal",
-  },
-  description: {
-    margin: 0,
-    padding: 0,
-    fontSize: "18px",
-    paddingTop: "8px",
-    paddingBottom: "64px",
-    color: "#6b6b6b",
-  },
-  experienceContent: {
-    padding: "46px 32px",
-  },
-  experience: {
-    marginBottom: "48px",
-    borderBottom: "1px solid #DDDDDD",
-    paddingBottom: "48px",
-  },
-  timeline: {
-    padding: "8px 0",
-    margin: 0,
-    fontSize: "18px",
-  },
-  experienceContainer: {
-    paddingTop: "80px",
-    "@media (min-width: 769px)": {
-      width: "70%",
-    },
-  },
+	titleCompanyContainer: {
+		"& h2": {
+			margin: 0,
+			padding: "8px 0",
+			display: "inline",
+			fontSize: "18px",
+		},
+	},
+	companyInfo: {
+		fontWeight: "bold",
+	},
+	description: {
+		margin: 0,
+		padding: 0,
+		fontSize: "18px",
+		paddingTop: "8px",
+		paddingBottom: "64px",
+		color: "#6b6b6b",
+	},
+	experienceContent: {
+		padding: "46px 32px",
+	},
+	experience: {
+		marginBottom: "48px",
+		borderBottom: "1px solid #EEEEEE",
+		paddingBottom: "48px",
+	},
+	timeline: {
+		padding: "8px 0",
+		margin: 0,
+		fontSize: "18px",
+		color: "#3c3f49",
+	},
+	experienceContainer: {
+		paddingTop: "80px",
+		"@media (min-width: 769px)": {
+			width: "70%",
+		},
+	},
+	subRoleDescription: {
+		marginLeft: "16px",
+		paddingLeft: "32px",
+		paddingBottom: "16px",
+		borderLeft: "2px dashed #ddd",
+	},
 });
 
 const Experience = () => {
-  const classes = useStyles();
-  return (
-    <div data-testid="experience" className={classes.experienceContainer}>
-      <PageHeading title="Experience" />
-      <div className={classes.experienceContent}>
-        <div className={classes.experience}>
-          <div className={classes.titleCompanyContainer}>
-            <h2 className={classes.companyInfo}>
-              <strong>UI/UX Software Engineer</strong> | NinjaRMM (June
-              2021-Present)
-            </h2>
-            <br />
-            <br />
-            <BodyText>
-              Currently designing and building out Ninja's new Design System, as
-              well as developing features for our existing set of products
-            </BodyText>
-          </div>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.titleCompanyContainer}>
-            <h2 className={classes.companyInfo}>
-              <strong>UI/UX Software Engineer</strong> | J.P. Morgan Chase,
-              Tampa FL (2016-2021)
-            </h2>
-          </div>
-          <br />
-          <p className={classes.timeline}>
-            Senior Associate UI/UX Software Engineer (2019-2021)
-          </p>
-          <BodyText>
-            Led the design for two new Healthcare payments web applications to
-            modernize and streamline the remittance and payment posting
-            experience
-            <br />
-            <br />
-            Interviewed both internal and external users to identify current
-            workflow pain points and to understand user needs and opportunities
-            <br />
-            <br />
-            Developed features for our frontend as well as our backend services
-            to support the UI
-            <br />
-            <br />
-            Mentored junior engineers in frontend design, development and
-            product collaboration
-          </BodyText>
-
-          <br />
-          <p className={classes.timeline}>
-            Associate UI Software Engineer (2018-2019)
-          </p>
-          <BodyText>
-            Co-designed and developed a new modernized and streamlined Billing
-            Operations tool to support our Operations Team's daily monitoring
-            and resolution tasks
-          </BodyText>
-          <br />
-          <p className={classes.timeline}>Software Engineer (2016-2018)</p>
-          <BodyText>
-            Developed frontend/backend features for an internal Pricing web
-            application to support internal users
-          </BodyText>
-          <br />
-          <br />
-          <BodyText>
-            Responsibilities: UX/UI Design Lead, User Interviews & Research,
-            Lo/Hi Fidelity Mockups (Sketch/Invision, Figma), Prototypes, Journey
-            Maps, Frontend Development, API Development, Project Planning,
-            Business Analysis
-          </BodyText>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.titleCompanyContainer}>
-            <h2 className={classes.companyInfo}>
-              <strong>Data Analyst</strong> | FSU Libraries, Tallahassee, FL
-              (2014-2016)
-            </h2>
-          </div>
-          <br />
-          <BodyText>
-            Developed a SAS Program to collect, transform and analyze library
-            usage data to better understand library traffic and services’
-            performance; Crafted Data Visualizations/Dashboards on Tableau and
-            published findings Drupal pages to tell a story on where students
-            gravitate to on campus based on semester/time
-          </BodyText>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.titleCompanyContainer}>
-            <h2 className={classes.companyInfo}>
-              <strong>Software Engineer Intern</strong> | Nielsen, Tampa FL
-              (Summer 2015)
-            </h2>
-          </div>
-          <br />
-          <BodyText>
-            Gained experience in Agile Software Development with an
-            international team working on a web app for processing TV Set Top
-            Box data; Helped kickstart a new Scala Spark project to improve
-            query performance of existing application
-          </BodyText>
-        </div>
-      </div>
-    </div>
-  );
+	const classes = useStyles();
+	return (
+		<div data-testid="experience" className={classes.experienceContainer}>
+			<PageHeading title="Work" />
+			<div className={classes.experienceContent}>
+				<div className={classes.experience}>
+					<div className={classes.titleCompanyContainer}>
+						<h2 className={classes.companyInfo}>NinjaOne</h2>
+						<br />
+						<br />
+						<p className={classes.timeline}>
+							Senior Product Designer (Nov 2022 - Present)
+						</p>
+						<div className={classes.subRoleDescription}>
+							<BodyText>
+								Currently working on multiple products and initiatives from
+								Platform redesign, Growth and Marketing, Remote Monitoring,
+								Automations, as well as building our internal Design System
+							</BodyText>
+						</div>
+						<p className={classes.timeline}>Product Designer (March 2022)</p>
+						<div className={classes.subRoleDescription} />
+						<p className={classes.timeline}>UI/UX Engineer (June 2021)</p>
+					</div>
+				</div>
+				<div className={classes.experience}>
+					<div className={classes.titleCompanyContainer}>
+						<h2 className={classes.companyInfo}>J.P. Morgan Chase</h2>
+					</div>
+					<br />
+					<p className={classes.timeline}>
+						Senior Associate UX Engineer (2019 - 2021)
+					</p>
+					<div className={classes.subRoleDescription}>
+						<BodyText>
+							Led the redesign of our client-facing Healthcare payments app, as
+							well as our internal support Ops tool, to modernize and streamline
+							the remittance and payment posting experience for Healthcare &
+							Insurance Provider customers
+							<br />
+							<br />
+							Facilitated user research and interviews of both external (Portal
+							users) and internal customers (Support and Operations teams)
+							<br />
+							<br />
+							Delivered low to high-fidelity mockups and built React components
+							leveraging our JPMC's Design System
+							<br />
+							<br />
+							Collaborated with Product to define solutions, epics/roadmaps, and
+							to create training documents for customers
+						</BodyText>
+					</div>
+					<p className={classes.timeline}>Associate UI/UX Engineer (2018)</p>
+					<div className={classes.subRoleDescription}>
+						<BodyText>
+							Co-designed and developed a new Billing Ops dashboard to support
+							our Operations Team's daily monitoring tasks
+						</BodyText>
+					</div>
+					<p className={classes.timeline}>Software Engineer (2016)</p>
+					<div className={classes.subRoleDescription}>
+						<BodyText>
+							Developed full-stack web features for JPMorgan's Pricing Sales app
+						</BodyText>
+					</div>
+				</div>
+				<div className={classes.experience}>
+					<div className={classes.titleCompanyContainer}>
+						<h2 className={classes.companyInfo}>
+							Florida State University Libraries Research
+						</h2>
+					</div>
+					<br />
+					<p className={classes.timeline}>Data Analyst (2014 - 2016)</p>
+					<div className={classes.subRoleDescription}>
+						<BodyText>
+							Designed and built our public-facing Analytics page within the
+							University's shared CMS Drupal site
+							<br />
+							<br />
+							Built a SAS Program to collect, transform and analyze library
+							usage data to better understand library traffic and services’
+							performance
+							<br />
+							<br />
+							Crafted Data Visualizations and Dashboards on Tableau, and
+							published findings on our FSU Libraries site
+						</BodyText>
+					</div>
+				</div>
+				<div className={classes.titleCompanyContainer}>
+					<h2 className={classes.companyInfo}>Nielsen</h2>
+				</div>
+				<br />
+				<p className={classes.timeline}>
+					Software Engineer Intern (Summer 2015)
+				</p>
+				<div className={classes.subRoleDescription}>
+					<BodyText>
+						Gained experience in Agile Software Development while working with a
+						global team on a Java web app for processing TV Set Top Box data
+						collected from TV Cable Providers across the country
+						<br />
+						<br />
+						Helped kickstart a new Scala Spark project to improve query
+						performance of existing application
+					</BodyText>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Experience;

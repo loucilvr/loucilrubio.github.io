@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     border: "none",
     color: "#464646",
     padding: "8px",
-    fontSize: "14px",
+    fontSize: "16px",
     "&:hover": {
       borderBottom: "2px solid #000000",
       cursor: "pointer",
