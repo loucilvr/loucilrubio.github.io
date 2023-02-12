@@ -75,7 +75,7 @@ const useStyles = createUseStyles(() => {
 		linksContainer: {
 			width: "100%",
 			maxWidth: "1100px",
-			padding: "0 32px",
+			padding: "0 24px",
 			display: "flex",
 			alignItems: "center",
 			justifyContent: "space-between",
@@ -86,6 +86,9 @@ const useStyles = createUseStyles(() => {
 				display: "flex",
 				justifyContent: "space-between",
 				alignItems: "center",
+			},
+			"@media (max-width: 768px)": {
+				padding: "0 12px",
 			},
 		},
 		siteLinks: {

@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
 		"@media (max-width: 912px)": {
 			alignItems: "center",
 			flexDirection: "column",
-			padding: "48px 24px",
+			padding: "40px 24px",
 		},
 		"@media (min-width: 769px)": {
 			width: "100%",
