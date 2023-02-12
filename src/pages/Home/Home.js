@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
 		},
 		"@media (min-width: 769px)": {
 			width: "100%",
-			height: "800px",
+			height: "720px",
 			padding: "24px",
 		},
 	},

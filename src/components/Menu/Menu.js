@@ -48,7 +48,7 @@ const useStyles = createUseStyles(() => {
 		},
 		menu: {
 			width: "100%",
-			height: "50px",
+			height: "60px",
 			borderBottom: "2px solid #eeeeee",
 			backgroundColor: "#fff",
 			zIndex: 2,
@@ -145,7 +145,7 @@ const useStyles = createUseStyles(() => {
 			position: "absolute",
 			top: "52px",
 			width: "100%",
-			height: "calc(100vh - 50px)",
+			height: "calc(100vh - 60px)",
 			backgroundColor: "#ffffff",
 			display: "flex",
 			justifyContent: "center",

@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
 		display: "flex",
 		justifyContent: "center",
 		width: "100%",
-		height: "calc(100vh - 50px)",
+		height: "calc(100vh - 60px)",
 		"@media (min-width: 769px)": {
 			maxWidth: "1100px",
 		},
