@@ -19,11 +19,16 @@ const useStyles = createUseStyles({
 		alignItems: "center",
 	},
 	main: {
+		overflow: "auto",
+		width: "100%",
+		display: "flex",
+		justifyContent: "center",
+	},
+	scrollingBody: {
 		display: "flex",
 		justifyContent: "center",
 		width: "100%",
 		height: "calc(100vh - 50px)",
-		overflow: "auto",
 		"@media (min-width: 769px)": {
 			maxWidth: "1100px",
 		},
@@ -37,14 +42,16 @@ const App = () => {
 			<div data-testid="app-routes" className={classes.content}>
 				<Menu />
 				<main className={classes.main}>
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route path="/work" component={Experience} />
-						<Route path="/projects" component={Projects} />
-						<Route path="/art" component={Illustrations} />
-						<Route path="/resources" component={Misc} />
-						<Route path="/contact" component={Contact} />
-					</Switch>
+					<div className={classes.scrollingBody}>
+						<Switch>
+							<Route exact path="/" component={Home} />
+							<Route path="/work" component={Experience} />
+							<Route path="/projects" component={Projects} />
+							<Route path="/art" component={Illustrations} />
+							<Route path="/resources" component={Misc} />
+							<Route path="/contact" component={Contact} />
+						</Switch>
+					</div>
 				</main>
 			</div>
 		</>

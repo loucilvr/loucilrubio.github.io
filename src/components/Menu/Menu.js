@@ -30,7 +30,7 @@ const useStyles = createUseStyles(() => {
 				color: "#464646 !important",
 				borderRadius: "4px",
 			},
-			padding: "6px 16px",
+			padding: "8px 16px",
 			fontSize: "18px",
 		},
 	};
@@ -39,11 +39,10 @@ const useStyles = createUseStyles(() => {
 		selected: {
 			...buttonDefault,
 			fontWeight: "600",
-			color: "#464646 !important",
+			color: "#282a31 !important",
 			"@media (min-width: 769px)": {
-				// backgroundColor: "#f3f3f3",
 				borderRadius: "4px",
-				padding: "6px 16px",
+				padding: "8px 16px",
 				fontSize: "18px",
 			},
 		},
@@ -88,6 +87,7 @@ const useStyles = createUseStyles(() => {
 		},
 		siteLinks: {
 			display: "flex",
+			alignItems: "center",
 		},
 		appTitle: {
 			textDecoration: "none",
@@ -105,12 +105,6 @@ const useStyles = createUseStyles(() => {
 			"-webkit-filter": "grayscale(100%)" /* Safari 6.0 - 9.0 */,
 			filter: "grayscale(100%)",
 			opacity: "70%",
-			"&:hover": {
-				opacity: "90%",
-				marginTop: "-8px",
-				filter: "grayscale(0%)",
-				transition: "margin-top 0.25s",
-			},
 			"@media (max-width: 768px)": {
 				width: "16px",
 				margin: "0 8px",
@@ -119,15 +113,27 @@ const useStyles = createUseStyles(() => {
 		imageAnchor: {
 			display: "flex",
 			alignItems: "center",
+			width: "38px",
+			height: "38px",
+			"&:hover": {
+				"& > img": {
+					opacity: "90%",
+					marginTop: "-8px",
+					filter: "grayscale(0%)",
+					transition: "margin-top 0.25s",
+				},
+			},
 		},
 		mediaLinks: {
 			display: "flex",
+			marginLeft: "8px",
 		},
-		burgerMenuButton: {
-			padding: "8px 12px",
+		navMenuButton: {
+			padding: "9px 12px",
 			backgroundColor: "transparent",
 			border: "none",
 			cursor: "pointer",
+			color: "#242526",
 			"&:hover": {
 				backgroundColor: "#e7e7e7",
 				borderRadius: "4px",
@@ -141,10 +147,11 @@ const useStyles = createUseStyles(() => {
 			backgroundColor: "#ffffff",
 			display: "flex",
 			justifyContent: "center",
+			zIndex: 2,
 		},
 		menuOverlayLinks: {
 			width: "100%",
-			margin: 0,
+			marginTop: "12px",
 			padding: 0,
 			textAlign: "center",
 			display: "flex",
@@ -153,7 +160,7 @@ const useStyles = createUseStyles(() => {
 		},
 		menuOverlayLink: {
 			textDecoration: "none",
-			color: "#838383",
+			color: "#3C3F49",
 			fontSize: "24px",
 			width: "100%",
 		},
@@ -162,6 +169,8 @@ const useStyles = createUseStyles(() => {
 			display: "flex",
 			justifyContent: "center",
 			alignItems: "center",
+			margin: "0px 12px",
+			borderRadius: "4px",
 			"&:hover": {
 				backgroundColor: "#e7e7e7",
 			},
@@ -188,7 +197,7 @@ const menuLinks = [
 	},
 ];
 
-const socialLinks = [
+export const socialLinks = [
 	{
 		name: "LinkedIn",
 		description: "View my LinkedIn profile",
@@ -213,7 +222,7 @@ const CloseMenuButton = ({ handleClick }) => {
 	const classes = useStyles();
 
 	return (
-		<button className={classes.burgerMenuButton} onClick={handleClick}>
+		<button className={classes.navMenuButton} onClick={handleClick}>
 			<FontAwesomeIcon icon={faTimes} fontSize="20px" />
 		</button>
 	);
@@ -223,7 +232,7 @@ const OpenMenuButton = ({ handleClick }) => {
 	const classes = useStyles();
 
 	return (
-		<button className={classes.burgerMenuButton} onClick={handleClick}>
+		<button className={classes.navMenuButton} onClick={handleClick}>
 			<FontAwesomeIcon icon={faBars} fontSize="18px" />
 		</button>
 	);

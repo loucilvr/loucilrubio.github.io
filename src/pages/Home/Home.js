@@ -2,6 +2,7 @@ import React from "react";
 import { createUseStyles } from "react-jss";
 import Headshot from "../../assets/img/2021-headshot.png";
 import PageHeading from "../../components/Typography/PageHeading";
+import { socialLinks } from "../../components/Menu/Menu";
 
 const useStyles = createUseStyles({
 	about: {
@@ -35,6 +36,32 @@ const useStyles = createUseStyles({
 			marginBottom: "24px",
 		},
 	},
+	imageAnchor: {
+		display: "flex",
+		alignItems: "center",
+	},
+	mediaLinks: {
+		width: "100%",
+		"@media (max-width: 798px)": {
+			display: "flex",
+			justifyContent: "center",
+		},
+		display: "none",
+		padding: "24px 0",
+	},
+	companyLogo: {
+		"-webkit-filter": "grayscale(100%)" /* Safari 6.0 - 9.0 */,
+		filter: "grayscale(100%)",
+		opacity: "80%",
+		"&:hover": {
+			opacity: "100%",
+			marginTop: "-8px",
+			filter: "grayscale(0%)",
+			transition: "margin-top 0.25s",
+		},
+		width: "28px",
+		margin: "0 12px",
+	},
 });
 
 const Home = () => {
@@ -60,6 +87,24 @@ const Home = () => {
 					Chase, where I helped redesign tools for Pricing/Billing Operations
 					and Healthcare Finance services.
 				</p>
+				<div className={classes.mediaLinks}>
+					{socialLinks.map(({ href, description, logo, name }) => (
+						<li key={name} className={classes.imageAnchor}>
+							<a
+								href={href}
+								target="_blank"
+								rel="noopener noreferrer"
+								className={classes.imageAnchor}
+								aria-label={description}>
+								<img
+									src={logo}
+									alt={`${name} company logo`}
+									className={classes.companyLogo}
+								/>
+							</a>
+						</li>
+					))}
+				</div>
 			</div>
 		</div>
 	);
