@@ -93,7 +93,9 @@ const Experience = () => {
 						<Tag label="Accessibility" />
 						<Tag label="Web" />
 						<Tag label="Native" />
-						<Tag label="Frontend Development" />
+						<Tag label="Full Stack Design" />
+						<Tag label="React" />
+						<Tag label="Storybook" />
 					</div>
 				</div>
 				<div className={classes.experience}>
@@ -116,8 +118,9 @@ const Experience = () => {
 							users) and internal customers (Support and Operations teams)
 							<br />
 							<br />
-							Delivered low to high-fidelity mockups and built React components
-							leveraging our JPMC's Design System
+							Delivered low/high-fidelity mockups, prototypes, built components
+							and defined UX patterns leveraging our internal Design System
+							Library
 							<br />
 							<br />
 							Collaborated with Product to define solutions, epics/roadmaps, and
@@ -144,8 +147,10 @@ const Experience = () => {
 						<Tag label="Design Systems" />
 						<Tag label="Accessibility" />
 						<Tag label="Sketch" />
-						<Tag label="Frontend Development" />
 						<Tag label="Full Stack Web Development" />
+						<Tag label="React" />
+						<Tag label="Storybook" />
+						<Tag label="Java/Spring" />
 					</div>
 				</div>
 				<div className={classes.experience}>
@@ -202,7 +207,7 @@ const Experience = () => {
 				</div>
 				<div className={classes.tags}>
 					<Tag label="Big Data Collection" />
-					<Tag label="Data Storage" />
+					<Tag label="Data Management" />
 					<Tag label="Full Stack Web Development" />
 					<Tag label="Agile Development" />
 				</div>
