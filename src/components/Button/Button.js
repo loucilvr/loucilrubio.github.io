@@ -7,13 +7,13 @@ const useStyles = createUseStyles(() => {
 
 	return {
 		root: {
-			fontWeight: "bold",
-			borderRadius: "24px",
+			fontWeight: "600",
+			borderRadius: "8px",
 			padding: "0 12px",
 			height: "38px",
 			fontSize: "14px",
 			cursor: "pointer",
-			margin: "0px 4px",
+			margin: "4px",
 		},
 		primary: {
 			backgroundColor: backgroundAndBorderColor,

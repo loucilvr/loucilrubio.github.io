@@ -277,38 +277,36 @@ const Menu = () => {
 							<OpenMenuButton handleClick={() => setShowMenu(!showMenu)} />
 						)
 					) : (
-						<ul>
-							<div className={classes.siteLinks}>
-								{menuLinks.map((ml) => (
-									<li key={ml.label}>
-										<Link
-											to={ml.path}
-											className={classnames(
-												classes.menuButton,
-												isSelected(ml.path)
-											)}>
-											{ml.label}
-										</Link>
-									</li>
-								))}
+						<ul className={classes.siteLinks}>
+							{menuLinks.map((ml) => (
+								<li key={ml.label}>
+									<Link
+										to={ml.path}
+										className={classnames(
+											classes.menuButton,
+											isSelected(ml.path)
+										)}>
+										{ml.label}
+									</Link>
+								</li>
+							))}
 
-								{socialLinks.map(({ href, description, logo, name }) => (
-									<li key={name} className={classes.imageAnchor}>
-										<a
-											href={href}
-											target="_blank"
-											rel="noopener noreferrer"
-											className={classes.imageAnchor}
-											aria-label={description}>
-											<img
-												src={logo}
-												alt={`${name} company logo`}
-												className={classes.companyLogo}
-											/>
-										</a>
-									</li>
-								))}
-							</div>
+							{socialLinks.map(({ href, description, logo, name }) => (
+								<li key={name} className={classes.imageAnchor}>
+									<a
+										href={href}
+										target="_blank"
+										rel="noopener noreferrer"
+										className={classes.imageAnchor}
+										aria-label={description}>
+										<img
+											src={logo}
+											alt={`${name} company logo`}
+											className={classes.companyLogo}
+										/>
+									</a>
+								</li>
+							))}
 						</ul>
 					)}
 				</div>
