@@ -19,7 +19,7 @@ const useStyles = createUseStyles(() => {
 		border: "none",
 		textAlign: "left",
 		textDecoration: "none",
-		color: "#838383",
+		color: "#646464",
 		"@media (max-width: 768px)": {
 			textDecoration: "none",
 			fontSize: "16px",
@@ -76,6 +76,9 @@ const useStyles = createUseStyles(() => {
 			width: "100%",
 			maxWidth: "1100px",
 			padding: "0 32px",
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "space-between",
 			"& > ul": {
 				padding: 0,
 				listStyleType: "none",
@@ -123,10 +126,6 @@ const useStyles = createUseStyles(() => {
 					transition: "margin-top 0.25s",
 				},
 			},
-		},
-		mediaLinks: {
-			display: "flex",
-			marginLeft: "8px",
 		},
 		navMenuButton: {
 			padding: "9px 12px",
@@ -222,7 +221,10 @@ const CloseMenuButton = ({ handleClick }) => {
 	const classes = useStyles();
 
 	return (
-		<button className={classes.navMenuButton} onClick={handleClick}>
+		<button
+			aria-label="Close Menu"
+			className={classes.navMenuButton}
+			onClick={handleClick}>
 			<FontAwesomeIcon icon={faTimes} fontSize="20px" />
 		</button>
 	);
@@ -232,7 +234,10 @@ const OpenMenuButton = ({ handleClick }) => {
 	const classes = useStyles();
 
 	return (
-		<button className={classes.navMenuButton} onClick={handleClick}>
+		<button
+			aria-label="Open Menu"
+			className={classes.navMenuButton}
+			onClick={handleClick}>
 			<FontAwesomeIcon icon={faBars} fontSize="18px" />
 		</button>
 	);
@@ -259,19 +264,17 @@ const Menu = () => {
 		<>
 			<nav className={classnames(classes.menu, classes.showMenu)}>
 				<div className={classes.linksContainer}>
-					<ul>
-						<li>
-							<Link className={classes.appTitle} to="/">
-								LOUCIL RUBIO
-							</Link>
-						</li>
-						{showHamburger ? (
-							showMenu ? (
-								<CloseMenuButton handleClick={() => setShowMenu(!showMenu)} />
-							) : (
-								<OpenMenuButton handleClick={() => setShowMenu(!showMenu)} />
-							)
+					<Link className={classes.appTitle} to="/">
+						LOUCIL RUBIO
+					</Link>
+					{showHamburger ? (
+						showMenu ? (
+							<CloseMenuButton handleClick={() => setShowMenu(!showMenu)} />
 						) : (
+							<OpenMenuButton handleClick={() => setShowMenu(!showMenu)} />
+						)
+					) : (
+						<ul>
 							<div className={classes.siteLinks}>
 								{menuLinks.map((ml) => (
 									<li key={ml.label}>
@@ -286,27 +289,25 @@ const Menu = () => {
 									</li>
 								))}
 
-								<div className={classes.mediaLinks}>
-									{socialLinks.map(({ href, description, logo, name }) => (
-										<li key={name} className={classes.imageAnchor}>
-											<a
-												href={href}
-												target="_blank"
-												rel="noopener noreferrer"
-												className={classes.imageAnchor}
-												aria-label={description}>
-												<img
-													src={logo}
-													alt={`${name} company logo`}
-													className={classes.companyLogo}
-												/>
-											</a>
-										</li>
-									))}
-								</div>
+								{socialLinks.map(({ href, description, logo, name }) => (
+									<li key={name} className={classes.imageAnchor}>
+										<a
+											href={href}
+											target="_blank"
+											rel="noopener noreferrer"
+											className={classes.imageAnchor}
+											aria-label={description}>
+											<img
+												src={logo}
+												alt={`${name} company logo`}
+												className={classes.companyLogo}
+											/>
+										</a>
+									</li>
+								))}
 							</div>
-						)}
-					</ul>
+						</ul>
+					)}
 				</div>
 			</nav>
 			{showMenu && showHamburger && (

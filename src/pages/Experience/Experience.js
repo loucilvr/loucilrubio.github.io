@@ -2,6 +2,7 @@ import React from "react";
 import PageHeading from "../../components/Typography/PageHeading";
 import { createUseStyles } from "react-jss";
 import BodyText from "../../components/Typography/BodyText";
+import Tag from "../../components/Tag";
 
 const useStyles = createUseStyles({
 	titleCompanyContainer: {
@@ -49,6 +50,12 @@ const useStyles = createUseStyles({
 		paddingBottom: "16px",
 		borderLeft: "2px dashed #ddd",
 	},
+	tags: {
+		display: "flex",
+		flexWrap: "wrap",
+		flexDirection: "",
+		paddingTop: "16px",
+	},
 });
 
 const Experience = () => {
@@ -75,6 +82,18 @@ const Experience = () => {
 						<p className={classes.timeline}>Product Designer (March 2022)</p>
 						<div className={classes.subRoleDescription} />
 						<p className={classes.timeline}>UI/UX Engineer (June 2021)</p>
+					</div>
+					<div className={classes.tags}>
+						<Tag label="UI/UX Design" />
+						<Tag label="Design Systems" />
+						<Tag label="Product Design Strategy" />
+						<Tag label="Figma" />
+						<Tag label="User Research" />
+						<Tag label="Lo-fi/Hi-fi Prototypes" />
+						<Tag label="Accessibility" />
+						<Tag label="Web" />
+						<Tag label="Native" />
+						<Tag label="Frontend Development" />
 					</div>
 				</div>
 				<div className={classes.experience}>
@@ -108,15 +127,25 @@ const Experience = () => {
 					<p className={classes.timeline}>Associate UI/UX Engineer (2018)</p>
 					<div className={classes.subRoleDescription}>
 						<BodyText>
-							Co-designed and developed a new Billing Ops dashboard to support
+							Helped design and develop a new Billing Ops dashboard to support
 							our Operations Team's daily monitoring tasks
 						</BodyText>
 					</div>
 					<p className={classes.timeline}>Software Engineer (2016)</p>
 					<div className={classes.subRoleDescription}>
 						<BodyText>
-							Developed full-stack web features for JPMorgan's Pricing Sales app
+							Developed features for JPMorgan's Pricing Sales app
 						</BodyText>
+					</div>
+					<div className={classes.tags}>
+						<Tag label="UI/UX Design" />
+						<Tag label="Lo-fi/Hi-fi Prototyping" />
+						<Tag label="User Research" />
+						<Tag label="Design Systems" />
+						<Tag label="Accessibility" />
+						<Tag label="Sketch" />
+						<Tag label="Frontend Development" />
+						<Tag label="Full Stack Web Development" />
 					</div>
 				</div>
 				<div className={classes.experience}>
@@ -142,6 +171,16 @@ const Experience = () => {
 							published findings on our FSU Libraries site
 						</BodyText>
 					</div>
+					<div className={classes.tags}>
+						<Tag label="UI Design" />
+						<Tag label="Web" />
+						<Tag label="Drupal/CMS" />
+						<Tag label="SAS Programming" />
+						<Tag label="Data Collection" />
+						<Tag label="Research Data" />
+						<Tag label="Data Viz" />
+						<Tag label="Tableau" />
+					</div>
 				</div>
 				<div className={classes.titleCompanyContainer}>
 					<h2 className={classes.companyInfo}>Nielsen</h2>
@@ -160,6 +199,12 @@ const Experience = () => {
 						Helped kickstart a new Scala Spark project to improve query
 						performance of existing application
 					</BodyText>
+				</div>
+				<div className={classes.tags}>
+					<Tag label="Big Data Collection" />
+					<Tag label="Data Storage" />
+					<Tag label="Full Stack Web Development" />
+					<Tag label="Agile Development" />
 				</div>
 			</div>
 		</div>

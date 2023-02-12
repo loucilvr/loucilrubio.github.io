@@ -18,7 +18,7 @@ const useStyles = createUseStyles(() => {
 				cursor: "pointer",
 			},
 			margin: "0px 8px",
-			color: "#838383",
+			color: "#646464",
 		},
 		tabButtonSelected: {
 			...borderBottom,
