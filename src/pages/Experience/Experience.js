@@ -74,9 +74,11 @@ const Experience = () => {
 						</p>
 						<div className={classes.subRoleDescription}>
 							<BodyText>
-								Currently working on multiple products and initiatives from
-								Platform redesign, Growth and Marketing, Remote Monitoring,
-								Automations, as well as building our internal Design System
+								Currently working on multiple projects for different teams -
+								from Platform-wide enhancements to Growth initiatives, Remote
+								Monitoring tools, Automations and Search, while also building
+								our internal Design System to be leveraged by our Design,
+								Product Management and Development team
 							</BodyText>
 						</div>
 						<p className={classes.timeline}>Product Designer (March 2022)</p>
@@ -104,27 +106,29 @@ const Experience = () => {
 					</div>
 					<br />
 					<p className={classes.timeline}>
-						Senior Associate UX Engineer (2019 - 2021)
+						Senior Associate UX Engineer/Product Designer (2019 - 2021)
 					</p>
 					<div className={classes.subRoleDescription}>
 						<BodyText>
-							Led the redesign of our client-facing Healthcare payments app, as
-							well as our internal support Ops tool, to modernize and streamline
-							the remittance and payment posting experience for Healthcare &
+							Led the redesign of a client-facing Healthcare payments app, as
+							well as an internal Ops tool, to modernize and streamline the
+							remittance and payment posting experience for Healthcare &
 							Insurance Provider customers
 							<br />
 							<br />
-							Facilitated user research and interviews of both external (Portal
+							Facilitated user research by interviewing both external (Portal
 							users) and internal customers (Support and Operations teams)
 							<br />
 							<br />
-							Delivered low/high-fidelity mockups, prototypes, built components
-							and defined UX patterns leveraging our internal Design System
-							Library
+							Delivered high-fidelity mockups and prototypes, as well as React
+							components
 							<br />
 							<br />
-							Collaborated with Product to define solutions, epics/roadmaps, and
-							to create training documents for customers
+							Defined UX patterns leveraging our internal Design System Library
+							<br />
+							<br />
+							Collaborated with Product to plan, define and iterate on solutions
+							and to create training documents for customers
 						</BodyText>
 					</div>
 					<p className={classes.timeline}>Associate UI/UX Engineer (2018)</p>
