@@ -14,7 +14,7 @@ const useStyles = createUseStyles((theme) => {
 		heading3: {
 			color: theme.textStrongest,
 			fontWeight: 400,
-			paddingBottom: "24px",
+			paddingBottom: "16px",
 			fontSize: "24px",
 			margin: 0,
 			padding: 0,

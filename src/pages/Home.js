@@ -54,9 +54,8 @@ const Home = ({ theme }) => {
 	return (
 		<div data-testid="home" className={classes.about}>
 			<PageHeading title="Product Design leader with a love for learning, coaching and building." />
-
 			<div className={classes.bodyTextContainer}>
-				<BodyText>
+				<BodyText size="s">
 					Hi, I'm Loucil ~ a Designer, Engineer, Researcher, Artist, and Mentor.
 					I currently lead the Product Design team at NinjaOne.
 					<br />

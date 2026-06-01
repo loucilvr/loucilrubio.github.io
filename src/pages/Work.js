@@ -28,7 +28,6 @@ const useStyles = createUseStyles((theme) => {
 			border: `1px solid ${theme.borderWeakest}`,
 			borderRadius: "4px",
 			padding: "24px",
-			height: "100px",
 			"&:hover": {
 				backgroundColor: theme.buttonNavHover,
 			},

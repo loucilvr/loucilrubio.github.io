@@ -8,8 +8,13 @@ const useStyles = createUseStyles((theme) => {
 		fontWeight: 300,
 		lineHeight: 1.6,
 		margin: 0,
+		marginBottom: "8px",
 	};
 	return {
+		bodyTextXXS: {
+			...textDefaultStyles,
+			fontSize: "12px",
+		},
 		bodyTextXS: {
 			...textDefaultStyles,
 			fontSize: "14px",
@@ -30,10 +35,18 @@ const useStyles = createUseStyles((theme) => {
 
 const BodyText = ({ children, size, bold }) => {
 	const classes = useStyles();
+
+	const styles = {
+		xxs: classes.bodyTextXXS,
+		xs: classes.bodyTextXS,
+		s: classes.bodyTextS,
+		m: classes.bodyTextM,
+	};
+
 	return (
 		<p
 			className={classNames(
-				size === "xs" ? classes.bodyTextXS : classes.bodyTextS,
+				size ? styles[size] : classes.bodyTextS,
 				bold && classes.bold
 			)}>
 			{children}

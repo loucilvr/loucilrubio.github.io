@@ -8,6 +8,9 @@ import Photo3 from "../../src/assets/img/Photo3.jpg";
 import Photo4 from "../../src/assets/img/Photo4.jpg";
 import Photo5 from "../../src/assets/img/Photo5.jpg";
 import Photo6 from "../../src/assets/img/Photo6.jpg";
+import Photo7 from "../../src/assets/img/Photo7.jpg";
+import Photo8 from "../../src/assets/img/Photo8.jpg";
+import Photo9 from "../../src/assets/img/Photo9.jpg";
 
 const useStyles = createUseStyles((theme) => {
 	return {
@@ -21,7 +24,7 @@ const useStyles = createUseStyles((theme) => {
 			flexWrap: "wrap",
 		},
 		image: {
-			maxWidth: "160px",
+			maxWidth: "154px",
 			flex: "auto",
 			margin: "8px",
 			borderRadius: "8px",
@@ -55,17 +58,35 @@ const Experience = () => {
 			<SubHeading level={2} title="About" />
 			<div className={classes.aboutText}>
 				<div className={classes.col}>
-					<BodyText>
-						My love for art and problem solving led me to pursue a career in
-						design and technology. To me, design is not just the end visual
-						result but the whole process. I enjoy finding the root cause of
-						problems, finding opportunities to improve, and creating thoughtful
-						solutions. At the end of the day, technology is about people and if
-						you're not working with people to understand problems or solving any
-						problems for people, you're not designing the right solution.
+					<BodyText size="xxs">MY PHILOSOPHY</BodyText>
+					<BodyText size="xs">
+						My love for art and problem solving led me to a career in
+						technology. I'm forever thankful to have started my career in design
+						as an engineer because it gave me a holistic perspective on tackling
+						challenges. To me, design is not just about the visual end result
+						but the entire journey. Design is the art of truly understanding the
+						problem, finding opportunities to improve, and creating thoughtful
+						experiences. At the end of the day, technology is about people and
+						if you're not working with people to understand problems or solving
+						any problems for people, you're not designing the right solution.
+					</BodyText>
+					<br />
+					<BodyText size="xxs">WHAT I DO</BodyText>
+					<BodyText size="xs">
+						I currently lead the Product Design team at NinjaOne where I empower
+						designers to lead and make an impact. Prior to switching to
+						management, I was Principal Product Designer focused on strategic
+						initiatives with organizational impact from platform-wide redesigns
+						and design system standardization to helping define the vision for
+						the new age of AI.
+					</BodyText>
+					<br />
+					<BodyText size="xxs">OUTSIDE OF WORK</BodyText>
+					<BodyText size="xs">
+						I was born in the Philippines and currently based in Florida.
 						<br />
 						<br />
-						Outside of work you'll find me trying my best to stay off the screen
+						When I'm not working, I do my best to stay off the computer screen
 						by doing pottery, painting, baking, golfing or exploring nearby
 						historic towns.
 						<br />
@@ -90,6 +111,9 @@ const Experience = () => {
 					<img className={classes.image} src={Photo4} alt="vineyard" />
 					<img className={classes.image} src={Photo5} alt="vineyard" />
 					<img className={classes.image} src={Photo6} alt="vineyard" />
+					<img className={classes.image} src={Photo9} alt="vineyard" />
+					<img className={classes.image} src={Photo8} alt="vineyard" />
+					<img className={classes.image} src={Photo7} alt="vineyard" />
 				</div>
 			</div>
 		</div>
