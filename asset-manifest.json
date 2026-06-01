@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7090b380.chunk.css",
-    "main.js": "/static/js/main.142ad8a0.chunk.js",
-    "main.js.map": "/static/js/main.142ad8a0.chunk.js.map",
+    "main.js": "/static/js/main.3500e7d7.chunk.js",
+    "main.js.map": "/static/js/main.3500e7d7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.a579434c.chunk.js": "/static/js/2.a579434c.chunk.js",
-    "static/js/2.a579434c.chunk.js.map": "/static/js/2.a579434c.chunk.js.map",
+    "static/js/2.563776fd.chunk.js": "/static/js/2.563776fd.chunk.js",
+    "static/js/2.563776fd.chunk.js.map": "/static/js/2.563776fd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.24c9f1f3d70c4ec0e1e9b1e322c3ba88.js": "/precache-manifest.24c9f1f3d70c4ec0e1e9b1e322c3ba88.js",
+    "precache-manifest.80bd515f8e5b2f32d8648365e0d5009a.js": "/precache-manifest.80bd515f8e5b2f32d8648365e0d5009a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7090b380.chunk.css.map": "/static/css/main.7090b380.chunk.css.map",
-    "static/js/2.a579434c.chunk.js.LICENSE.txt": "/static/js/2.a579434c.chunk.js.LICENSE.txt",
+    "static/js/2.563776fd.chunk.js.LICENSE.txt": "/static/js/2.563776fd.chunk.js.LICENSE.txt",
     "static/media/Dribbble-colored.svg": "/static/media/Dribbble-colored.6ea5a73f.svg",
     "static/media/Github.svg": "/static/media/Github.20883410.svg",
     "static/media/Linkedin.svg": "/static/media/Linkedin.1241fda9.svg",
@@ -21,12 +21,15 @@
     "static/media/Photo4.jpg": "/static/media/Photo4.629a4fd1.jpg",
     "static/media/Photo5.jpg": "/static/media/Photo5.047bdb7a.jpg",
     "static/media/Photo6.jpg": "/static/media/Photo6.a3ca27d8.jpg",
+    "static/media/Photo7.jpg": "/static/media/Photo7.ab955a9a.jpg",
+    "static/media/Photo8.jpg": "/static/media/Photo8.cd05c963.jpg",
+    "static/media/Photo9.jpg": "/static/media/Photo9.fd9cb741.jpg",
     "static/media/github-light.svg": "/static/media/github-light.36d633ec.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.a579434c.chunk.js",
+    "static/js/2.563776fd.chunk.js",
     "static/css/main.7090b380.chunk.css",
-    "static/js/main.142ad8a0.chunk.js"
+    "static/js/main.3500e7d7.chunk.js"
   ]
 }
