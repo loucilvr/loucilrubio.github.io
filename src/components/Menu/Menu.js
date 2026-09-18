@@ -164,7 +164,7 @@ const useStyles = createUseStyles((theme) => {
 			top: "52px",
 			width: "100%",
 			height: "100vh",
-			backgroundColor: "#ffffff",
+			backgroundColor: theme.backgroundColor,
 			display: "flex",
 			justifyContent: "center",
 			zIndex: 2,
@@ -179,7 +179,7 @@ const useStyles = createUseStyles((theme) => {
 		},
 		menuOverlayLink: {
 			textDecoration: "none",
-			color: "#3C3F49",
+			color: theme.buttonLabel,
 			fontSize: "24px",
 			width: "100%",
 		},
@@ -191,8 +191,11 @@ const useStyles = createUseStyles((theme) => {
 			margin: "0px 12px",
 			borderRadius: "4px",
 			"&:hover": {
-				backgroundColor: "#e7e7e7",
+				backgroundColor: theme.buttonNavHover,
 			},
+		},
+		mobileMenuList: {
+			display: "flex",
 		},
 	};
 });
@@ -345,10 +348,17 @@ const Menu = ({ currentTheme, handleThemeChange }) => {
 						LR
 					</Link>
 					{isMobile ? (
-						<MobileMenu
-							isMobileMenuOpen={isMobileMenuOpen}
-							setIsMobileMenuOpen={setIsMobileMenuOpen}
-						/>
+						<div className={classes.mobileMenuList}>
+							<ThemeSwitcher
+								theme={currentTheme}
+								handleClick={handleThemeChange}
+							/>
+
+							<MobileMenu
+								isMobileMenuOpen={isMobileMenuOpen}
+								setIsMobileMenuOpen={setIsMobileMenuOpen}
+							/>
+						</div>
 					) : (
 						<DesktopMenu
 							currentTheme={currentTheme}
