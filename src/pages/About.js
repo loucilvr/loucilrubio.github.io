@@ -61,34 +61,26 @@ const Experience = () => {
 					<BodyText size="xxs">MY PHILOSOPHY</BodyText>
 					<BodyText size="xs">
 						My love for art and problem solving led me to a career in
-						technology. I'm forever thankful to have started my career in design
-						as an engineer because it gave me a holistic perspective on tackling
-						challenges. To me, design is not just about the visual end result
-						but the entire journey. Design is the art of truly understanding the
-						problem, finding opportunities to improve, and creating thoughtful
-						experiences. At the end of the day, technology is about people and
-						if you're not working with people to understand problems or solving
-						any problems for people, you're not designing the right solution.
+						technology. Throughout my time in engineering and design, I've
+						carried the same philosphy: keep it simple. To me this means, being
+						thoughtful about solutions by truly understanding your customers and
+						their problems, and solving their problems first before introducing
+						anything else.
 					</BodyText>
 					<br />
 					<BodyText size="xxs">WHAT I DO</BodyText>
 					<BodyText size="xs">
-						I currently lead the Product Design team at NinjaOne where I empower
-						designers to lead and make an impact. Prior to switching to
-						management, I was Principal Product Designer focused on strategic
-						initiatives with organizational impact from platform-wide redesigns
-						and design system standardization to helping define the vision for
-						the new age of AI.
+						Currently, I lead the Product Design team at NinjaOne. Prior to
+						switching to management, I was Principal Product Designer focused on
+						strategic initiatives with organizational impact from platform-wide
+						redesigns and design system standardization to helping define the
+						vision for the new age of AI.
 					</BodyText>
 					<br />
 					<BodyText size="xxs">OUTSIDE OF WORK</BodyText>
 					<BodyText size="xs">
-						I was born in the Philippines and currently based in Florida.
-						<br />
-						<br />
-						When I'm not working, I do my best to stay off the computer screen
-						by doing pottery, painting, baking, golfing or exploring nearby
-						historic towns.
+						When I’m not working, I do my best to stay off screens by practicing
+						pottery, painting, baking, golfing, or taking my dog to the beach.
 						<br />
 						<br />
 						---
@@ -96,7 +88,7 @@ const Experience = () => {
 						<br />
 						Thanks for stopping by!
 						<br />
-						Got any questions or looking for mentorship?
+						Got any questions or looking for mentorship?{" "}
 						<a
 							className={classes.link}
 							href="https://www.linkedin.com/in/lcrubio">

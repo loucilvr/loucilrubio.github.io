@@ -30,6 +30,10 @@ const useStyles = createUseStyles((theme) => ({
 			filter: "grayscale(0%)",
 			transition: "margin-top 0.25s",
 		},
+		"&:focus-visible": {
+			outline: `2px solid ${theme.borderFocus}`,
+			borderRadius: "2px",
+		},
 	},
 	mediaLinks: {
 		width: "100%",
@@ -47,6 +51,11 @@ const useStyles = createUseStyles((theme) => ({
 		textDecoration: "none",
 		display: "initial",
 	},
+	footer: {
+		paddingTop: "40px",
+		textAlign: "center",
+		color: theme.textWeakest,
+	},
 }));
 
 const Home = ({ theme }) => {
@@ -60,11 +69,11 @@ const Home = ({ theme }) => {
 					I currently lead the Product Design team at NinjaOne.
 					<br />
 					<br />
-					I've spent the last 10+ years shipping software for enterprise and
+					I've spent the last 12+ years shipping software for enterprise and
 					SaaS companies. I've designed and shipped complex end-to-end
-					experiences, design systems, platform-wide design initiatives,
-					spearheaded research initiatives, facilitated workshops and mentored
-					designers and developers.
+					experiences, design systems, platform-wide redesigns, spearheaded
+					research initiatives, facilitated workshops and mentored designers and
+					developers.
 				</BodyText>
 			</div>
 			<ul className={classes.mediaLinks}>

@@ -37,6 +37,10 @@ const useStyles = createUseStyles((theme) => {
 			padding: "8px 16px",
 			fontSize: "16px",
 		},
+		"&:focus-visible": {
+			outline: `2px solid ${theme.borderFocus}`,
+			borderRadius: "2px",
+		},
 	};
 
 	return {
@@ -58,6 +62,7 @@ const useStyles = createUseStyles((theme) => {
 			fontWeight: "700",
 			color: theme.textStrong,
 			"@media (min-width: 769px)": {
+				borderBottom: `2px solid ${theme.borderFocus}`,
 				borderRadius: "4px",
 				padding: "8px 16px",
 				fontSize: "18px",

@@ -4,6 +4,8 @@ import BodyText from "../components/Typography/BodyText.js";
 import SubHeading from "../components/Typography/SubHeading.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import N1_Dash from "../assets/img/N1_Dash.png";
+import N1_Onboarding from "../assets/img/N1_Onboarding.png";
 
 const useStyles = createUseStyles((theme) => {
 	return {
@@ -22,6 +24,7 @@ const useStyles = createUseStyles((theme) => {
 			display: "flex",
 			flexDirection: "column",
 			gap: "24px",
+			paddingTop: "64px",
 		},
 		card: {
 			color: theme.textStrong,
@@ -49,6 +52,23 @@ const useStyles = createUseStyles((theme) => {
 		icon: {
 			color: theme.textWeak,
 		},
+		image: {
+			width: "100%",
+			flex: "auto",
+			"@media (min-width: 769px)": {
+				// width: "680px",
+			},
+		},
+		captionContainer: {
+			display: "flex",
+			justifyContent: "center",
+			textAlign: "center",
+			paddingBottom: "24px",
+			borderBottom: `1px solid ${theme.borderWeakest}`,
+		},
+		articleSeparator: {
+			textAlign: "center",
+		},
 	};
 });
 
@@ -57,7 +77,37 @@ const Experience = () => {
 	return (
 		<div data-testid="experience" className={classes.pageContainer}>
 			<SubHeading level={2} title="Work" />
+			<img
+				className={classes.image}
+				src={N1_Dash}
+				alt="NinjaOne Dark Mode redesign of Sytem and Device UI"
+			/>
+			<div className={classes.captionContainer}>
+				<BodyText size="xs">
+					Led and launched the redesign of our System and Device dashboards,
+					improving accessibility, consistency and paving the way for a fully
+					customizable dashboard experience.
+				</BodyText>
+			</div>
+			<br />
+			<br />
+			<img
+				className={classes.image}
+				src={N1_Onboarding}
+				alt="NinjaOne Get Started page redesign"
+			/>
+			<div className={classes.captionContainer}>
+				<BodyText size="xs">
+					Led and launched a new technician onboarding experience. The new
+					guided experience closed the gap for deals across MSPs, Corporate IT
+					and FedRAMP customers by helping trial users get their environment
+					fully setup within minutes rather than hours or days.
+				</BodyText>
+			</div>
 			<div className={classes.projects}>
+				<div className={classes.articleSeparator}>
+					<BodyText size="xs">RELEVANT ARTICLES</BodyText>
+				</div>
 				<a
 					className={classes.link}
 					target="_blank"
