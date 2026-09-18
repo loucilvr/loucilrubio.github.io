@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.7090b380.chunk.css",
-    "main.js": "/static/js/main.3500e7d7.chunk.js",
-    "main.js.map": "/static/js/main.3500e7d7.chunk.js.map",
+    "main.css": "/static/css/main.b52c2a75.chunk.css",
+    "main.js": "/static/js/main.bd64e027.chunk.js",
+    "main.js.map": "/static/js/main.bd64e027.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.563776fd.chunk.js": "/static/js/2.563776fd.chunk.js",
-    "static/js/2.563776fd.chunk.js.map": "/static/js/2.563776fd.chunk.js.map",
+    "static/js/2.028b3a2d.chunk.js": "/static/js/2.028b3a2d.chunk.js",
+    "static/js/2.028b3a2d.chunk.js.map": "/static/js/2.028b3a2d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.80bd515f8e5b2f32d8648365e0d5009a.js": "/precache-manifest.80bd515f8e5b2f32d8648365e0d5009a.js",
+    "precache-manifest.d5e7233851551c32dff896bc163d2da2.js": "/precache-manifest.d5e7233851551c32dff896bc163d2da2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7090b380.chunk.css.map": "/static/css/main.7090b380.chunk.css.map",
-    "static/js/2.563776fd.chunk.js.LICENSE.txt": "/static/js/2.563776fd.chunk.js.LICENSE.txt",
+    "static/css/main.b52c2a75.chunk.css.map": "/static/css/main.b52c2a75.chunk.css.map",
+    "static/js/2.028b3a2d.chunk.js.LICENSE.txt": "/static/js/2.028b3a2d.chunk.js.LICENSE.txt",
     "static/media/Dribbble-colored.svg": "/static/media/Dribbble-colored.6ea5a73f.svg",
     "static/media/Github.svg": "/static/media/Github.20883410.svg",
     "static/media/Linkedin.svg": "/static/media/Linkedin.1241fda9.svg",
+    "static/media/N1_Dash.png": "/static/media/N1_Dash.032ae21a.png",
+    "static/media/N1_Onboarding.png": "/static/media/N1_Onboarding.5506fee9.png",
     "static/media/Photo1.jpg": "/static/media/Photo1.07bd6e28.jpg",
     "static/media/Photo2.jpg": "/static/media/Photo2.cd7501be.jpg",
     "static/media/Photo3.jpg": "/static/media/Photo3.365c62d3.jpg",
@@ -28,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.563776fd.chunk.js",
-    "static/css/main.7090b380.chunk.css",
-    "static/js/main.3500e7d7.chunk.js"
+    "static/js/2.028b3a2d.chunk.js",
+    "static/css/main.b52c2a75.chunk.css",
+    "static/js/main.bd64e027.chunk.js"
   ]
 }
